@@ -10,3 +10,23 @@ Step:
 ### Time Complexity ###
 
 *T(n) = O(log(n))*
+
+### Java Implementation ###
+
+```
+int binarySearch(int[] nums, int d) {
+      int low = 0;
+      int high = nums.length - 1;
+      while (low <= high) {
+          int mid = low + (high - low) / 2;
+          if (d > mid) {
+            low = mid + 1;  
+          } else if (d < mid) {
+            high = mid - 1;
+          } else {
+            return mid;
+          }
+      }
+      return -1;
+  }
+```
