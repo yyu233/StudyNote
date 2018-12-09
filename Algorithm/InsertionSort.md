@@ -1,6 +1,8 @@
 ## Insertion Sort ##
 
 Traverse the array from left to right, compare and swap the element with each larger element to its left. 
+Use binary search to find insertion point. 
+Number of comparision nlog(n)
 
 ### Java Application ###
 ```
