@@ -20,4 +20,6 @@ Number of comparision nlog(n)
 ```
 
 ### Run Time ##
-*0 + 1 + 2 + ... + (n-1) = (n^2)/2*
+*0 + 1 + 2 + ... + (n-1) = (n^2)/2*     
+
+Run time is stable.
