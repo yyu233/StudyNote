@@ -16,3 +16,38 @@
 ### Application of Merge Sort ###
 
 Merge sort is good for linked list. No extra space needed. Sequential access. 
+
+### Java Implementation ###
+
+```
+public void merge(int[] nums, int low, int mid, int high) {
+    int n = nums.length;
+    int[] aux = new int[n];
+    int j = low;
+    int k = mid + 1;
+    for (int i = low; i <= high; i++) {
+        aux[i] = nums[i];
+    }
+    for (int i = low; i <= high; i++) {
+        if (j > mid) {
+            nums[i] = aux[k++];
+        } else if (k > high) {
+            nums[i] = aux[j++];
+        } else if (aux[j] >= aux[k]) {
+            nums[i] = aux[k++];
+        } else {
+            nums[i] = aux[j++];
+        }
+    }
+}
+public void sort(int[] nums, int low , int high) {
+    if (low == high) return;
+    int mid = low + (high - low) /2; // (high + low) / 2 may cause overflow and produce incorrect result
+    sort(nums, low , mid);
+    sort(nums, mid + 1, high);
+    merge(nums, low, mid, high);
+}
+public void mergesort(int[] nums) {
+    sort(nums, 0, nums.length - 1);
+}
+```
