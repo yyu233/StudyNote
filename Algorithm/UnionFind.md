@@ -55,6 +55,7 @@ This algorithm design makes each element in the same component connected by a li
      int qRoot = find(q);
      if (pRoot != qRoot) {
         comp[pRoot] = qRoot;
+        count --;
      }
   }
 ```
