@@ -32,7 +32,7 @@ We can partitioin the vertices into sets. Each vertice is in exactly one set. Tw
         int pComp = count[p];
         int qComp = count[q];
         for (int i = 0; i < count.length; i++) {
-          if (count[i] = pComp) {
+          if (count[i] == pComp) {
             comp[i] = qComp;
           }
           count--;
