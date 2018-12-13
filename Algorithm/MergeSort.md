@@ -51,3 +51,4 @@ public void mergesort(int[] nums) {
     sort(nums, 0, nums.length - 1);
 }
 ```
+Use insertion for small subarrays since merge sort has too much overhead for small subarrays. 
