@@ -9,6 +9,13 @@
 
 *T(n) = 2T(n/2) + &theta;(n)*
 
+The best case: *1/2 * nlog(n)*   
+The worst case: *nlog(n)*    
+
+Ex:   
+best case: 123 456    
+worst case: 127 345
+
 ### Space Complexity ###
 
 *O(n)*
