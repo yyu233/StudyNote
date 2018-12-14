@@ -23,3 +23,42 @@ Step:
 
 *O(nlog(n))*
 
+### Java Implementation ###
+
+```
+  public int partition(int[] nums, int low, int high) {
+      int i = low;
+      int j = high + 1;
+      while (true) {
+        while (nums[++i] < nums[low]) {
+            if (i == high) {
+                break;
+            }
+        }
+        while (nums[--j] > nums[low]) {
+            if (j == low) {
+                break;
+            }
+        }
+        if (i > j) {
+            break;
+        } else {
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+        }
+      }
+      int tmp = nums[low];
+      nums[low] = nums[j];
+      nums[j] = tmp;
+      return j;
+  }
+  
+  public void sort(int[] nums, int low , int high) {
+    if (high < low) return;
+    int j = partition(nums, 0, nums.length);
+    sort(nums, 0, j);
+    sort(nums, j + 1, high);
+  }
+```
+
