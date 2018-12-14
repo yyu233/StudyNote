@@ -57,7 +57,7 @@ Step:
   public void sort(int[] nums, int low , int high) {
     if (high < low) return;
     int j = partition(nums, 0, nums.length);
-    sort(nums, 0, j);
+    sort(nums, 0, j - 1);
     sort(nums, j + 1, high);
   }
   
