@@ -60,5 +60,10 @@ Step:
     sort(nums, 0, j);
     sort(nums, j + 1, high);
   }
+  
+  public void sort(int[] nums) {
+      Collections.shuffle(nums); // stay tuned
+      sort(nums, 0, nums.length - 1); 
+  }
 ```
 
