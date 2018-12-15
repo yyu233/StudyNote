@@ -15,6 +15,7 @@ public void swap (int[] nums, int i, int j) {
    nums[j] = tmp;
 }
 public void sort (int[] nums, int low, int high) {
+   if (high <= low) return;
    int i = low;
    int lt = low;
    int gt = high;
