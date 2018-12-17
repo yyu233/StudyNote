@@ -23,5 +23,15 @@ public class LinearProbingHashTable<Key, Value> {
         }
         return null
     }
+    public void put(Key key, Value val) {
+        int i;
+        for (i = hash(key); key[i] != null; i = (i + 1) % m) {
+            if (keys[i].equals(key)) {
+                break;
+            }
+        }
+        keys[i] = key;
+        vals[i] = val;
+    }
 }
 ```
