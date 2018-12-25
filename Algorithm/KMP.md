@@ -13,7 +13,9 @@ Pattern matching. Given text t[0...m-1] and pattern p[0...n-1], m >= n. Find the
 
 Use auxilary space to create match table lps.
 
-lps[i] stores the longest proper prefix string which is also a proper suffix string of t[0..i]. 
+lps[i] stores the length of the longest proper prefix string which is also a proper suffix string of t[0..i].    
+
+By having this value, we can know how many steps we can skip for next iteration of search. 
 
 E.g. 
 proper prefix of "a" : null   
@@ -72,5 +74,9 @@ proper suffix of "abababca": **"a"**, "ca", "bca", "abca", "babca", "ababca", "b
 |-|-|-|-|-|-|-|-|-|
 |lps|0|0|1|2|3|4|0|1|
 
+### Search ###
 
+Use pointer i to traverse text, j to traverse the pattern.   
+If find a match, j = lps[j-1].   
+If not found and j > 0, j = lps[j-1].
 
