@@ -23,6 +23,26 @@ Pop maximum: exchange root with the node at the end, and sink it down.
         k = k / 2;
       }
   }
+  void sink(int k) {
+    while ( 2 * k <= n) {
+      int j = 2 * k;
+      if (j < n && less(j, j + 1) {
+          j++;
+      }
+      if (!less(k, j)) {
+          break;
+      }
+      exchang(k, j);
+      k = j;
+    }
+  }
+  Key delMax() {
+    Key max = pq[1];
+    exchange(1, n--);
+    sink(1);
+    pq[n+1] = null;
+    return max;
+  }
   void insert(Key k) {
       pq[++n] = k;
       swim(n);
