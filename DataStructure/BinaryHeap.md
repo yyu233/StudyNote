@@ -14,6 +14,11 @@ Children of node at k is 2k and 2k + 1
 Insert node at the end and swim up.
 Pop maximum: exchange root with the node at the end, and sink it down.
 
+## Time Complexity ##
+
+Insert: O(log(n))
+DelMax: O(log(n))
+
 ## Java Implementation ##
 
 ```
