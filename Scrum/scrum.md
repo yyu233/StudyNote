@@ -12,4 +12,6 @@ A scrum team needs three specific roles: product owner, scrum master, and the de
 
 **Scrum masters** are the champions for scrum within their teams. They coach teams, product owners, and the business on the scrum process, and look for ways to fine-tune their practice of it.
 
+**Transparency** Those performing the work and those inspecting the resulting increment must share a common definition of "Done".
+
 [Scrum Guide](https://www.scrumguides.org/scrum-guide.html)
