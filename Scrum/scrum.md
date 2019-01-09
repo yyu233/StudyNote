@@ -1,4 +1,4 @@
-**Agile is a set of principles and scrum is a framework for getting s#it done. **
+**Agile is a set of principles and scrum is a framework for getting s#it done.**
 
 A common way to conduct a stand up is for every team member to answers three questions in the context of achieving the sprint goal:
 
