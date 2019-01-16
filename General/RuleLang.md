@@ -1,0 +1,12 @@
+## Rule Language ##
+Rough Format: 
+
+```
+rule "name"
+    attributes
+    when
+        LHS
+    then
+        RHS
+end
+```
