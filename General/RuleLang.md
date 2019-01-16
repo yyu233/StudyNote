@@ -10,3 +10,15 @@ rule "name"
         RHS
 end
 ```
+
+Pattern Binding: 
+
+```
+rule "pattern binding" 
+   when
+        $p: Person()
+   then 
+        System.out.println(Person + $p);
+        
+end
+```
