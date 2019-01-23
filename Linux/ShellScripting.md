@@ -18,4 +18,28 @@ X="hello world" #ok
   fi
 ```
 
+```
+  A=1
+  B=2
+  X=""
+  if [$A -lt $B] 
+    then echo "\$A={$A}, \$B={$B}, \$A is less than \$B" 
+  fi 
+  
+  if [-n "$X"]; then 
+    echo "It is non-mepty"
+  fi
+  
+  if [-e "$HOME/file"]; then
+    echo "file exists" 
+    if [-L "$HOME/file"]; then 
+      echo "file is symbolic link"
+    eif [-f "$HOME/file"]; then
+      echo "file is regular file"
+    fi
+  else
+    echo "file does not exist"
+  fi
+```
+
    
