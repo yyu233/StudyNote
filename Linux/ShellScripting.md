@@ -3,6 +3,22 @@ To define interpreter: locate the full path to its executable binary using **whi
 **chmod +x [file]** Make a script file executable    
 **>** redirect output    
 **var = $(command)** command subsitution, the output of the command will be assigned to the user variable   
+**=** recursively expanded variable
+```
+  x=foo
+  y="$(x) bar"
+  x=choc
+  echo y #print choc bar
+```
+**:=** simple expanded variable
+```
+  x:=foo
+  y:="$(x) bar"
+  x:=choc
+  echo y #print foo bar
+```
+
+  
 **#** comment starts with #    
 **${parameter}** parameter expansion    
 **"$VAR"** parameter expansion
