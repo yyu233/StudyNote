@@ -22,3 +22,11 @@ rule "pattern binding"
         
 end
 ```
+
+Pattern:
+
+```
+    pattern binding : pattern typer ( constraints )
+    
+```
+The type need not be the actual class of some fact objects. It can be super class or interfaces.
