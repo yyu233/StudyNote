@@ -5,3 +5,5 @@ Use **sudo chown -R usernane:usernane directory** to change the owner
 Recursively find a file: **find . -name <filename>**   
   
 Get a list of users:  **less /etc/passwd**
+
+Get the user status logged into the computer: **w**
