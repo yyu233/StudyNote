@@ -23,3 +23,18 @@ Use variable to store a list of file names
   foobar: $(objects)
   <tab>   cc -o foobar $(objects)
 ```
+
+Use implicit rule to automatically update .o file from .c file
+
+```
+  obejects = object1.o, object2.o\
+             object3.o, object4.o
+  foobar: $(objects)
+  <tab>   cc -o foobar $(objects)
+  
+  object1.o: object1.h
+  object2.o: object2.h
+  object3.o: object3.h
+  object4.o: object4.h
+  
+```
