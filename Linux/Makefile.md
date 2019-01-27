@@ -36,5 +36,15 @@ Use implicit rule to automatically update .o file from .c file
   object2.o: object2.h
   object3.o: object3.h
   object4.o: object4.h
-  
 ```
+
+Clean: 
+
+```
+  .PHONY: clean
+  clean: 
+        -rm  foobar $(objects)
+```
+
+A phony target is not a real file, instead it is the name of the receipe when you explicitly request for execution. A phony target is used for avoiding file name conflict or improve performance. 
+
