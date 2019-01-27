@@ -7,3 +7,5 @@ Recursively find a file: **find . -name <filename>**
 Get a list of users:  **less /etc/passwd**
 
 Get the user status logged into the computer: **w**
+
+Get the process id: **ps -p $$**
