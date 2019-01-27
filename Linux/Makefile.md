@@ -63,3 +63,9 @@ A phony target is not a real file, instead it is the name of the receipe when yo
   <tab>  cc -o prog3 prog3.o
 ```
 
+Makefile contains explicit rule, implicit rule, variable definitoin, directive and comments. 
+
+```
+  include *.mk   
+  -include *.mk  #ignore errors for file not exists or cannot be remade
+```
