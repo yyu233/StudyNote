@@ -11,3 +11,7 @@ Get the user status logged into the computer: **w**
 Get the process id: **ps -p $$**
 
 Service command for controling the daemon process: **service script-name start**, **service script-name restart**, **service script-name stop**, **service script-name status**
+
+List all processes: **ps -A**
+
+Kill process: **ps -9 PID**
