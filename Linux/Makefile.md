@@ -69,3 +69,11 @@ Makefile contains explicit rule, implicit rule, variable definitoin, directive a
   include *.mk   
   -include *.mk  #ignore errors for file not exists or cannot be remade
 ```
+
+Make search for implicit rule for each target without receipe.   
+Explicit rule does not influence implict rule search. For example:
+```
+  foo.o: foo.p 
+```
+
+If foo.c exists, then the implicit rule to make foo.o by C compiler is used. 
