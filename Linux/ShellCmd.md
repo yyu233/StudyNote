@@ -9,3 +9,5 @@ Get a list of users:  **less /etc/passwd**
 Get the user status logged into the computer: **w**
 
 Get the process id: **ps -p $$**
+
+Service command for controling the daemon process: **service script-name start**, **service script-name restart**, **service script-name stop**, **service script-name status**
