@@ -15,3 +15,6 @@ Service command for controling the daemon process: **service script-name start**
 List all processes: **ps -A**
 
 Kill process: **ps -9 PID**
+
+Download"  **wget link** or **curl -O link**
+
