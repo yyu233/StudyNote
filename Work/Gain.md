@@ -4,3 +4,8 @@
 2. Read the history of commits may give you some hints.
 3. Whenever stuck at something, ask for help. Always utilize resources around you.
 4. Listen how other engineer communicate. Catch the technical key terms and remember. 
+
+Stand-up Meeting: 
+1. Video conference, check volume, rememebr to mute. 
+2. State who you are, the ticket number you are working on to give others the context of your work. 
+
