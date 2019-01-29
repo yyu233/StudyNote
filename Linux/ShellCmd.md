@@ -18,3 +18,6 @@ Kill process: **ps -9 PID**
 
 Download"  **wget link** or **curl -O link**
 
+Secure copy: **scp user@host:filename user@host:filename**
+
+
