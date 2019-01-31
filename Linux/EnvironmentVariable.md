@@ -11,4 +11,10 @@ Files defining environment variable globally: /etc/environment, /etc/profile, an
 
 * /etc/profile is for login shell only. 
 
+See a list of environment variables:  **printenv** or **env**   
+
+**printenv  VAR**  can print indiviual values.
+
+**env  VAR=value** can modify variable values.
+
 [Good Read](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
