@@ -12,3 +12,5 @@ SCSI system consists of:
 SAS-3: 12.0 Gbit/s
 
 SAS bus using point-to-point while SCSI using multidrop. SAS bus has no chance of contention, but SCSI has. 
+
+Serial port: information transfer in and out 1 bit at a time. 
