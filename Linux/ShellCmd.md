@@ -22,5 +22,13 @@ Secure copy: **scp user@host:filename user@host:filename**
 
 Pipe output to file : [Reference](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
+Chang password for current user: **passwd**
+
+Remount filesystem: **remount -rw -o remount /**
+
+Home directory: **~**
+
+Top root directory of filesystem **/**
+
 
 
