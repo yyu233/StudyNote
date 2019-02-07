@@ -8,3 +8,4 @@
 |tabc| Close current tab|
 |Ctrl + r| Redo|
 |u| Undo|
+|%d| delete all lines|
