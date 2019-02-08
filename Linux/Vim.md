@@ -9,3 +9,4 @@
 |Ctrl + r| Redo|
 |u| Undo|
 |%d| delete all lines|
+|%y| yank all |
