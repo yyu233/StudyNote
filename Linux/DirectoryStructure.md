@@ -25,7 +25,7 @@
 **/usr/local** tertiary hierarchy for local data, specific to this host   
 **/usr/sbin** non-essential system binaries   
 **/usr/share** architecture-independent data.   
-**/usr/src** source code
+**/usr/src** source code     
 **/usr/X11R6** X Window System, ver 11   
 **/var** variable files - files whose content is expected to continually change during normal operation of the syste- such as logs, spool files, and temporary e-mail files.    
 **/var/cache** application cache data. Such data are locally generated as a result of time-consuming I/O or calculation.   
