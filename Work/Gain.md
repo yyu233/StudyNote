@@ -10,5 +10,8 @@ Stand-up Meeting:
 1. Video conference, check volume, rememebr to mute. 
 2. State who you are, the ticket number you are working on to give others the context of your work. 
 
+Investigate on Defects: 
+1. Perform additional tests and show the impact of the defect.   
+
 
 
