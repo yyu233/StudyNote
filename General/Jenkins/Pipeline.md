@@ -17,7 +17,7 @@ Pipeline can be created by one of 3 ways:
 
 * Blue Ocean 
 * Jenkins Classic UI 
-* SCM   
+* SCM (Source Code Management)
 
 
 ### Recording tests and artifacts ###
