@@ -11,6 +11,6 @@
 6. User interaction. Send feeback or report to user. 
 7. Product configuration and user customization
 8. Add help documents 
-9. License Agreement against piracy. 
+9. License Agreement against piracy.    
 10.Install wizard.    
 
