@@ -1,3 +1,4 @@
+
 ## Pipeline ##
 
 Jenkin Pipeline is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins.    
@@ -16,7 +17,30 @@ Pipeline can be created by one of 3 ways:
 
 * Blue Ocean 
 * Jenkins Classic UI 
-* SCM 
+* SCM   
+
+
+### Recording tests and artifacts ###
+
+Jenkin can record and aggregate test results. 
+
+```
+pipeline { 
+  agent any 
+  stages {
+    stage('Test') {
+      steps {
+        sh './gradlew check'
+      }
+    }
+  }
+  post {
+    always {
+      junit 'build/reports/**/*.xml'
+    }
+  }
+}
+```
 
 
 
