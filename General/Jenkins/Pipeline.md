@@ -12,3 +12,11 @@ Pipeline can pause to wait for human input or approval.
 
 **Step** a step which is a single task telling Jenkins what to do at a particular time.   
 
+Pipeline can be created by one of 3 ways:  
+
+* Blue Ocean 
+* Jenkins Classic UI 
+* SCM 
+
+
+
