@@ -3,7 +3,7 @@
 
 ## Product Feature ## 
 
-1. Give different user different power    
+1. Give different user different power; partition to different domains and management 
 2. Compatibilty on different system (Independency)
 3. Product can be a capsule of a factory. 
 4. Chain of task. 
