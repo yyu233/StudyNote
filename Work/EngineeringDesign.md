@@ -12,5 +12,6 @@
 7. Product configuration and user customization
 8. Add help documents 
 9. License Agreement against piracy.    
-10.Install wizard.    
+10. Install wizard.   
+11. Lightweight.   
 
