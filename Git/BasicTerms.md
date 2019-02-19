@@ -1,6 +1,9 @@
 ## Basic Terms ##
 
-**Working Directory**  **Index**  **Local Repo**  **Remote Repo**
+* **Working Directory**     
+* **Index**    
+* **Local Repo**     
+* **Remote Repo**
 
 1. the workspace is the directory tree of (source) files that you see and edit.
 
