@@ -11,4 +11,6 @@
 
 3. The local repository is a hidden directory (.git) including an objects directory containing all versions of every file in the repo (local branches and copies of remote branches) as a compressed "blob" file
 
+```git add ``` will update the index file.     
+```git commit``` will create new commit object and tree onject and hook them up with the blob object.     
 [Good Read](https://hackernoon.com/understanding-git-index-4821a0765cf)
