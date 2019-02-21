@@ -10,3 +10,5 @@
 |u| Undo|
 |%d| delete all lines|
 |%y| yank all |
+|suspend|supended| 
+
