@@ -11,4 +11,9 @@
 |%d| delete all lines|
 |%y| yank all |
 |suspend|supended| 
+|>>| Indent line by shiftwidth spaces|
+|<<|De-indent line by shiftwidth spaces|
+|5>>|Indent 5 lines|
+|5==|Re-indent 5 lines|
+|ma| Mark top of block to indent as marker 'a'|
 
