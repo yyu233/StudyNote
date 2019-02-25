@@ -5,7 +5,7 @@
 
 1. Give different user different power; partition to different domains and management 
 2. Compatibilty on different system (Independency)
-3. Product can be a capsule of a factory. 
+3. Product can be a capsule of a factory. Where does the factory get the raw input? What output does factory need to produce?   
 4. Chain of task. 
 5. Each task allows user monitoring. 
 6. User interaction. Send feeback or report to user. 
