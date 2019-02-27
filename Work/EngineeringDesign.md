@@ -15,3 +15,4 @@
 10. Install wizard.   
 11. Lightweight.   
 12. When user interaction is needed. How do we let user know? Prompt, notification, alert.  
+13. Start, Pause, Stop. 
