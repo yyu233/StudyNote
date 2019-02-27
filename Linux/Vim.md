@@ -16,4 +16,4 @@
 |5>>|Indent 5 lines|
 |5==|Re-indent 5 lines|
 |ma| Mark top of block to indent as marker 'a'|
-
+|set nonumber|hide line number|
