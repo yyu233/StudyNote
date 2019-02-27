@@ -32,5 +32,7 @@ Top root directory of filesystem **/**
 
 awk:  **awk 'pattern {action}' input-file > output-file**    
 
+Control systemd system and service manager: **systemctl COMMAND**
+
 
 
