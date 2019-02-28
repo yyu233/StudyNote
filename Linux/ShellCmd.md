@@ -35,7 +35,9 @@ awk:  **awk 'pattern {action}' input-file > output-file**
 Control systemd system and service manager: **systemctl COMMAND**
 
 Switch user: **su user**  current working directory change, may require **cd** to go to user home directory     
-             **su - user** land into user default home directory
+             **su - user** land into user default home directory   
+             
+Change user setting: **usermod \<option> NAME** 
 
 
 
