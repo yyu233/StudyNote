@@ -39,7 +39,9 @@ Switch user: **su user**  current working directory change, may require **cd** t
              
 Change user setting: **usermod \<option> NAME** 
 
-Add user: **useradd \<name>**
+Add user: **useradd \<name>**   
+
+Check disk usage: **df**
 
 
 
