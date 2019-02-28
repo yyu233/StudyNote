@@ -1,0 +1,1 @@
+Modern Unix systems use user groups to control access privileges. The wheel group is a special user group used on some Unix systems to control access to the su command, which allows a user to masquerade as another user (usually the super user).
