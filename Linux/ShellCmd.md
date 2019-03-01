@@ -43,5 +43,4 @@ Add user: **useradd \<name>**
 
 Check disk usage: **df**
 
-
-
+Check hostname: **cat /proc/sys/kernel/hostname**
