@@ -7,3 +7,4 @@ Your computer stores data in specific, structured file formats written on a piec
 Mounting ensures that your computer recognizes the media's format; if your computer cannot recognize that format, the device cannot be mounted. When media is successfully mounted, your computer incorporates the media's file system into your local file system, and creates a mount point, a locally available link through which you access an external device. In Windows or Mac OS X, the mount point is represented by a disk or other icon; in Unix or Linux, the mount point is a directory. Most operating systems handle mounting and unmounting for you.
 
 [Reference](https://kb.iu.edu/d/anqk)
+[Good Read](http://www.linfo.org/mount_point.html)
