@@ -11,7 +11,11 @@ Stand-up Meeting:
 2. State who you are, the ticket number you are working on to give others the context of your work. 
 
 Investigate on Defects: 
-1. Perform additional tests and show the impact of the defect.   
+1. Perform additional tests and show the impact of the defect.    
+
+Write log:    
+1. Specify the caller function name.    
+
 
 
 
