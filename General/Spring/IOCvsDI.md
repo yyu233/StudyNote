@@ -10,3 +10,25 @@ decoupling the execution of a task from its implementation
 making it easier to switch between different implementations
 greater modularity of a program
 greater ease in testing a program by isolating a component or mocking its dependencies and allowing components to communicate through contracts
+
+Here’s how you would create an object dependency in traditional programming:
+```
+public class Store {
+    private Item item;
+  
+    public Store() {
+        item = new ItemImpl1();    
+    }
+}
+```
+In the example above, we need to instantiate an implementation of the Item interface within the Store class itself.
+
+By using DI, we can rewrite the example without specifying the implementation of Item that we want:
+```
+public class Store {
+    private Item item;
+    public Store(Item item) {
+        this.item = item;
+    }
+}
+```
