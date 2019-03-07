@@ -43,4 +43,7 @@ Add user: **useradd \<name>**
 
 Check disk usage: **df**
 
-Check hostname: **cat /proc/sys/kernel/hostname**
+Check hostname: **cat /proc/sys/kernel/hostname**  
+
+Communicate to other user **wall \<message>**   **write \<user> \<message> **   
+
