@@ -45,5 +45,5 @@ Check disk usage: **df**
 
 Check hostname: **cat /proc/sys/kernel/hostname**  
 
-Communicate to other user **wall \<message>**   **write \<user> \<message> **   
+Communicate to other user **wall \<message>**   **write \<user> \<message>**   
 
