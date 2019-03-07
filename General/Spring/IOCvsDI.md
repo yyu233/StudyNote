@@ -31,4 +31,10 @@ public class Store {
         this.item = item;
     }
 }
-```
+```   
+
+In the Spring framework, the IoC container is represented by the interface ApplicationContext. The Spring container is responsible for instantiating, configuring and assembling objects known as beans, as well as managing their lifecycle.
+
+
+
+
