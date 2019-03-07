@@ -16,6 +16,9 @@ Investigate on Defects:
 Write log:    
 1. Specify the caller function name.    
 
+Pipeline: 
+Pipeline will automatically deploy the newest changes.(How?)    
+
 
 
 
