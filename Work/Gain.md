@@ -5,6 +5,7 @@
 3. Whenever stuck at something, ask for help. Always utilize resources around you.
 4. Listen how other engineer communicate. Catch the technical key terms and remember. 
 5. Deploying changes on real machine. Check the environment required. 
+6. A product can use other company's product. There may need a conversion between different company products.   
 
 Stand-up Meeting: 
 1. Video conference, check volume, rememebr to mute. 
@@ -16,8 +17,13 @@ Investigate on Defects:
 Write log:    
 1. Specify the caller function name.    
 
-Pipeline: 
-Pipeline will automatically deploy the newest changes.(How?)    
+Make Changes: 
+1. Consider the scope and the impact of the changes. Will it affect other functionalities? Communicate with other teams.    
+2. Are the changes based on the latest version of code base? 
+
+
+
+
 
 
 
