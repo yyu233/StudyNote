@@ -1,6 +1,6 @@
 ## Knowledge Base ##
 
-Use knowledge base to compile predefined rules 
+Knowledge base is a collection of compiled predefined rules. Use KnowledgeBuilder to compile rules.  
 ```
 KnowledgeBuilder kbuilder = KnowledgeBuilderFactory.newKnowledgeBuilder();
 
