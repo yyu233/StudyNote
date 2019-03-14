@@ -13,3 +13,16 @@
 |X\|Z| Finds X or Z| 
 |XZ|Finds X directly followed by Z|
 |$|Checks if a line end followes| 
+
+### Meta Characters ###
+|Regular Expression|Description| 
+|----|----|
+|\d|Any digit, short for [0-9]|
+|\D|A non-digit, short for [^0-9]|
+|\s|A whitespace character, short for [\t\n\x0b\r\f]|
+|\S|A non-whitespace character|
+|\w|A word character, short for [a-zA-Z_0-9]|
+|\W|A non-word character|
+|\S+|Several non-whitespace characters|
+|\b|Matches a word boundary where a word character is [a-zA-Z0-9_]|
+
