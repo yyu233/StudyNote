@@ -26,3 +26,12 @@
 |\S+|Several non-whitespace characters|
 |\b|Matches a word boundary where a word character is [a-zA-Z0-9_]|
 
+### Quantifier ###
+|Regular Expression|Description|
+|----|-----|
+|* |Occurs zero or more times, is short {0, }|
+|+|Occurs one ore more times, is short {1, }|
+|?|Occurs no or one time, ? is short for {0, 1}|
+|{X}|Occurs X number of times, {} describes the order of the preceding liberal|
+|{X, Y}|Occurs between X and Y times|
+| \*?| ? after a quantifier makes it a reluctant quantifier. It tries to find the smallest match. This makes the regular expression stop at the first match| 
