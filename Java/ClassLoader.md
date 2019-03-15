@@ -7,3 +7,6 @@ Also, these Java classes aren’t loaded into memory all at once, but when requi
 Next, **the extension one** loads the Logging class. Extension class loaders load classes that are an extension of the standard core Java classes.
 
 Finally, **the bootstrap one** loads the ArrayList class. A bootstrap or primordial class loader is the parent of all the others.
+
+[Good Read](https://www.javaworld.com/article/2077260/learn-java-the-basics-of-java-class-loaders.html)
+
