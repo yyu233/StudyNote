@@ -1,0 +1,1 @@
+Factory instances are thread-safe and reusable after configuration (if any). Typically applications and services use only a single globally shared factory instance, unless they need differently configured factories. **Factory reuse is important if efficiency matters; most recycling of expensive construct is done on per-factory basis.**
