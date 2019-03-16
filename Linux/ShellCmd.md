@@ -49,4 +49,6 @@ Communicate to other user: **wall \<message>**   **write \<user> \<message>**
 
 Watch file for changes:  **tail -f \<file>**   
 
+Add user to supplementary group: **usermode -aG \<group> \<user>**    
+
 
