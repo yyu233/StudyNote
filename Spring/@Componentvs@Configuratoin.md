@@ -19,7 +19,7 @@ public static class Config {
 
 2)Here if Config class annotated with @component , than a() method will be called once but b() method will be called twice .
 
-Problem in (2) :- since we have noticed the problem with @compenent annotation . This second configuration (2) is totally incorrect because spring will create a singleton bean of A, but B will obtain another instance of A which is out of the spring context control.
+Problem in (2) :- since we have noticed the problem with @compenent annotation . This second configuration (2) is totally incorrect because spring will create a singleton bean of A, but B will obtain another instance of A **which is out of the spring context control**.
 
 Solution :- we can use @autowired annotation with @component annotation inside Config class .
 ```
