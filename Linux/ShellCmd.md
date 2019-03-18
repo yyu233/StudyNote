@@ -67,6 +67,8 @@ Copy from clipboard: **Ctrl Shift C**
 
 Paste to command line: **Ctrl Shift V**    
 
+Switch to previous folder: **cd -**   
+
 
 
 
