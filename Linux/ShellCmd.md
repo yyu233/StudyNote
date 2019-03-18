@@ -51,7 +51,7 @@ Watch file for changes:  **tail -f \<file>**
 
 Add user to supplementary group: **usermode -aG \<group> \<user>**    
 
-Move to the begining of line: **Ctrl A **  
+Move to the begining of line: **Ctrl A**  
 
 Move to the end of line: **Ctrl E**  
 
