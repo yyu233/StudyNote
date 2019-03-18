@@ -51,4 +51,22 @@ Watch file for changes:  **tail -f \<file>**
 
 Add user to supplementary group: **usermode -aG \<group> \<user>**    
 
+Move to the begining of line: **Ctrl A **  
+
+Move to the end of line: **Ctrl E**  
+
+Move left one word: **Ctrl left arrow**   
+
+Move right one word: **Ctrl right arrow**   
+
+Delete from cursor to the begining of the line: **Ctrl U**       
+
+Delete from cursor to the end of the line: **Ctrl K**         
+
+Copy from clipboard: **Ctrl Shift C**        
+
+Paste to command line: **Ctrl Shift V**    
+
+
+
 
