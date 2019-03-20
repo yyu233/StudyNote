@@ -83,4 +83,6 @@ Sort uniquely: **sort -u \<filename>**
 
 Switch string 1 with string 2: **sed "s/\<string 1>/\<string 2>" \<filename>**   
 
+Append: ** >> **
+
 
