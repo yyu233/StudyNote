@@ -75,6 +75,12 @@ Ignore pattern: **grep -vi \<pattern> \<file>**
 
 Show lines with the regex: **grep -E \<pattern>**   
 
+Print column of data: **awk '{print $\<num>}' \<filename>**    
 
+Sort numerically: **sort -n \<filename>**   
+
+Sort uniquely: **sort -u \<filename>** 
+
+Switch string 1 with string 2: **sed "s/\<string 1>/\<string 2>" \<filename>**   
 
 
