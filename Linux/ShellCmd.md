@@ -69,6 +69,12 @@ Paste to command line: **Ctrl Shift V**
 
 Switch to previous folder: **cd -**   
 
+Search word case insensitive: **grep -i \<pattern> \<file>**   
+
+Ignore pattern: **grep -vi \<pattern> \<file>**  
+
+Show lines with the regex: **grep -E \<pattern>**   
+
 
 
 
