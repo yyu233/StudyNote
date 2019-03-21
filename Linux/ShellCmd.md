@@ -85,6 +85,7 @@ Switch string 1 with string 2: **sed "s/\<string 1>/\<string 2>" \<filename>**
 
 Append: **\>\>**  
 
-Find location of command: **which \<cmd>**    
+Find location of command: **which \<cmd>**     
 
+Identify tyoe of line breaks in text file: **find \<filename>**   
 
