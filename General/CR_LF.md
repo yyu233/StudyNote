@@ -11,3 +11,7 @@ The different newline conventions cause text files that have been transferred be
 Text in files created with programs which are common on Unix-like or classic Mac OS, appear as a single long line on most programs common to MS-DOS and Microsoft Windows because these do not display a single line feed or a single carriage return as a line break.
 
 Conversely, when viewing a file originating from a Windows computer on a Unix-like system, the extra CR may be displayed as a second line break, as ^M, or as <cr> at the end of each line.
+
+## Solution ## 
+
+On Unix-like system, **dos2unix** or **unix2dos** for converting ASCII CR + LF and LF. 
