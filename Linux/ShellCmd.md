@@ -89,3 +89,13 @@ Find location of command: **which \<cmd>**
 
 Identify tyoe of line breaks in text file: **find \<filename>**   
 
+Find kernel information: **uname -a**   
+
+Display human readable number of memory usages: **free -h**   
+
+Check cpu information: **cat /proc/cpuinfo**    
+
+View hardware information: **lshw**    
+
+View network ip address informatio: **ip a**  
+
