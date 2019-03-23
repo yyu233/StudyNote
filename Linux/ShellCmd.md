@@ -97,5 +97,7 @@ Check cpu information: **cat /proc/cpuinfo**
 
 View hardware information: **lshw**    
 
-View network ip address informatio: **ip a**  
+View network ip address informatio: **ip a**    
+
+Display status of file: **stat \<filename> **
 
