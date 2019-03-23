@@ -99,5 +99,5 @@ View hardware information: **lshw**
 
 View network ip address informatio: **ip a**    
 
-Display status of file: **stat \<filename> **
+Display status of file: **stat \<filename>**
 
