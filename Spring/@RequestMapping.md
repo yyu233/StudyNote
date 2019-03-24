@@ -12,3 +12,15 @@ public class FileController {
 ```
 
 request "/file/index" will be handled by index(). 
+
+```
+@RestController
+@RequestMapping("/home")
+public class HomeController {
+    @RequestMapping(value = "/id")
+    String getIdByValue(@RequestParam("id") String userId) {
+        return "User ID is " + userId; 
+    }
+}
+```
+request /home/id?id=1 will be handled by getIdByValue. id will match to userId.   
