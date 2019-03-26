@@ -10,3 +10,5 @@ Push to remote and track: **git push -u origin remotebranch**
 
 Remove file from index before commit: **git rm --cached <\filename>**   
 
+Pull and avoid merging:  **git pull --rebase /<remote/branch>**    
+
