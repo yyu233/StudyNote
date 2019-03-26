@@ -99,5 +99,21 @@ View hardware information: **lshw**
 
 View network ip address informatio: **ip a**    
 
-Display status of file: **stat \<filename>**
+Display status of file: **stat \<filename>**  
+
+Display ACL(Access Control List) of file for tabular format: **getfacl -t \<filename>**   
+
+Create an empty file: **touch \<filename>**   
+
+Match one character of numbers: **[:digit:]**   
+
+Match one uppercase letter: **[:upper:]**  
+
+Match one lowercase letter: **[:lower:]**  
+
+Match one uppercase or lowercase letter: **[:alpha:]**  
+
+Match one uppercase, lowercase or number: **[:alnum:]**   
+
+Match one space, tab or newline: **[:space:]**   
 
