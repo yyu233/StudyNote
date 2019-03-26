@@ -21,6 +21,11 @@ Make Changes:
 1. Consider the scope and the impact of the changes. Will it affect other functionalities? Communicate with other teams.    
 2. Are the changes based on the latest version of code base? 
 
+Congiure application:
+1. Consider teh scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
+
+
+
 
 
 
