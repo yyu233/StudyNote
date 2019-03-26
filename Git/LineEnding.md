@@ -1,4 +1,4 @@
-[Good Read](https://help.github.com/en/articles/dealing-with-line-endings)
+[Reference](https://help.github.com/en/articles/dealing-with-line-endings)
 
 On Windows: 
 ```
