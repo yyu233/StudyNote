@@ -117,3 +117,6 @@ Match one uppercase, lowercase or number: **[:alnum:]**
 
 Match one space, tab or newline: **[:space:]**   
 
+Configure shell options: **set +o/-o**    
+
+Configure bash options: **shopt -s/-u**   
