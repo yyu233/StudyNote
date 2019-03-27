@@ -27,6 +27,13 @@ Congiure application:
 Development Environemnt: 
 1. Make sure the file format on your development enironment is consistent with the targeted format.     
 
+Demo: 
+1. Check voice volume and connection.
+2. Snooze slack and chatting app. 
+3. Silent cell phone.    
+4. Make sure the font size of what you are presenting is comfortable and easy to read. 
+5. Close any irrevalent web page. (Also bookmarks). 
+6. Mute when people in your room are talking. 
 
 
 
