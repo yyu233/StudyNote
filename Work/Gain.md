@@ -24,6 +24,9 @@ Make Changes:
 Congiure application:
 1. Consider teh scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
 
+Development Environemnt: 
+1. Make sure the file format on your development enironment is consistent with the one an application is delivered to.     
+
 
 
 
