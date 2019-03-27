@@ -28,12 +28,16 @@ Development Environemnt:
 1. Make sure the file format on your development enironment is consistent with the targeted format.     
 
 Demo: 
-1. Check voice volume and connection.
+1. Check voice volume and connection. Make sure other people can hear you and read your screen.
 2. Snooze slack and chatting app. 
 3. Silent cell phone.    
 4. Make sure the font size of what you are presenting is comfortable and easy to read. 
 5. Close any irrevalent web page. (Also bookmarks). 
 6. Mute when people in your room are talking. 
+7. Perpare a backup plan (i.e. use screenshot of your development result if demo goes wrong)   
+8. Skip discussion and sync up after demo (especially for video streaming, because most of time have no clue who is talking to whom.... when some people ask quesiton, they don't clearly mention the person they are talking to. Have no clue whether the quesiton is directed to you or someone else...)  
+
+
 
 
 
