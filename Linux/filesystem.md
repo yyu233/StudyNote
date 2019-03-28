@@ -5,3 +5,4 @@ The difference between a disk or partition and the filesystem it contains is imp
 
 Before a partition or disk can be used as a filesystem, it needs to be initialized, and the bookkeeping data structures need to be written to the disk. This process is called making a filesystem.
 
+Not all file systems are equal. Different file systems have different ways of organizing their data. Some file systems are faster than others, some have additional security features, and some support drives with large storage capacities while others only work on drives with a smaller amount of storage. Some file systems are more robust and resistant to file corruption, while others trade that robustness for additional speed.
