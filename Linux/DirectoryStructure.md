@@ -12,7 +12,7 @@
 **/media** mount points for removable media such as CD-ROMS  
 **/mnt** temporarily mounted filesystems      
 **/opt** optional application software packages   
-**/proc** virtual filesystem providing process and kernel information as files.   
+**/proc** virtual filesystem providing process and kernel information as files. As with /dev, the files and directories are generated when your computer starts, or on the fly, as your system is running and things change.    
 **/root** home directory for the root user    
 **/run** run-time variable data: information about running system since last boot   
 **/sbin** essential system binaries   
