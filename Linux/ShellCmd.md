@@ -120,3 +120,6 @@ Match one space, tab or newline: **[:space:]**
 Configure shell options: **set +o/-o**    
 
 Configure bash options: **shopt -s/-u**   
+
+Display directory tree: **tree -L \<levle>**   
+
