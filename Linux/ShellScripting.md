@@ -57,5 +57,6 @@ X="hello world" #ok
     echo "file does not exist"
   fi
 ```
-
-   
+```
+$?       Expands to the exit status of the most recently executed foreground pipeline
+```
