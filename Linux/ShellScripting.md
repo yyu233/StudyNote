@@ -60,3 +60,25 @@ X="hello world" #ok
 ```
 $?       Expands to the exit status of the most recently executed foreground pipeline
 ```
+
+Array
+```
+# Indirect Declaration
+ARRAY[INDEX]=value 
+
+#Explicit Declaration
+declare -a ARRAY 
+
+#Compound Assignment 
+ARRAY=(value1, value2, value3 ... valuen)
+
+#All Elements of Array
+ARRAY[@]
+ARRAY[*]
+
+#Print Elements of Array in Range 
+echo ${ARRAY[@] STARTING_INDEX : COUNT}  
+
+#Print Length of Array 
+echo ${#ARRAY}   
+```
