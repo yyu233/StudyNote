@@ -94,3 +94,15 @@ unset ARRAY[INDEX]
 #Delete Whole Array 
 unset ARRAY
 ```
+
+Parameter Substitution 
+```
+PATTERN=1*3
+VAR=1234536
+echo ${VAR#$PATTERN} #strip out shortest match from left, print 4536 
+echo $(VAR##$PATTERN} #strip out longest match from left, print 6 
+
+VAR2=12115123
+echo ${VAR%$PATTERN} #strip out shortest match from right, print 12115
+echo ${VAR%%$PATTERN} #strip out longest match from right, print nothing 
+```
