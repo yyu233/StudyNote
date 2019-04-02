@@ -81,4 +81,16 @@ echo ${ARRAY[@] STARTING_INDEX : COUNT}
 
 #Print Length of Array 
 echo ${#ARRAY}   
+
+#Search 
+ARRAY[@]/REGEX/ 
+
+#Search and Replace 
+ARRAY[@]//REGEX/REPLACEMENT 
+
+#Delete Element 
+unset ARRAY[INDEX]
+
+#Delete Whole Array 
+unset ARRAY
 ```
