@@ -44,7 +44,8 @@ Demo:
 7. Perpare a backup plan (i.e. use screenshot of your development result if demo goes wrong)   
 8. Skip discussion and sync up after demo (especially for video streaming, because most of time have no clue who is talking to whom.... when some people ask quesiton, they don't clearly mention the person they are talking to. Have no clue whether the quesiton is directed to you or someone else... Not all the people understand the rule of demo. Even though they may understand, they may forget... So just chill, do your part...)  
 
-
+Development:
+1.  Leave contact information and version number to let other team easily identify the owner and the responsiblity of the file.   
 
 
 
