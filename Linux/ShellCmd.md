@@ -123,3 +123,5 @@ Configure bash options: **shopt -s/-u**
 
 Display directory tree: **tree -L \<levle>**   
 
+Query sysfs or the udev database: **udevadm info --query=TYPE --path=SYSPATH**    
+
