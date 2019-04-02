@@ -1,0 +1,1 @@
+Udev is the mechanism used to create and name /dev device nodes corresponding to the devices that are present in the system. Udev uses matching information provided by sysfs with rules provided by the user to dynamically add the required device nodes.
