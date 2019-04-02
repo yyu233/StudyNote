@@ -64,45 +64,45 @@ $?       Expands to the exit status of the most recently executed foreground pip
 Array
 ```
 # Indirect Declaration
-ARRAY[INDEX]=value 
+array[index]=value 
 
 #Explicit Declaration
-declare -a ARRAY 
+declare -a array 
 
 #Compound Assignment 
-ARRAY=(value1, value2, value3 ... valuen)
+array=(value1, value2, value3 ... valuen)
 
 #All Elements of Array
-ARRAY[@]
-ARRAY[*]
+array[@]
+array[*]
 
 #Print Elements of Array in Range 
-echo ${ARRAY[@] STARTING_INDEX : COUNT}  
+echo ${array[@] starting_index: count}  
 
 #Print Length of Array 
-echo ${#ARRAY}   
+echo ${#array}   
 
 #Search 
-ARRAY[@]/REGEX/ 
+array[@]/regex/ 
 
 #Search and Replace 
-ARRAY[@]//REGEX/REPLACEMENT 
+array[@]//regex/replacement 
 
 #Delete Element 
-unset ARRAY[INDEX]
+unset array[index]
 
 #Delete Whole Array 
-unset ARRAY
+unset array
 ```
 
 Parameter Substitution 
 ```
-PATTERN=1*3
-VAR=1234536
-echo ${VAR#$PATTERN} #strip out shortest match from left, print 4536 
-echo $(VAR##$PATTERN} #strip out longest match from left, print 6 
+pattern=1*3
+var=1234536
+echo ${var#$pattern} #strip out shortest match from left, print 4536 
+echo $(var##$pattern} #strip out longest match from left, print 6 
 
-VAR2=12115123
-echo ${VAR%$PATTERN} #strip out shortest match from right, print 12115
-echo ${VAR%%$PATTERN} #strip out longest match from right, print nothing 
+var2=12115123
+echo ${var%$pattern} #strip out shortest match from right, print 12115
+echo ${var%%$pattern} #strip out longest match from right, print nothing 
 ```
