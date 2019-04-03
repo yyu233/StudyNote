@@ -61,7 +61,27 @@ X="hello world" #ok
 $?       Expands to the exit status of the most recently executed foreground pipeline
 ```
 
+Test Operators
+--------------------------------
+|Operator|Produce true if| 
+|--------|---------------|
+|-n | operand non-zero length |
+|-z| operand has zero length |
+|-d |there exists a directory whose name is operand |
+|-f |there exists a file whose name is operand |
+|-eq| operands are integers and equal|
+|-neq| the opposite of equal| 
+|=| the operands are strings and equal|
+|!=| the opposite of = |
+|-lt | operand 1 is strictly less than operand 2. Operands are integers |
+|-gt| operand 1 is strictly greater than operand 2. Operands are integers |
+|-le| operand 1 is less than or equal to operand 2. Operands are integers |
+|-ge| operand 1 is greater than or equal to operand 2. Operands are integers|
+
+
+
 Array
+---------------------------------
 ```
 # Indirect Declaration
 array[index]=value 
@@ -96,6 +116,7 @@ unset array
 ```
 
 Parameter Substitution 
+--------------------------
 ```
 pattern=1*3
 var=1234536
