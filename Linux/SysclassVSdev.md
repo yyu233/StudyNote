@@ -6,3 +6,5 @@ The directories in Sysfs contain the heirarchy of devices, as they are attached 
 Based on the path, the device is attached to (roughly, starting from the end) configuration 1 (:1.0) of the device attached to port number 4 of device 1-5, connected to USB controller 1 (usb1), connected to the PCI bus. While interesting, this directory path doesn't do us very much good, since it's dependent on how the hardware is physically connected to the computer.
 
 Fortunately, Sysfs also provides a large number of symlinks, for easy access to devices without having to know which PCI and USB ports they are connected to. In /sys/class there is a directory for each different class of device.
+
+The files in /dev are actual devices files which UDEV creates at run time. The directory /sys/class is exported by the kernel at run time, exposing the hierarchy of the hardware through sysfs.
