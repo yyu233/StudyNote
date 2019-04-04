@@ -128,3 +128,31 @@ var2=12115123
 echo ${var%$pattern} #strip out shortest match from right, print 12115
 echo ${var%%$pattern} #strip out longest match from right, print nothing 
 ```
+
+Scope
+-------------------------
+No scope.    
+Create a shell script called foobar.sh
+```
+#!/bin/sh 
+
+foobar() 
+{
+  echo "Arguments values are: $@"
+  x=2
+}
+
+echo "Script argumemts values are: $@"
+x=1
+echo "x is $x"
+foobar 1 2 3
+echo "x is $x"
+```
+./foobar.sh a b c    
+output: 
+```
+Script arguments values are: a b c
+x is 1
+Arguments values are: 1 2 3
+x is 2
+```
