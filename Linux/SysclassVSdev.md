@@ -8,3 +8,7 @@ Based on the path, the device is attached to (roughly, starting from the end) co
 Fortunately, Sysfs also provides a large number of symlinks, for easy access to devices without having to know which PCI and USB ports they are connected to. In /sys/class there is a directory for each different class of device.
 
 The files in /dev are actual devices files which UDEV creates at run time. The directory /sys/class is exported by the kernel at run time, exposing the hierarchy of the hardware through sysfs.
+
+The /sys filesystem (sysfs) contains files that provide information about devices: whether it's powered on, the vendor name and model, what bus the device is plugged into, etc. It's of interest to applications that manage devices.
+
+The /dev filesystem contains files that allow programs to access the devices themselves: write data to a serial port, read a hard disk, etc. It's of interest to applications that access devices.
