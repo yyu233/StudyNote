@@ -13,6 +13,7 @@ Common Questions:
 2. What does the term mean in the context of the product? (We need to keep a list of definition of technical terms)
 3. What is the data flow of the applicaiton? 
 4. How should we deploy and run the application? 
+5. Why do we need this program? When is it called? How is this program implemented?    
 
 Stand-up Meeting: 
 1. Video conference, check volume, rememebr to mute. 
