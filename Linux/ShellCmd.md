@@ -123,5 +123,7 @@ Configure bash options: **shopt -s/-u**
 
 Display directory tree: **tree -L \<levle>**   
 
-Query sysfs or the udev database: **udevadm info --query=TYPE --path=SYSPATH**    
+Query sysfs or the udev database: **udevadm info --query=TYPE --path=SYSPATH** 
+
+Create all directories in case that directory does not exist: **mkdir -p \<parent>/\<child>**   
 
