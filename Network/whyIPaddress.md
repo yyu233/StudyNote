@@ -1,0 +1,1 @@
+Let we have two connections, one is for Local connection and other is for internet or virtual machines are running in the system. what happen the IP of both connection will be different but the physical address of machine same. In this case what will you do? In this case IP address defines the address where the system will communicate.
