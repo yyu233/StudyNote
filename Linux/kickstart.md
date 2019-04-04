@@ -7,7 +7,7 @@ Kickstart files can be kept on a single server system and read by individual com
 Sections must be in this order: 
 1. Command Section 
 2. ```%package``` Section
-3. ```%pre``` ```%post`` pre and post installtion are optional, and can in any order.   
+3. ```%pre``` ```%post``` pre and post installtion are optional, and can in any order.   
 
 Example of ```%package``` section: 
 ```
