@@ -54,3 +54,15 @@ Patch1:
 |%{echo:message}|prints message to stderr|
 |%{error:message}|prints message to stderr and returns BADSPEC|
 
+### Conditional Macros ###
+```
+%{?macro:expression}  # if macro exists, then expand expression, otherwise ignore.
+%{!?macro:expression} # if macro does not exist, then expand expression, otherwise ignore. 
+
+%if{old_5x}
+%define b5x 1
+%undefine bx6x
+%endif 
+
+```
+
