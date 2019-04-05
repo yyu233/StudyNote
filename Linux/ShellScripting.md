@@ -61,6 +61,11 @@ X="hello world" #ok
 $?       Expands to the exit status of the most recently executed foreground pipeline
 $@       All arguments passed to the script
 ```
+
+```
+$()     command substitution. run the command inside parentheses and substitute. 
+```
+
 Case Statements
 --------------------
 ```
