@@ -6,7 +6,10 @@ Work:
 4. Listen how other engineer communicate. Catch the technical key terms and remember. 
 5. Deploying changes on real machine. Check the environment required. 
 6. A product can use other company's product. There may need a conversion between different company products. 
-7. Remember to check the version of programming language and developing system. (Different version may have different syntax and may have compatiablity issue) 
+7. Remember to check the version of programming language and developing system. (Different version may have different syntax and may have compatiablity issue)
+
+Problem Solving: 
+1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case. 
 
 Common Questions: 
 1. Where is the specific file located? (We may need to document the file strucutre and briefly explain what each directory contains) 
