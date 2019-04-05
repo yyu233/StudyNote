@@ -9,7 +9,8 @@ Work:
 7. Remember to check the version of programming language and developing system. (Different version may have different syntax and may have compatiablity issue)
 
 Problem Solving: 
-1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case. 
+1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
+2. Try to avoid overhead. 
 
 Common Questions: 
 1. Where is the specific file located? (We may need to document the file strucutre and briefly explain what each directory contains) 
