@@ -1,5 +1,7 @@
 
-SPEC 
+## SPEC ## 
+
+To package new software, you need to create a new SPEC file. Instead of writing it manually from scratch, use the rpmdev-newspec utility. It creates an unpopulated SPEC file, and you fill in the necessary directives and fields.
 
 %description
 
