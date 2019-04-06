@@ -30,3 +30,35 @@ The list of files that will be installed in the end user’s system.
 %changelog
 
 A record of changes that have happened to the package between different Version or Release builds.
+
+
+### Macro ###
+   | macro | definition| 
+   |-----------|-------------------------|
+  |%trace |             toggle print of debugging information before/after expansion|
+  |%dump   |           print the active (i.e. non-covered) macro table|
+  |%verbose |           is rpm in verbose mode?|
+  |%{echo:...}    |     print ... to stdout|
+  |%{warn:...}     |    print ... to stderr|
+ | %{error:...}    |    print ... to stderr and raise an error|
+  |%define ...       |  define a macro|
+  |%undefine ...     |  undefine a macro|
+  |%global ...        | define a macro whose body is available in global context|
+  |%{load:...}       |  load a macro file (in >= 4.12.0)|
+  |%{expand:...}     | like eval, expand ... to <body> and (re-)expand <body>|
+  |%{shrink:...}     |  trim leading and trailing whitespace, reduce intermediate whitespace to a single space (in >= 4.14.0)|
+  |%{quote:...}      |  quote a parametric macro argument, needed to pass empty strings or strings with whitespace (in >= 4.14.0)|
+  |%{lua:...}          |expand with the [embedded Lua interpreter](lua.html)|
+  |%{uncompress:...}  | expand ... to <file> and test to see if <file> is compressed. | 
+ | %{basename:...}    | basename(1) macro analogue|
+  |%{dirname:...}      |dirname(1) macro analogue|
+  |%{suffix:...}      | expand to suffix part of a file name|
+  |%{url2path:...}     |convert url to a local path|
+  |%{getenv:...}       |getenv(3) macro analogue|
+  |%{getconfdir:...}   |expand to rpm "home" directory (typically /usr/lib/rpm)|
+  |%{S:...}            |expand ... to <source> file name|
+  |%{P:...}          |  expand ... to <patch> file name|
+  |%{F:...}           | expand ... to <file> file name|
+
+
+ 
