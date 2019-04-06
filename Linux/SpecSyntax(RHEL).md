@@ -61,4 +61,6 @@ A record of changes that have happened to the package between different Version 
   |%{F:...}           | expand ... to <file> file name|
 
 
+Note that %define and %global differ in more ways than just scope: the body of a %define’d macro is lazily expanded (ie when used), but the body of %global is expanded at definition time. It’s possible to use %%-escaping to force lazy expansion of %global
+
  
