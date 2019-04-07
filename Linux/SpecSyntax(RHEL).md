@@ -63,4 +63,6 @@ A record of changes that have happened to the package between different Version 
 
 Note that %define and %global differ in more ways than just scope: the body of a %define’d macro is lazily expanded (ie when used), but the body of %global is expanded at definition time. It’s possible to use %%-escaping to force lazy expansion of %global
 
+%setup -a \<source number> : expands sources after entering working directory   
+%setup -b \<source number> : expands sources before entering working directory   
  
