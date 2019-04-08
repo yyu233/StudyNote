@@ -31,6 +31,13 @@ The list of files that will be installed in the end user’s system.
 
 A record of changes that have happened to the package between different Version or Release builds.
 
+### Sample Execution Flow ### 
+1. Create a tar ball for the source file 
+2. Generate build rpm workspace 
+3. Put tar ball into source 
+4. Unpackage tar ball and put into BUILD 
+5. Install rpm into user end system 
+
 
 ### Macro ###
    | macro | definition| 
