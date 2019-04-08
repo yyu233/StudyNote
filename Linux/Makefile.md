@@ -6,6 +6,7 @@
   target: prerequisite
   <tab>   receipe
 ```
+A target can be executable, object file, and action. 
 
 Make carries out the receipe on prerequisite to create or update the target.
 
