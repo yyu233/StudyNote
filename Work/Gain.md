@@ -10,6 +10,7 @@ Work:
 8. Usually high-level design is challenging and interesting. It consumes more time than just coding. It sometimes needs other teams to get involved and other company if new design will use this company's product. 
 9. Now thinking development as a result driven process. Maintainbility, scalabilty, efficiency, security. Using other framework and new technologies, what is the time cost for learning and refactoring code base.    
 10. Think about data flow. Who is the producer? Who is the consumer? Where to store data? Receipe, Configuration.  
+11. While waiting for the lab request to be complete, just try to borrow if possible from your colleagues.... Time is money...
 
 Problem Solving: 
 1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
