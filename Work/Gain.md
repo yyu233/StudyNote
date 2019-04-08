@@ -7,6 +7,8 @@ Work:
 5. Deploying changes on real machine. Check the environment required. 
 6. A product can use other company's product. There may need a conversion between different company products. 
 7. Remember to check the version of programming language and developing system. (Different version may have different syntax and may have compatiablity issue)
+8. Usually high-level design is challenging and interesting. It consumes more time than just coding. It sometimes needs other teams to get involved and other company if new design will use this company's product. 
+9. Now thinking development as a result driven process. Maintainbility, scalabilty, efficiency.    
 
 Problem Solving: 
 1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
