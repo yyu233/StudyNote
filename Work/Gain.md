@@ -13,8 +13,9 @@ Work:
 11. While waiting for the lab request to be complete, just try to borrow if possible from your colleagues.... Time is money...
 
 Problem Solving: 
-1. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
-2. Try to avoid overhead. 
+1. Simplifying is the lord.... 
+2. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
+3. Try to avoid extra overhead. 
 
 Common Questions: 
 1. Where is the specific file located? (We may need to document the file strucutre and briefly explain what each directory contains) 
