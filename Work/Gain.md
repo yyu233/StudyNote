@@ -9,7 +9,7 @@ Work:
 7. Remember to check the version of programming language and developing system. (Different version may have different syntax and may have compatiablity issue)
 8. Usually high-level design is challenging and interesting. It consumes more time than just coding. It sometimes needs other teams to get involved and other company if new design will use this company's product. 
 9. Now thinking development as a result driven process. Maintainbility, scalabilty, efficiency, security. Using other framework and new technologies, what is the time cost for learning and refactoring code base.    
-10. Think about data flow. Who is the producer? Who is the consumer? Where to store data? Receipe, Configuration.  
+10. Think about data flow. Who is the producer? Who is the consumer? Where to store data? Persistency and Capacity. Receipe, Configuration.  
 11. While waiting for the lab request to be complete, just try to borrow if possible from your colleagues.... 
 12. Maintainability is very important. If the team needs to update or add new features in the future, it should not be too hard or requrie a huge amount of work to refactor the code base.
 
