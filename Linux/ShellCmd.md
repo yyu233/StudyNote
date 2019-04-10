@@ -130,3 +130,10 @@ Create all directories in case that directory does not exist: **mkdir -p \<paren
 Compare files line by line: **diff** 
 
 Current running process id: **$$**     
+
+Configure Network Interface: **dhclient**  
+
+Grep command meta data empty string at the begining: **^**  
+
+Grep command meta data empty string at the end: **$**   
+
