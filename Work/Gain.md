@@ -14,6 +14,7 @@ Work:
 12. Maintainability is very important. If the team needs to update or add new features in the future, it should not be too hard or requrie a huge amount of work to refactor the code base.
 13. Learnt how to build ISO, mount ISO, install ISO. 
 14. Leant how to package RPM and depoly RPM. 
+15. How much runtime dependencies does a third party package requires? 
 
 Problem Solving: 
 1. Simplifying is the lord.... 
