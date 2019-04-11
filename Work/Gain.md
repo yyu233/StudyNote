@@ -45,10 +45,11 @@ Make Changes:
 Congiure application:
 1. Consider teh scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
 
-Development Environemnt: 
+Development: 
 1. Make sure the file format on your development enironment is consistent with the targeted format.  
 2. Learnt how to register RHEL system with RedHat and attach different subscription. 
 3. Learnt how to use ansible-lint to check best practices of ansible
+4. Learnt using jq to test the validity of a json file.    
 
 Demo: 
 1. Check voice volume and connection. Make sure other people can hear you and read your screen.
