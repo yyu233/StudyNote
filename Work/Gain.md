@@ -12,6 +12,8 @@ Work:
 10. Think about data flow. Who is the producer? Who is the consumer? Where to store data? Persistency and Capacity. Receipe, Configuration.  
 11. While waiting for the lab request to be complete, just try to borrow if possible from your colleagues.... 
 12. Maintainability is very important. If the team needs to update or add new features in the future, it should not be too hard or requrie a huge amount of work to refactor the code base.
+13. Learnt how to build ISO, mount ISO, install ISO. 
+14. Leant how to package RPM and depoly RPM. 
 
 Problem Solving: 
 1. Simplifying is the lord.... 
@@ -43,7 +45,9 @@ Congiure application:
 1. Consider teh scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
 
 Development Environemnt: 
-1. Make sure the file format on your development enironment is consistent with the targeted format.     
+1. Make sure the file format on your development enironment is consistent with the targeted format.  
+2. Learnt how to register RHEL system with RedHat and attach different subscription. 
+3. Learnt how to use ansible-lint to check best practices of ansible
 
 Demo: 
 1. Check voice volume and connection. Make sure other people can hear you and read your screen.
