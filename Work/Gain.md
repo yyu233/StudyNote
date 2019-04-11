@@ -15,6 +15,7 @@ Work:
 13. Learnt how to build ISO, mount ISO, install ISO. 
 14. Leant how to package RPM and depoly RPM. 
 15. How much runtime dependencies does a third party package requires? 
+16. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control.**     
 
 Problem Solving: 
 1. Simplifying is the lord.... 
