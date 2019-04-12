@@ -137,3 +137,5 @@ Grep command meta data empty string at the begining: **^**
 
 Grep command meta data empty string at the end: **$**   
 
+Export variable to child process: **export \<var>**    
+
