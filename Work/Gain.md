@@ -27,7 +27,12 @@ Common Questions:
 2. What does the term mean in the context of the product? (We need to keep a list of definition of technical terms)
 3. What is the data flow of the applicaiton? 
 4. How should we deploy and run the application? 
-5. Why do we need this program? When is it called? How is this program implemented?    
+5. Why do we need this program? When is it called? How is this program implemented? 
+
+Industial Reflection: 
+1. What are the persistent needs in market? 
+2. What are the obstacles for innovation? 
+
 
 Stand-up Meeting: 
 1. Video conference, check volume, rememebr to mute. 
