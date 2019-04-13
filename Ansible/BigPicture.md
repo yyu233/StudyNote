@@ -5,3 +5,8 @@
 ## Configure Ansible ##
 ```/etc/ansible```
 
+## Hierarchy ##
+Playbook   
+&ensp;&ensp;Roles   
+&ensp;&ensp;&ensp;&ensp;Tasks    
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Modules
