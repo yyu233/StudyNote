@@ -14,7 +14,8 @@ Work:
 12. Maintainability is very important. If the team needs to update or add new features in the future, it should not be too hard or requrie a huge amount of work to refactor the code base.
 13. How much runtime dependencies does a third party package requires? 
 14. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control. (i.e. parallel working)**     
-15. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people?   
+15. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people? 
+16. When the program stops, what about the life cylce of other dependencies?     
 
 Problem Solving: 
 1. Simplifying is the lord.... 
