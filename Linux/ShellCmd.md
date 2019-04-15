@@ -145,3 +145,6 @@ Display host name IP address: **ip a s**
 
 Serve files from current directory: **python -m SimpleHttpServer: 8080**     
 
+List PCI device in tree strucuture: **lspci -t**    
+
+
