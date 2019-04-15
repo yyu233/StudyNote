@@ -143,3 +143,5 @@ Display host name IP address: **hostname -I**
 
 Display host name IP address: **ip a s**   
 
+Serve files from current directory: **python -m SimpleHttpServer: 8080**     
+
