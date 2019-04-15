@@ -12,11 +12,9 @@ Work:
 10. Think about data flow. Who is the producer? Who is the consumer? Where to store data? Persistency and Capacity. Receipe, Configuration.  
 11. While waiting for the lab request to be complete, just try to borrow if possible from your colleagues.... 
 12. Maintainability is very important. If the team needs to update or add new features in the future, it should not be too hard or requrie a huge amount of work to refactor the code base.
-13. Learnt how to build ISO, mount ISO, install ISO. 
-14. Leant how to package RPM and depoly RPM. 
-15. How much runtime dependencies does a third party package requires? 
-16. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control. (i.e. parallel working)**     
-17. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people?   
+13. How much runtime dependencies does a third party package requires? 
+14. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control. (i.e. parallel working)**     
+15. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people?   
 
 Problem Solving: 
 1. Simplifying is the lord.... 
