@@ -16,7 +16,7 @@ Work:
 14. Leant how to package RPM and depoly RPM. 
 15. How much runtime dependencies does a third party package requires? 
 16. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control. (i.e. parallel working)**     
-17. Am I aware of what I am doing? Do I have an expected result in my mind for the progam?    
+17. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people?   
 
 Problem Solving: 
 1. Simplifying is the lord.... 
