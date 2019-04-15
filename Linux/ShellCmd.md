@@ -141,3 +141,5 @@ Export variable to child process: **export \<var>**
 
 Display host name IP address: **hostname -I**   
 
+Display host name IP address: **ip a s**   
+
