@@ -8,6 +8,12 @@ Check tracking info for all branches: **git branch -vv**
 
 Delete branch: **git branch --delete \<branch>**   
 
+Rename local branch (on this branch: **git branch -m \<newname>**  
+
+Rename local brach (on different branch): **git branch -m <\oldname> \<newname>**  
+
+Replace the old remote branch name with the new name: **git push origin: \<oldname> \<newname>**    
+
 Push to remote and track: **git push -u origin remotebranch**   
 
 Remove file from index before commit: **git rm --cached <\filename>**   
