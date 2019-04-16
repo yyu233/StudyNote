@@ -16,6 +16,7 @@ Work:
 14. **Challenge happens when thinking an issue in large scale. It becomes more complicated and easily out of control. (i.e. parallel working)**     
 15. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people? 
 16. When the program stops, what about the life cylce of other dependencies?     
+17. Awareness of information security. (When is it sensitive and risky for company, partner and customer data?) Awareness of conflict of interest (Is what I and my client are doing potentially threantening my company's interest?) 
 
 Problem Solving: 
 1. Simplifying is the lord.... 
