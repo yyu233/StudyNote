@@ -91,6 +91,15 @@ Case Statements
                 *)              
           esac 
 ```
+
+For Loop
+----------------
+```
+for a in n 
+do 
+   ....
+done
+```
 Test Operators
 --------------------------------
 |Operator|Produce true if| 
