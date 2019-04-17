@@ -17,6 +17,7 @@ Work:
 15. Am I aware of what I am doing? Do I have an expected result in my mind for the progam? Can I understand the log written by others? How can I make a log readable to other people? 
 16. When the program stops, what about the life cylce of other dependencies?     
 17. Awareness of information security. (When is it sensitive and risky for company, partner and customer data?) Awareness of conflict of interest (Is what I and my client are doing potentially threantening my company's interest?) 
+18. Our perception about a thing is vague. That means unawareness of the levle of our understanding. Sometimes knowledge we receive is high level and abstract. It is merely the outline of a picture. Most college material and courses touch on the surface due to various limitation. Digging into it and explore every detail will fill out the picture and make one's understanding more comprehensive and solid. I hope college should introduce a general course like engineering thinking (enlightening students to think about why we need certain thing. what is its full capability? what is the trade-off? how to integrate it? etc.). Should help students to shift from a level 1 learner to a thinker. 
 
 Problem Solving: 
 1. Simplifying is the lord.... 
