@@ -147,4 +147,9 @@ Serve files from current directory: **python -m SimpleHttpServer: 8080**
 
 List PCI device in tree strucuture: **lspci -t**    
 
+Cut and print by column (for fixed line length): **cut -c \<column> \<filename>**   
+
+Cut and print by field (for flexible line length): **cut -d \<delimiter> -f \<field> \<filename>**    
+
+
 
