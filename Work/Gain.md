@@ -57,7 +57,8 @@ Development:
 1. Make sure the file format on your development enironment is consistent with the targeted format.  
 2. Learnt how to register RHEL system with RedHat and attach different subscription. 
 3. Learnt how to use ansible-lint to check best practices of ansible
-4. Learnt using jq to test the validity of a json file.    
+4. Learnt using jq to test the validity of a json file.   
+5. Generally, for a simple input, the more specialized a command utility is, the faster it is for processing the input. It also depends on if we pipeline the command utility. Time complexity matters with large inputs.      
 
 Demo: 
 1. Check voice volume and connection. Make sure other people can hear you and read your screen.
