@@ -1,7 +1,8 @@
 ## PCI ## 
 
-[Reference](https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch12.html)   
-[Reference](https://docs.oracle.com/cd/E19120-01/open.solaris/819-3196/hwovr-25/index.html)
+[Reference 1](https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch12.html)   
+[Reference 2](https://docs.oracle.com/cd/E19120-01/open.solaris/819-3196/hwovr-25/index.html)    
+[Reference 3](https://diego.assencio.com/?index=649b7a71b35fc7ad41e03b6d0e825f07)
 
 PCI: both software layer and hardware layer    
 
@@ -20,6 +21,8 @@ CPU doesn't generate PCI transactions natively. Host bridge lets CPU perform PCI
 Each host bridge establishes a PCI domain (isolation): a set of bus segments. Transaction is not routable between domains. 
 
 Cascade PCI busess with bridges.    
+
+
 
 
 
