@@ -11,5 +11,10 @@ PCI bus has higher clock rate than ISA. Support 32-bit and 64-bit data bus. PCI 
 
 PCI peripheral is identified by: bus number, device number, function number.     
 
-The PCI address domain consists of three distinct address spaces: configuration, memory, and I/O space.
+The PCI address domain consists of three distinct address spaces: configuration, memory, and I/O space. 
+
+PCI defines 3 types of transaction: configuration, memory and I/O.    
+
+
+
 
