@@ -15,6 +15,21 @@ The PCI address domain consists of three distinct address spaces: configuration,
 
 PCI defines 3 types of transaction: configuration, memory and I/O.    
 
+CPU doesn't generate PCI transactions natively. Host bridge lets CPU perform PCI transactions.     
+
+Each host bridge establishes a PCI domain (isolation): a set of bus segments. Transaction is not routable between domains. 
+
+Cascade PCI busess with bridges.    
+
+
+
+
+
+
+
+
+
+
 
 
 
