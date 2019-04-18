@@ -152,6 +152,10 @@ unset array[index]
 
 #Delete Whole Array 
 unset array
+
+#Add Elememt
+array+=("$var") #note: array+="$var$" this will append value of var to the lowest index element in array     
+array=("${array[@]}" "$var")   
 ```
 
 Parameter Substitution 
