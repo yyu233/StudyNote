@@ -2,7 +2,7 @@
 Work: 
 1. Learnt from senior engineer: for fixing bugs or solve a problem, try to see if there is a pattern. 
 2. Read the history of commits may give you some hints.
-3. Whenever stuck at something, ask for help. Always utilize resources around you.
+3. Whenever stuck at something, ask for help. Always utilize resources around you. Know the right person who may help you find the solution. Don't ask for help randomly.   
 4. Listen how other engineer communicate. Catch the technical key terms and remember. 
 5. Deploying changes on real machine. Check the environment required. 
 6. A product can use other company's product. There may need a conversion between different company products. 
