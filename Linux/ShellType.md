@@ -13,6 +13,9 @@ put environment variables in:
 * .bash_profile 
 * .bash_login 
 
+check if login shell: ``` echo $0 ```  if output's first char is not '-', then it is not login shell. 
+
+A shell started in a new terminal in a GUI would be an interactive non-login shell. It would source your .bashrc, but not your .profile, for example
 ### Interactive Bash Shell ### 
 
 put environment variables in: 
