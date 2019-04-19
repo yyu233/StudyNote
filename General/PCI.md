@@ -22,6 +22,7 @@ Each host bridge establishes a PCI domain (isolation): a set of bus segments. Tr
 
 Cascade PCI busess with bridges.    
 
+ PCI was a parallel interface, which means that it dealt with large amounts of data by splitting them up and sending them at a low speed. PCI Express, in contrast, is a serial interface, which means that it sends them one at a time, really fast.
 
 
 
