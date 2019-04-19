@@ -20,7 +20,7 @@ Work:
 18. Our perception about a thing is vague. That means unawareness of the levle of our understanding. Sometimes knowledge we receive is high level and abstract. It is merely the outline of a picture. Most college material and courses touch on the surface due to various limitation. Digging into it and explore every detail will fill out the picture and make one's understanding more comprehensive and solid. I hope college should introduce a general course like engineering thinking (enlightening students to think about why we need certain thing. what is its full capability? what is the trade-off? how to integrate it? etc.). Should help students to shift from a level 1 learner to a thinker.     
 19. I think a good way to test how much you master a thing is by looking at how much you can describe a thing. One's understanding can go horizontally, vertically and divergently.    
 20. Read other people's code **iteratively**: first time understand what the code is doing. play around and test it; second time simulate the author's thinking process (why he or she came up with this implementation? evaluate the possible overhead and corner case. Avoid thinking the original code is doing something redundant or stupid. Maybe there are some underlying reasons that I don't catch at first glance. Wait for the "Aha" moment.); third time think about how I can rewrite the implementation. 
-21. Project and work can be abandoned. The reason can be any: short of fund; manager left; the current solution does not work (this is something we should reflect on.  There must be some improvement we can do at decision-making stage). Bear in mind, always prepare for changes.  
+21. Project and work can be abandoned. The reason can be any: short of fund; manager left; the current solution does not work (this is something we should reflect on.  There must be some improvement we can do at decision-making stage). Bear in mind, always prepare for changes.    
     
 Problem Solving: 
 1. Simplifying is the lord.... 
@@ -62,6 +62,8 @@ Development:
 3. Learnt how to use ansible-lint to check best practices of ansible
 4. Learnt using jq to test the validity of a json file.   
 5. Generally, for a simple input, the more specialized a command utility is, the faster it is for processing the input. It also depends on if we pipeline the command utility. Time complexity matters with large inputs.      
+6. Leave contact information and version number to let other team easily identify the owner and the responsiblity of the file.   
+
 
 Demo: 
 1. Check voice volume and connection. Make sure other people can hear you and read your screen.
@@ -73,8 +75,7 @@ Demo:
 7. Perpare a backup plan (i.e. use screenshot of your development result if demo goes wrong)   
 8. Skip discussion and sync up after demo (especially for video streaming, because most of time have no clue who is talking to whom.... when some people ask quesiton, they don't clearly mention the person they are talking to. Have no clue whether the quesiton is directed to you or someone else... Not all the people understand the rule of demo. Even though they may understand, they may forget... So just chill, do your part...)  
 
-Development:
-1.  Leave contact information and version number to let other team easily identify the owner and the responsiblity of the file.   
+
 
 
 
