@@ -1,4 +1,4 @@
-1. Understand the problem 
+1. Understand the problem （Understand the relationship. Look for accuracy of comphrehension.)
 2. Categorize the problem
 3. Look for existing algorithm
 4. Design algorithm 
