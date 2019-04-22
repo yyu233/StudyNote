@@ -153,5 +153,10 @@ Cut and print by field (for flexible line length): **cut -d \<delimiter> -f \<fi
 
 Arithmetic operation: **expr \<arithmetic operation>**     
 
+Using 'su' to simulate 'sudo': **su -c \<command>**  
+
+Using 'sudo' to simulate 'su': **sudo -i**   
+
+
 
 
