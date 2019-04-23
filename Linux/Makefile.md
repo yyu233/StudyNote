@@ -8,6 +8,8 @@
 ```
 A target can be executable, object file, and **action**. 
 
+Tab for each line of receipe to distinguish receipe from other lines. 
+
 Make carries out the receipe on prerequisite to create or update the target.
 
 Simple Makefile
