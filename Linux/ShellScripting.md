@@ -200,3 +200,18 @@ x is 1
 Arguments values are: 1 2 3
 x is 2
 ```
+local visibility
+
+```
+func()
+{
+  local local_var=0
+  global_var=1
+}
+echo "$local_var"  # not visible
+
+echo "$global_var" # not visible before func is called
+
+func
+echo "$global_var" # visible
+```
