@@ -17,3 +17,5 @@
 |5==|Re-indent 5 lines|
 |ma| Mark top of block to indent as marker 'a'|
 |set nonumber|hide line number|
+|set list|display tab and EOL|
+|Ctrl + v| visual block (for making changes in block)| 
