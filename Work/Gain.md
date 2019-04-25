@@ -21,8 +21,9 @@ Work:
 19. I think a good way to test how much you master a thing is by looking at how much you can describe a thing. One's understanding can go horizontally, vertically and divergently.    
 20. Read other people's code **iteratively**: first time understand what the code is doing. play around and test it; second time simulate the author's thinking process (why he or she came up with this implementation? evaluate the possible overhead and corner case. Avoid thinking the original code is doing something redundant or stupid. Maybe there are some underlying reasons that I don't catch at first glance. Wait for the "Aha" moment.); third time think about how I can rewrite the implementation. 
 21. Project and work can be abandoned. The reason can be any: short of fund; manager left; the current solution does not work (this is something we should reflect on.  There must be some improvement we can do at decision-making stage). Bear in mind, always prepare for changes. 
-22. Read e-mail from IT. Don't ignore. They may have important information like lab movement or e-mail account migration which may affect your work. So pay attention to it. 
-    
+22. Read e-mail from IT. Don't ignore. They may have important information like lab movement or e-mail account migration which may affect your work. So pay attention to it.   
+23. Nothing can be guaranteed until the last second. Good or Bad. It seems to be true in many aspects of our life... 
+
 Problem Solving: 
 1. Simplifying is the lord.... 
 2. Desigining algorithm needs to consider the real life case. The alogrithm could be very complicated, but it may not be necessary to apply for the real life problem. The complexity of alogrithm will depend on how accurate we want the result to be for the specific case.
