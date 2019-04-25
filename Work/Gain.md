@@ -64,8 +64,8 @@ Development:
 3. Learnt how to use ansible-lint to check best practices of ansible
 4. Learnt using jq to test the validity of a json file.   
 5. Generally, for a simple input, the more specialized a command utility is, the faster it is for processing the input. It also depends on if we pipeline the command utility. Time complexity matters with large inputs.      
-6. Leave contact information and version number to let other team easily identify the owner and the responsiblity of the file.   
-
+6. Leave contact information and version number to let other team easily identify the owner and the responsiblity of the file.  
+7. Think about all possible combination of the right hand value of an input. For example, a char could be alphabet, digit, symbols and etc. Does your implementation handle all possible combination correctly without breaking the program? 
 
 Demo: 
 1. Check voice volume and connection. Make sure other people can hear you and read your screen.
