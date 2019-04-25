@@ -157,6 +157,16 @@ Using 'su' to simulate 'sudo': **su -c \<command>**
 
 Using 'sudo' to simulate 'su': **sudo -i**   
 
+Enable a network interface: **ifconfig \<nic> up**   
+
+Disable a network interface: **ifconfig \<nic> down**    
+
+Set IP address: **ifconfig \<nic> \<IP>**   
+
+
+
+
+
 
 
 
