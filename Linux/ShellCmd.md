@@ -161,7 +161,7 @@ Enable a network interface: **ifconfig \<nic> up**
 
 Disable a network interface: **ifconfig \<nic> down**    
 
-Set IP address: **ifconfig \<nic> \<IP>**   
+Set static IP address: **ifconfig \<nic> \<IP>**   
 
 
 
