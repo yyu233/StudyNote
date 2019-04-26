@@ -22,3 +22,5 @@ Pull and avoid merging:  **git pull --rebase /<remote/branch>**
 
 Sqush local commit into one commit: **git rebase -i \<hash>**   
 
+Undo git checkout: **git checkout -**   
+
