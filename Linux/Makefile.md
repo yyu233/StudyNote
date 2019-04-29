@@ -23,7 +23,9 @@ Normal method for preventing  *make* from implicit rule look up for efficieny: u
 
 One target can be only associated with one receipe in one makefile.   
 
-GNU make works in 2 phases: read-in phase and target-update phase.    
+GNU make works in 2 phases: read-in phase and target-update phase.
+
+The default goal is the first target of the first rule of the first makefile. If the first rule has multiple targets, only the first one is default goal. A target starting with period is not a default goal and a target defining a pattern is not either.   
 
 Match any target: %   
 ```
