@@ -15,8 +15,17 @@ Make carries out the receipe on prerequisite to create or update the target.
 Recompilation must be done if any of the prerequisites is more recent than the object file or the object file does not exist.   
 Simple Makefile
 
-``` include ``` directive tells *make* to suspend readig the current makefile and read other makefile before continuing.  
+``` include ``` directive tells *make* to suspend readig the current makefile and read other makefile before continuing. 
 
+``` -include ``` directibe will ignore non-existent makefile without throwing warning or error. 
+
+Normal method for preventing  *make* from implicit rule look up for efficieny: use empty receipe.   
+
+One target can be only associated with one receipe in one makefile.   
+
+GNU make works in 2 phases: read-in phase and target-update phase.    
+
+Match any target: %   
 ```
   foobar.o: foobar.h
   <tab>  cc -c foobar.c
@@ -84,3 +93,15 @@ Explicit rule does not influence implict rule search. For example:
 ```
 
 If foo.c exists, then the implicit rule to make foo.o by C compiler is used. 
+
+### Secondary Expansion ###
+
+```
+.SECONDEXPANSION:
+ONEVAR = onefile
+TWOVAR = twofile
+myfile: $(ONEVAR) $$(TWOVAR)
+```
+
+If ``` .SECONDEXPANSION ``` is defined, then between 1st phase and 2nd phase, variables defined under ``` .SECONDEXPANSION ``` will be expanded second time. $$ is escaped variable. 1st time expansion, TWOVAR is not recognized as variable until 2nd time.   
+
