@@ -14,6 +14,9 @@ Make carries out the receipe on prerequisite to create or update the target.
 
 Recompilation must be done if any of the prerequisites is more recent than the object file or the object file does not exist.   
 Simple Makefile
+
+``` include ``` directive tells *make* to suspend readig the current makefile and read other makefile before continuing.  
+
 ```
   foobar.o: foobar.h
   <tab>  cc -c foobar.c
