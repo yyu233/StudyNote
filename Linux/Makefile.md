@@ -27,6 +27,8 @@ GNU make works in 2 phases: read-in phase and target-update phase.
 
 The default goal is the first target of the first rule of the first makefile. If the first rule has multiple targets, only the first one is default goal. A target starting with period is not a default goal and a target defining a pattern is not either.   
 
+$${var} escapes $ so that ${var} is passed to shell. 
+
 Match any target: %   
 ```
   foobar.o: foobar.h
@@ -106,4 +108,5 @@ myfile: $(ONEVAR) $$(TWOVAR)
 ```
 
 If ``` .SECONDEXPANSION ``` is defined, then between 1st phase and 2nd phase, variables defined under ``` .SECONDEXPANSION ``` will be expanded second time. $$ is escaped variable. 1st time expansion, TWOVAR is not recognized as variable until 2nd time.   
+
 
