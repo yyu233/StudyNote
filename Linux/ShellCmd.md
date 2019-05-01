@@ -163,6 +163,8 @@ Disable a network interface: **ifconfig \<nic> down**
 
 Set static IP address: **ifconfig \<nic> \<IP>**   
 
+Covert RPM to CPIO: **rpm2cpio \<rpm>**    
+
 
 
 
