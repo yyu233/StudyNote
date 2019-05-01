@@ -72,4 +72,6 @@ Note that %define and %global differ in more ways than just scope: the body of a
 
 %setup -a \<source number> : expands sources after entering working directory   
 %setup -b \<source number> : expands sources before entering working directory   
+
+To inspect macro values for respective platform: ``` /usr/lib/rpm/platform/*/macros ```
  
