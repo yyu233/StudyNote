@@ -1,5 +1,5 @@
 
-## SPEC ## 
+## SPEC ##
 
 To package new software, you need to create a new SPEC file. Instead of writing it manually from scratch, use the rpmdev-newspec utility. It creates an unpopulated SPEC file, and you fill in the necessary directives and fields.
 
@@ -30,6 +30,7 @@ The list of files that will be installed in the end user’s system.
 %changelog
 
 A record of changes that have happened to the package between different Version or Release builds.
+  
 
 ### Sample Execution Flow ### 
 1. Create a tar ball for the source file 
@@ -75,3 +76,6 @@ Note that %define and %global differ in more ways than just scope: the body of a
 
 To inspect macro values for respective platform: ``` /usr/lib/rpm/platform/*/macros ```  or ``` rpm --eval %{_MACRO} ``` (this only works for macro defined in rpm config file. For specfile, use ``` %{echo: %{your_macro_here}} ```   
  
+ 
+```rpmdev-setuptree ``` set up work space    
+```rpmdev-newspec``` create default spec file 
