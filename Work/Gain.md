@@ -24,6 +24,7 @@ Work:
 22. Read e-mail from IT. Don't ignore. They may have important information like lab movement or e-mail account migration which may affect your work. So pay attention to it.   
 23. Nothing can be guaranteed until the last second. Good or Bad. It seems to be true in many aspects of our life...     
 24. Whenever try to interpret something, understand when you are making an assumption. If it is assumption, try to verify it; otherwise, your assumption may deceive you. That will end up like what you see and think is not giving you the full picture. In general, look for **precision** (in the context of programming, every character in a script has a underlying meaning. **What you view is different from what the machine views.** While in the context of love relationship, don't overdo it... You don't need that ANALYTICAL and SERIOUS for love...Don't think too much...)    
+25. Understand the execution context.   
 
 Problem Solving: 
 1. Simplifying is the lord.... 
