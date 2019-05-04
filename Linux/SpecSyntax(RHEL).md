@@ -80,3 +80,6 @@ To inspect macro values for respective platform: ``` /usr/lib/rpm/platform/*/mac
 ```rpmdev-setuptree ``` set up work space    
 ```rpmdev-newspec``` create default spec file     
 ```rpm --showrc``` display rpmrc contents     (root user can run this command)
+
+custom rpm configuration: .rpmmacros 
+
