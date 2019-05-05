@@ -13,3 +13,7 @@ Each architecture has its own set of kernel flavor.
 
 ## How to Load Kernel Module into Kernel ##
 When a Kernel Module is new to Kernel, daemon kmod will execute modprobe. modprobe will check from /lib/modules/version/modules.dep to see if any dependencies need to loaded. modprobe will invoke insmod to load dependencies and the new Kernel Module into Kernel.   
+
+## Where Binary Kernel Module Installed ##
+Binary Kernel Modules are installed at: /lib/modules  
+Never replace modules from the kernel package by overwriting files: this would lead to inconsistencies between the file system and the RPM database.
