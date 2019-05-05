@@ -89,7 +89,7 @@ Find location of command: **which \<cmd>**
 
 Identify tyoe of line breaks in text file: **find \<filename>**   
 
-Find kernel information: **uname -a**   
+Find kernel information: **uname -a** 
 
 Display human readable number of memory usages: **free -h**   
 
@@ -168,6 +168,8 @@ Covert RPM to CPIO: **rpm2cpio \<rpm>**
 Create temporary file with random name with no other user to access (permission 600, must contain at lease 3 consecutive X at the end): **mktemp \<template>.XXX**     
 
 Display kernel modules that are loaded into kernel: **lsmod**    
+
+Display kernel version: **uname -r**    
 
 
 
