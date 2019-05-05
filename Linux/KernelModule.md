@@ -19,4 +19,5 @@ Binary Kernel Modules are installed at: /lib/modules
 **Never replace modules from the kernel package by overwriting files: this would lead to inconsistencies between the file system and the RPM database.**   
 
 ## Kernel Module Packages ##
-Kernel Module Package spec files define a main package, and a sub-package for each kernel flavor supported. The kernel-flavor-specific sub-packages are defined with the %kernel_module_package rpm macro. The macro automatically determines for which kernel flavors to generate sub-packages.   
+Kernel Module Package spec files define a main package, and a sub-package for each kernel flavor supported. The kernel-flavor-specific sub-packages are defined with the %kernel_module_package rpm macro. The macro automatically determines for which kernel flavors to generate sub-packages.    
+BuildRequires tag in the spec file will pull the module-init-tools, kernel-source, kernel-syms and kernel-devel packages into the build root.   
