@@ -16,4 +16,4 @@ When a Kernel Module is new to Kernel, daemon kmod will execute modprobe. modpro
 
 ## Where Binary Kernel Module Installed ##
 Binary Kernel Modules are installed at: /lib/modules  
-Never replace modules from the kernel package by overwriting files: this would lead to inconsistencies between the file system and the RPM database.
+**Never replace modules from the kernel package by overwriting files: this would lead to inconsistencies between the file system and the RPM database.**   
