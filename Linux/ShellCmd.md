@@ -165,7 +165,9 @@ Set static IP address: **ifconfig \<nic> \<IP>**
 
 Covert RPM to CPIO: **rpm2cpio \<rpm>**    
 
-Create temporary file with random name with no other user to access (permission 600, must contain at lease 3 consecutive X at the end): **mktemp \<template>.XXX** 
+Create temporary file with random name with no other user to access (permission 600, must contain at lease 3 consecutive X at the end): **mktemp \<template>.XXX**     
+
+Display kernel modules that are loaded into kernel: **lsmod**    
 
 
 
