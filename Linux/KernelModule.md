@@ -10,3 +10,6 @@ start_kernel() takes care most of the Linux kernel initializations. This in turn
 
 ## Kernel Flavor ##
 Each architecture has its own set of kernel flavor.  
+
+## How to Load Kernel Module into Kernel ##
+When a Kernel Module is new to Kernel, daemon kmod will execute modprobe. modprobe will check from /lib/modules/version/modules.dep to see if any dependencies need to loaded. modprobe will invoke insmod to load dependencies and the new Kernel Module into Kernel.   
