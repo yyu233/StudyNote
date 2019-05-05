@@ -1,3 +1,6 @@
+Text: 1.2.3  version1
+
+```set -- $(<text)```
 
 That command combines two rather special tricks...
 
