@@ -94,4 +94,6 @@ The value of buildroot in the spec file.
 
 The value of buildroot in an rpmmacros file.
 
-The value following the --buildroot option on the command line.
+The value following the --buildroot option on the command line.   
+
+it's not a good idea to define a build root of "/". The %clean section is why: If the build root was set to "/", the %clean section would blow away your root filesystem. 
