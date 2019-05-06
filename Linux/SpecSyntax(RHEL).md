@@ -87,3 +87,11 @@ custom rpm configuration: .rpmmacros
  There are times, however, when even a person with root access will not want RPM to copy new files into the system's directories. As mentioned above, the reasons might be due to the fact that the software being packaged is already in use on the build system. Another reason might be as mundane as not having enough free space available to perform the install into the default directories.
 
 Whatever the reason, RPM provides the ability to direct a given package to install into an alternate root. This alternate root is known as a build root. 
+
+Once the necessary modifications have been made to support a build root, it's necessary for the package builder to keep some issues in mind. The first is that the build root specified in the spec file can be overridden. RPM will set the build root (and therefore, the value of $RPM_BUILD_ROOT) to one of the following values:
+
+The value of buildroot in the spec file.
+
+The value of buildroot in an rpmmacros file.
+
+The value following the --buildroot option on the command line.
