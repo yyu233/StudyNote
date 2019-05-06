@@ -83,3 +83,7 @@ To inspect macro values for respective platform: ``` /usr/lib/rpm/platform/*/mac
 
 custom rpm configuration: .rpmmacros 
 
+## BuildRoot ## 
+ There are times, however, when even a person with root access will not want RPM to copy new files into the system's directories. As mentioned above, the reasons might be due to the fact that the software being packaged is already in use on the build system. Another reason might be as mundane as not having enough free space available to perform the install into the default directories.
+
+Whatever the reason, RPM provides the ability to direct a given package to install into an alternate root. This alternate root is known as a build root. 
