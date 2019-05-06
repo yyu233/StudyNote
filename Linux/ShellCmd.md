@@ -171,6 +171,8 @@ Display kernel modules that are loaded into kernel: **lsmod**
 
 Display kernel version: **uname -r**    
 
+Remove password of a user: **passwd -d \<user>**   
+
 
 
 
