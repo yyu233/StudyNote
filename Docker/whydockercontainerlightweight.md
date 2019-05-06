@@ -1,0 +1,1 @@
+Containers interact with the kernel through system calls and don't include any part of the kernel or the kernel modules inside the container. This is one of the reasons why containers designed to be light weight and portable
