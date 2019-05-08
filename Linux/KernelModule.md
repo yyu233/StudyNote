@@ -20,4 +20,18 @@ Binary Kernel Modules are installed at: /lib/modules
 
 ## Kernel Module Packages ##
 Kernel Module Package spec files define a main package, and a sub-package for each kernel flavor supported. The kernel-flavor-specific sub-packages are defined with the %kernel_module_package rpm macro. The macro automatically determines for which kernel flavors to generate sub-packages.    
-BuildRequires tag in the spec file will pull the module-init-tools, kernel-source, kernel-syms and kernel-devel packages into the build root.   
+BuildRequires tag in the spec file will pull the module-init-tools, kernel-source, kernel-syms and kernel-devel packages into the build root.  
+
+## Passing Command Line Arguments to Kernel Module ##  
+
+```
+  int buf[4];
+  module_param_array(buf, int, NULL, 0); /* not interested in count */
+  
+  int count;
+  module_param_array(buf, int, , 0); /* put count into "count" variable */
+  
+```
+
+``` insmod \<module> \<args> ``` will fill the variable of kernel module with command line arguments. 
+
