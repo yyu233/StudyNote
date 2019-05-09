@@ -115,7 +115,9 @@ Match one uppercase or lowercase letter: **[:alpha:]**
 
 Match one uppercase, lowercase or number: **[:alnum:]**   
 
-Match one space, tab or newline: **[:space:]**   
+Match one space, tab, linefeed, formfeed, or vertical tab: **[:space:]**   
+
+Match one space, or tab **[:blank:]**    
 
 Configure shell options: **set +o/-o**    
 
