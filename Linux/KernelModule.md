@@ -39,5 +39,9 @@ BuildRequires tag in the spec file will pull the module-init-tools, kernel-sourc
 
 ``` modinfo <kmod> ```
 
+## Function Available to Kernel Modules ## 
+
+The definition of symbols are from the kernel. The only external functions that can be used in kernel modules are from kernel. To check all exported symbols from kernel: ``` /proc/kallsysms ```    
+
 ## References ##
 [Reference](http://www.tldp.org/LDP/lkmpg/2.6/html/index.html)
