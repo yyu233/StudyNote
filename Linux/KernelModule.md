@@ -35,3 +35,5 @@ BuildRequires tag in the spec file will pull the module-init-tools, kernel-sourc
 
 ``` insmod \<module> \<args> ``` will fill the variable of kernel module with command line arguments. 
 
+
+[Reference](http://www.tldp.org/LDP/lkmpg/2.6/html/index.html)
