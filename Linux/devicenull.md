@@ -6,4 +6,4 @@ This entity is a common inspiration for technical jargon expressions and metapho
 
 ### Why invent /dev/null ### 
 
-``` cat file | null ``  would have a lot of overhead, first in setting up a pipe, spawning a process, executing "null" in the new process, etc. Also, null itself would use quite a bit of CPU in a loop reading bytes into a buffer that is later just discarded... The implementation of /dev/null in the kernel is just more efficient that way. Also, what if you want to pass /dev/null as an argument, instead of a redirection? (You could use <(...) in bash, but that's even way heavier handed!
+``` cat file | null ```  would have a lot of overhead, first in setting up a pipe, spawning a process, executing "null" in the new process, etc. Also, null itself would use quite a bit of CPU in a loop reading bytes into a buffer that is later just discarded... The implementation of /dev/null in the kernel is just more efficient that way. Also, what if you want to pass /dev/null as an argument, instead of a redirection? (You could use <(...) in bash, but that's even way heavier handed!
