@@ -25,7 +25,7 @@ Work:
 23. Nothing can be guaranteed until the last second. Good or Bad. It seems to be true in many aspects of our life...     
 24. Whenever try to interpret something, understand when you are making an assumption. If it is assumption, try to verify it; otherwise, your assumption may deceive you. That will end up like what you see and think is not giving you the full picture. In general, look for **precision** (in the context of programming, every character in a script has a underlying meaning. **What you view is different from what the machine views.** While in the context of love relationship, don't overdo it... You don't need that ANALYTICAL and SERIOUS for love...Don't think too much...)    
 25. Understand the execution context.   
-26. When there are alternate method to give us the same result, think about why we prefer one over the other. (Efficiency. User permission.)    
+26. When there are alternate method to give us the same result, think about why we prefer one over the other. (Efficiency. User permission.) 
 
 Problem Solving: 
 1. Simplifying is the lord.... 
@@ -58,8 +58,8 @@ Make Changes:
 1. Consider the scope and the impact of the changes. Will it affect other functionalities? Communicate with other teams.    
 2. Are the changes based on the latest version of code base? 
 
-Congiure application:
-1. Consider teh scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
+Configure application:
+1. Consider the scope. Is it repository-wide? Is it applicaiton user wide? Is it system wide? 
 
 Development: 
 1. Make sure the file format on your development enironment is consistent with the targeted format.  
