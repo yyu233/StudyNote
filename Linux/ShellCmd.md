@@ -175,6 +175,14 @@ Display kernel version: **uname -r**
 
 Remove password of a user: **passwd -d \<user>**   
 
+List block devices: **lsblk**   
+
+Partition a device: **parted \<dev>**   
+
+Format a device: **/sbin/mkfs -t \<fs> \<dev>** 
+
+
+
 
 
 
