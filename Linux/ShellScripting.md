@@ -215,3 +215,14 @@ echo "$global_var" # not visible before func is called
 func
 echo "$global_var" # visible
 ```
+
+Configure shell options and positional parameters
+-------------------------------------------------
+
+```
+ set -x #Print commands and their arguments as they are executed 
+ 
+ set -e #Exit immediately if a command exits with a non-zero status
+ 
+ set -u #Treat unset variables as an errror when subsituting.
+```
