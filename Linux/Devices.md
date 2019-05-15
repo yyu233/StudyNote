@@ -13,3 +13,7 @@ eg:
 The number 3 is a major number. The major number tells whcih driver handles which device file. The number 1 is a minor number. The minor number is uded only by the driver itself to differentiate which device it's operating on, just in case the driver handles more than one device.    
 
 Registering a device means registering it with the kernel.    
+
+## Unregistering A Device ## 
+
+Check the number of processes that are using the kernel module by looking at the 3rd field of ``` /proc/modules ```. If this number is zero, rmmod will fail. 
