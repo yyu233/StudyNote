@@ -113,4 +113,9 @@ The target of a pattern rule contains the character '%' which can match any none
 '%' in a prerequisite of a pattern rule stands for the same stem that was matched by the '%' in the target.    
 A pattern rule need not habe any prerequisites that contain'%', or any prerequisites at all.   
 
+### Substitution on Variable ### 
+```
+VAR=a.h
+SUB=$(VAR:.h=.o) #change a.h to a.o
+```
 
