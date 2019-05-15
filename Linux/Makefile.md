@@ -29,7 +29,6 @@ The default goal is the first target of the first rule of the first makefile. If
 
 $${var} escapes $ so that ${var} is passed to shell. 
 
-Match any target: %   
 ```
   foobar.o: foobar.h
   <tab>  cc -c foobar.c
@@ -108,5 +107,10 @@ myfile: $(ONEVAR) $$(TWOVAR)
 ```
 
 If ``` .SECONDEXPANSION ``` is defined, then between 1st phase and 2nd phase, variables defined under ``` .SECONDEXPANSION ``` will be expanded second time. $$ is escaped variable. 1st time expansion, TWOVAR is not recognized as variable until 2nd time.   
+
+### Pattern Rules ### 
+The target of a pattern rule contains the character '%' which can match any nonempty **substring** .    
+'%' in a prerequisite of a pattern rule stands for the same stem that was matched by the '%' in the target.    
+A pattern rule need not habe any prerequisites that contain'%', or any prerequisites at all.   
 
 
