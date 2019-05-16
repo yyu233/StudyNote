@@ -119,3 +119,16 @@ VAR=a.h
 SUB=$(VAR:.h=.o) #change a.h to a.o
 ```
 
+### Recursive Make ### 
+```
+subsystem: 
+  cd subdir && $(MAKE)
+```
+or 
+
+```
+subsystem:
+  $(MAKE) -C subdir
+```
+
+
