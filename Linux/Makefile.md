@@ -131,4 +131,18 @@ subsystem:
   $(MAKE) -C subdir
 ```
 
+### Normal Prerequisite & Order-only Prerequisite ### 
+
+Normal Prerequisite: 
+1. Impose an order for the recipe invocation: recipe of all prerequisites run first before recipe of target. 
+2. Impose a dependency relationship: any prerequisite is newer than the target (check the timestamp of the file creation), target must be rebuilt. 
+
+Consider an example where your targets are to be placed in a separate directory, and that directory might not exist before make is run. In this situation, you want the directory to be created before any targets are placed into it but, because the timestamps on directories change whenever a file is added, removed, or renamed, we certainly don’t want to rebuild all the targets whenever the directory’s timestamp change.
+
+``` targets: normal-prerequisites | order-only-prerequisites ```
+
+Order-only Prerequisite: 
+1. Impose an order for the recipe invocation: recipe of all prerequisites run first before recipe of target. 
+
+
 
