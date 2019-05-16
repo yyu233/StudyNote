@@ -65,7 +65,7 @@ Clean:
         -rm  foobar $(objects)
 ```
 
-A phony target is not a real file, instead it is the name of the receipe when you explicitly request for execution. A phony target is used for avoiding file name conflict or improve performance. 
+A phony target is not a real file, instead it is the name of the receipe when you explicitly request for execution. A phony target is used for avoiding file name conflict or improve performance (implicit rule search is skipped). It should not be a prerequisite of a real target file, otherwise its receipe will be run every time make goes to update that file. 
 
 
 ```
