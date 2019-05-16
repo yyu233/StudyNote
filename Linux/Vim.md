@@ -20,3 +20,5 @@
 |set nonumber|hide line number|
 |set list|display tab and EOL|
 |Ctrl + v| visual block (for making changes in block)| 
+|\\<term\\>|To search an exact term|
+|\* (cursor at the search word)|To search an exact term| 
