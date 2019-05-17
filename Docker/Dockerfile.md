@@ -12,7 +12,8 @@ To tage a docker image into mutliple repos: ``` docker build -t <tag1> <tag2> <c
 # Comment 
 INSTRUCTION arguments
 ```
-Dockerfile **must start with a 'FROM' instruction**. The **FROM* instruction specifies the Base image from which you are building. **FROM** may only be preceded by one or more **ARG** instructions which declare arguments that are used in **FROM** line.
+Dockerfile **must start with a 'FROM' instruction**. The **FROM* instruction specifies the Base image from which you are building. **FROM** may only be preceded by one or more **ARG** instructions which declare arguments that are used in **FROM** line.   
+**FROM** can appear multiple times within a single Dockerfile to create multiple images or use one build stage as as dependency for another. Each **FROM** instruction clears any state created by previous instructions.   
 
 ### Environment Variable ###
 Environment variables are declared with the ENV statements.   
