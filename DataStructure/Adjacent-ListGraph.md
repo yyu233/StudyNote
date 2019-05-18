@@ -3,6 +3,7 @@ Two things need to be considered for graph processing:
 1. Sufficient space to represent the type of graphs we encounter in applications. 
 2. Time-efficient implementation of graph instance method. 
 
+Adjacent-list is not suitable for graphs with millions of vertices. 
 ### Java Applicaton ###
 
 ```
