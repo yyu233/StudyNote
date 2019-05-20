@@ -144,5 +144,6 @@ Consider an example where your targets are to be placed in a separate directory,
 Order-only Prerequisite: 
 1. Impose an order for the recipe invocation: recipe of all prerequisites run first before recipe of target. 
 
-
+### Error Message ###
+[Reference](https://www.gnu.org/software/make/manual/make.html#Error-Messages)
 
