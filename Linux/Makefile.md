@@ -147,3 +147,9 @@ Order-only Prerequisite:
 ### Error Message ###
 [Reference](https://www.gnu.org/software/make/manual/make.html#Error-Messages)
 
+### Parallel Execution ### 
+``` make -j ``` or ``` make --jobs ```     
+If the ‘-j’ option is followed by an integer, this is the number of recipes to execute at once; this is called the number of job slots. If there is nothing looking like an integer after the ‘-j’ option, there is no limit on the number of job slots. The default number of job slots is one, which means serial execution (one thing at a time).
+
+```make -l ```     
+set load limit: more precisely, when make goes to start up a job, and it already has at least one job running, it checks the current load average; if it is not lower than the limit given with ‘-l’, make waits until the load average goes below that limit, or until all the other jobs finish.
