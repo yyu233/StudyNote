@@ -27,3 +27,7 @@ Some bad use cases:
 - static files
 - configs
 - code
+
+You cannot specify a volume source in the Dockerfile: A common source of confusion when specifying volumes in a Dockerfile is trying to match the runtime syntax of a source and destination at image build time, this will not work. The Dockerfile can only specify the destination of the volume. It would be a trivial security exploit if someone could define the source of a volume since they could update a common image on the docker hub to mount the root directory into the container and then launch a background process inside the container as part of an entrypoint that adds logins to /etc/passwd, configures systemd to launch a bitcoin miner on next reboot, or searches the filesystem for credit cards, SSNs, and private keys to send off to a remote site.
+
+
