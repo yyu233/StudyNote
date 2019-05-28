@@ -11,3 +11,19 @@ directory.)
 * Changes to a data volume will not be included when you update an image.
 
 * Data volumes persist even if the container itself is deleted.
+
+## Why Volume ## 
+The command simply needs one param; a path to a folder, relative to WORKDIR if set, from within the container. Then docker will create a volume in its graph(/var/lib/docker) and mount it to the folder in the container. Now the container will have somewhere to write to with high performance. Without the VOLUME command the write speed to the specified folder will be very slow because now the container is using it's copy on write strategy in the container itself. The copy on write strategy is a main reason why volumes exist.
+
+If you mount over the folder specified by the VOLUME command, the command is never run because VOLUME is only executed when the container starts, kind of like ENV.
+
+Basically with VOLUME command you get performance without externally mounting any volumes. Data will save across container runs too without any external mounts. Then when ready simply mount something over it.
+
+Some good example use cases:
+- logs
+- temp folders
+
+Some bad use cases:
+- static files
+- configs
+- code
