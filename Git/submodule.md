@@ -12,3 +12,10 @@ git submodule add -b "<branch>" [URL]                   # add a new submodule to
 git submodule init                                      # initialize submodule configuration 
 
 ```
+
+## Commit with submodules ## 
+The relevant state for the submodules are defined by the main repository. If you commit in your main repository, the state of the submodule is also defined by this commit.
+
+The git submodule update command sets the Git repository of the submodule to that particular commit. The submodule repository tracks its own content which is nested into the main repository. The main repository refers to a commit of the nested submodule repository.
+
+Use the git submodule update command to set the submodules to the commit specified by the main repository. This means that if you pull in new changes into the submodules, you need to create a new commit in your main repository in order to track the updates of the nested submodules.
