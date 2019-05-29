@@ -1,0 +1,4 @@
+## kdump ##
+kdump is a feature of the Linux kernel that creates crash dumps in the event of a kernel crash. When triggered, kdump exports a memory image (also known as vmcore) that can be analyzed for the purposes of debugging and determining the cause of a crash. The dumped image of main memory, exported as an Executable and Linkable Format (ELF) object, can be accessed either directly through /proc/vmcore during the handling of a kernel crash, or it can be automatically saved to a locally accessible file system, to a raw device, or to a remote system accessible over network.
+
+When system crashes, kdumo uses kexec to boot another kernel (dump-capture kernel). As a result, the system boots into a clean and reliable environment instead of relying on an already crashed kernel that may cause various issues, such as causing file system corruption while writing a memory dump file.
