@@ -1,6 +1,6 @@
 ## Type of Devices ## 
 
-Devices are divided into 2 types: character devices (only serial stream of input/output) and block devices (accessible randomly). 
+Devices are divided into 2 types: character devices (only serial stream of input/output such as mouse, keyboard) and block devices (accessible randomly such as hard disk, floppy device). 
 
 Block devices has a buffer for requests so that they can choose the best order in which to respond to the requests. This is important in the case of storage devices where it's faster to read or write sectors which are close to each other, rather than those which are further apart. 
 
