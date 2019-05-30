@@ -179,7 +179,15 @@ List block devices: **lsblk**
 
 Partition a device: **parted \<dev>**   
 
-Format a device: **/sbin/mkfs -t \<fs> \<dev>** 
+Format a device: **/sbin/mkfs -t \<fs> \<dev>**    
+
+Install RPM: **rpm -igh \<rpm> **   
+
+Unintall RPM: **rpm -e \<rpm> **  
+
+List installed RPMS: **rpm -qa**
+
+
 
 
 
