@@ -8,3 +8,4 @@
 * ALT + Backspace - Delete the previous word
 * CTRL + W - Cut word behind cursor
 * Shift + Insert - Pastes text into terminal
+* CTRL + R - Reverse search command history
