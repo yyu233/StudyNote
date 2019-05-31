@@ -1,0 +1,3 @@
+## Weak Update Module ## 
+
+External modules, such as drivers installed using a driver update disk, are usually installed into /lib/modules/kernel-version/extra. Modules stored in this directory are given preference over matching modules included with the kernel, itself, when you attempt to load them. This means that external drivers and modules can be installed to override kernel modules where hardware issues may need resolution. For each subsequent kernel update, it is important that the external module is made available to each compatible kernel to avoid potential boot issues resulting from driver incompatibilities with the affected hardware.
