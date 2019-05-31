@@ -97,6 +97,14 @@ Explicit rule does not influence implict rule search. For example:
 
 If foo.c exists, then the implicit rule to make foo.o by C compiler is used. 
 
+Set default goal: 
+
+```
+# Note that assigning more than one target name to .DEFAULT_GOAL is invalid and will result in an error.
+
+.DEFAULT_GOAL:= foo
+```
+
 ### Secondary Expansion ###
 
 ```
