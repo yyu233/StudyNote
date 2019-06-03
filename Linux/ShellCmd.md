@@ -181,9 +181,9 @@ Partition a device: **parted \<dev>**
 
 Format a device: **/sbin/mkfs -t \<fs> \<dev>**    
 
-Install RPM: **rpm -igh \<rpm> **   
+Install RPM: **rpm -igh \<rpm>**   
 
-Unintall RPM: **rpm -e \<rpm> **  
+Unintall RPM: **rpm -e \<rpm>**  
 
 List installed RPMS: **rpm -qa**   
 
