@@ -191,6 +191,8 @@ Show history commands: **history**
 
 Execute command from stdin: **xarg \<command>  -L \<maximum number of non-blank line passed from stdin per time>**    
 
+Print process in tree strucute: **pstree -p**   
+
 
 
 
