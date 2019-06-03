@@ -236,3 +236,9 @@ subshells (written with parentheses) are convenient ways to group commands. A co
       (cd /some/other/dir && other-command)
       # continue in original dir
 ```
+
+Automate Combination of Files
+--------------------------------
+```
+mv foo.{txt,pdf} some-dir
+```
