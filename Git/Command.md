@@ -24,3 +24,5 @@ Sqush local commit into one commit: **git rebase -i \<hash>**
 
 Undo git checkout: **git checkout -**   
 
+Clean git untracked file and directory: **git clean -f -d**   
+
