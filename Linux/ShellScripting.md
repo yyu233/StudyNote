@@ -226,3 +226,13 @@ Configure shell options and positional parameters
  
  set -u #Treat unset variables as an errror when subsituting.
 ```
+
+Subshell
+---------------------------------------------------
+subshells (written with parentheses) are convenient ways to group commands. A common example is to temporarily move to a different working directory, e.g.
+
+```
+      # do something in current dir
+      (cd /some/other/dir && other-command)
+      # continue in original dir
+```
