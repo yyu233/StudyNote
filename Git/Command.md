@@ -26,3 +26,31 @@ Undo git checkout: **git checkout -**
 
 Clean git untracked file and directory: **git clean -f -d**   
 
+Save uncommitted changes (both staged and unstaged): **git stash**   
+
+Save uncommitted changes (include untracked files such as new files): **git stash -u**   
+
+Reapplying stashed changes (removes changes from stash): **git stash pop**    
+
+Reapplying stashed changes (keep changes in stash for applying to multiple branches):  **git stash apply**    
+
+Display all stashed changes: **git stash list**    
+
+Annotate stashed changes with description: **git stash save \<description>**    
+
+Choose which stash to re-apply: **git stash pop stash@{#}**   
+
+Display a summary of stashed change: **git stash show** 
+
+Display a full diff of stash: **git stash show -p**   
+
+Create a branch from stash when the changes on branch diverge from the changes in your stash: **git stash branch \<name> stash@{#}**     
+
+Delete a stashed change: **git stash drop stash@{#}**    
+
+Delete all stashe changes: **git stash clear**    
+
+
+
+
+
