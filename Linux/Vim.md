@@ -22,3 +22,5 @@
 |Ctrl + v| visual block (for making changes in block)| 
 |\\<term\\>|To search an exact term|
 |\* (cursor at the search word)|To search an exact term| 
+|o|Insert a line after current line|
+|O|Insert a line before current line|
