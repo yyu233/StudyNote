@@ -171,3 +171,16 @@ When make is given '-n' or '--just-print', it echoes recipes without executing t
 When make is given '-s' or '--slient'. it prevents all echoing.     
 
 The special target .SILENT without prerequisites has the same effect.   
+
+### Conditional functions ###
+
+```
+$(if condition,then-part[,else-part])
+
+$(or condition1[,condition2[,condition3..]])  
+# each argument is expanded, if any one argument expandsto non-empty, proccessing stops and the result of the expansion is that string. Else, the result of expansion is empty.
+
+$(and condition1[,condition2[,condition3...]]) 
+# each argument is expanded, if any one argument expands empty, processing stop and the result of the expansion is empty. Else, the result of the expansion is the last argument 
+
+```
