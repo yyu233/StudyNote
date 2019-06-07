@@ -176,6 +176,7 @@ The special target .SILENT without prerequisites has the same effect.
 
 ```
 $(if condition,then-part[,else-part])
+# if condition expands to non-empty string, true; else, false
 
 $(or condition1[,condition2[,condition3..]])  
 # each argument is expanded, if any one argument expandsto non-empty, proccessing stops and the result of the expansion is that string. Else, the result of expansion is empty.
