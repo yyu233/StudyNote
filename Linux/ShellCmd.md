@@ -197,6 +197,10 @@ Redirect stdout and stderr: **&>** or **>&**
 
 Bring suspended or background job to foreground: **fg \<#job id>**     
 
+Suspend a process: **Ctrl + Z**    
+
+Resume suspened process in the background: **bg**    
+
 
 
 
