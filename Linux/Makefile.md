@@ -170,4 +170,4 @@ When make is given '-n' or '--just-print', it echoes recipes without executing t
 
 When make is given '-s' or '--slient'. it prevents all echoing.     
 
-The special target .SLIENT without prerequisites has the same effect.   
+The special target .SILENT without prerequisites has the same effect.   
