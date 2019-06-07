@@ -193,6 +193,8 @@ Execute command from stdin: **xarg \<command>  -L \<maximum number of non-blank 
 
 Print process in tree strucute: **pstree -p**   
 
+Redirect stdout and stderr: **&>** or **>&**    
+
 
 
 
