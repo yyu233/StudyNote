@@ -4,13 +4,13 @@
 
 ```
   target: prerequisite
-  <tab>   receipe
+  <tab>   recipe
 ```
 A target can be executable, object file, and **action**. 
 
-Tab for each line of receipe to distinguish receipe from other lines. 
+Tab for each line of recipe to distinguish recipe from other lines. 
 
-Make carries out the receipe on prerequisite to create or update the target.
+Make carries out the recipe on prerequisite to create or update the target.
 
 Recompilation must be done if any of the prerequisites is more recent than the object file or the object file does not exist.   
 Simple Makefile
@@ -19,9 +19,9 @@ Simple Makefile
 
 ``` -include ``` directibe will ignore non-existent makefile without throwing warning or error. 
 
-Normal method for preventing  *make* from implicit rule look up for efficieny: use empty receipe.   
+Normal method for preventing  *make* from implicit rule look up for efficieny: use empty recipe.   
 
-One target can be only associated with one receipe in one makefile.   
+One target can be only associated with one recipe in one makefile.   
 
 GNU make works in 2 phases: read-in phase and target-update phase.
 
@@ -56,7 +56,7 @@ Use implicit rule to automatically update .o file from .c file
   object3.o: object3.h
   object4.o: object4.h
 ```
-If you write a rule whose receipe never creates a target file, this rule will always be executed every time when the target file does not exist. If the target file exists, for example a file named *clean*, since the clean does not have prerequisites in the rule, clean would always be considered as updated, and the rule will not be executed.
+If you write a rule whose recipe never creates a target file, this rule will always be executed every time when the target file does not exist. If the target file exists, for example a file named *clean*, since the clean does not have prerequisites in the rule, clean would always be considered as updated, and the rule will not be executed.
 Clean: 
 
 ```
@@ -65,7 +65,7 @@ Clean:
         -rm  foobar $(objects)
 ```
 
-A phony target is not a real file, instead it is the name of the receipe when you explicitly request for execution. A phony target is used for avoiding file name conflict or improve performance (implicit rule search is skipped). It should not be a prerequisite of a real target file, otherwise its receipe will be run every time make goes to update that file. 
+A phony target is not a real file, instead it is the name of the recipe when you explicitly request for execution. A phony target is used for avoiding file name conflict or improve performance (implicit rule search is skipped). It should not be a prerequisite of a real target file, otherwise its recipe will be run every time make goes to update that file. 
 
 
 ```
@@ -89,7 +89,7 @@ Makefile contains explicit rule, implicit rule, variable definitoin, directive a
   -include *.mk  #ignore errors for file not exists or cannot be remade
 ```
 
-Make search for implicit rule for each target without receipe.   
+Make search for implicit rule for each target without recipe.   
 Explicit rule does not influence implict rule search. For example:
 ```
   foo.o: foo.p 
@@ -161,3 +161,13 @@ If the ‘-j’ option is followed by an integer, this is the number of recipes 
 
 ```make -l ```     
 set load limit: more precisely, when make goes to start up a job, and it already has at least one job running, it checks the current load average; if it is not lower than the limit given with ‘-l’, make waits until the load average goes below that limit, or until all the other jobs finish.
+
+### Suppress recipe echoing ###
+``` @echo some recipe line ```     
+Line starts with @, the echoing of that line is suppressed. 
+
+When make is given '-n' or '--just-print', it echoes recipes without executing them. Even recipe lines starting with @ are printed.
+
+When make is given '-s' or '--slient'. it prevents all echoing.     
+
+The special target .SLIENT without prerequisites has the same effect.   
