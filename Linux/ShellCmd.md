@@ -195,6 +195,8 @@ Print process in tree strucute: **pstree -p**
 
 Redirect stdout and stderr: **&>** or **>&**    
 
+Bring suspended or background job to foreground: **fg \<#job id>**     
+
 
 
 
