@@ -254,4 +254,4 @@ Parameter Expansion
 |${parameter:?word}|substitute parameter | error exit | error exit|
 |${parameter?word}|substitute parameter | substitute null | error exit|
 |${parameter:+word}|substitute word|substitute null|substitute null|
-|${parameter+word}|subsitute word| substitute word| substitute null| 
+|${parameter+word}|substitute word| substitute word| substitute null| 
