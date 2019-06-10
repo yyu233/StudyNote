@@ -185,3 +185,31 @@ $(and condition1[,condition2[,condition3...]])
 # each argument is expanded, if any one argument expands empty, processing stop and the result of the expansion is empty. Else, the result of the expansion is the last argument 
 
 ```
+
+### Two Flavors of Variable ###
+
+1. Recursively expanded variable  
+
+```
+ a = $(b)
+ b = c
+ 
+ all:;echo $(a)  # print c
+ 
+```
+
+Disadvantage: 
+
+```
+CFLAGS = $(CFLAGS) -O  # this will cause an infinite loop 
+```
+
+It will be executed every time the variable is expanded and thus make run slower. 
+
+2. Simply expanded variable 
+
+The actual value of the simply expanded variable is the result of expanding the text that you write. It does not contain any references to other variables; it contains their values as of the time this variable was defined. They work like variables in programming languages. 
+
+Leading whitespaces are discarded but trailing whitespaces are not. 
+
+(Conditional assigned variable: ``` a ? = b ``` It only has an effect if b is undefined. A empty variable is still defined.)     
