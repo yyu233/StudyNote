@@ -201,6 +201,8 @@ Suspend a process: **Ctrl + Z**
 
 Resume suspened process in the background: **bg**    
 
+Query information from YUM repo: **repoquery --disablerepo=\<repo> --enablerepo=\<repo> --repofrompath=\<repoid>, \<path/url> -f \<filename>**    
+
 
 
 
