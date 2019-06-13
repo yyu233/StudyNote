@@ -203,6 +203,8 @@ Resume suspened process in the background: **bg**
 
 Query information from YUM repo: **repoquery --disablerepo=\<repo> --enablerepo=\<repo> --repofrompath=\<repoid>, \<path/url> -f \<filename>**    
 
+Find list of top processes ordered by RAM and CPU: **top -eo pid,ppid,cmd,%mem,%cpu --sort=%mem | head**     
+
 
 
 
