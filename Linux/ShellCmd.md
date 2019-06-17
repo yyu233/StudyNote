@@ -205,7 +205,7 @@ Query information from YUM repo: **repoquery --disablerepo=\<repo> --enablerepo=
 
 Find list of top processes ordered by RAM and CPU: **top -eo pid,ppid,cmd,%mem,%cpu --sort=%mem | head**    
 
-Display all setting configurable in the ```/proc/sys/```: ```sysctl -a```     
+Display all setting configurable in the ```/proc/sys/```: **sysctl -a**         
 
 
 
