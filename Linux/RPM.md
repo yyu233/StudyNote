@@ -8,5 +8,6 @@ RPM packages metadata along with the software. The metadata contains the version
 1. RPM maintains a database of installed software packages. Easy to query and verify.    
 2. Add package to yum. Centralized location for packages.  
 3. Digitally sign the package with GPG key.    
-
-[Take RPM to the Limit](http://rpm5.org/docs/max-rpm.html#s1-rpm-inside-macros)
+  
+[Take RPM to the Limit](http://rpm5.org/docs/max-rpm.html#s1-rpm-inside-macros)       
+[How to Build RPM](https://access.redhat.com/sites/default/files/attachments/rpm_building_howto.pdf)
