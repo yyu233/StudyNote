@@ -138,3 +138,11 @@ for instance, that a package installs device files. Since the owner of a device 
 * Symbolic Link String (symlink)
 
 * Modification Time (mtime)
+
+``` %docdir ```: RPM includes the directories /usr/doc, /usr/info, and /usr/man in the %docdir list by default. %docdir only directs RPM to mark the specified directory as holding documentation. It doesn't direct RPM to package any files in the directory. To do that, we need to clue RPM in to the fact that there are files in the directory that must be packaged.    
+
+```%dir ```: By adding this directive to the line containing the directory, RPM will package only the directory itself, regardless of what files are in the directory at the time the package is created.
+
+```-f ```: The -f option is used to direct RPM to read the %files list from the named file. Like the %files list in a spec file, the file named using the -f option should contain one filename per line and also include any of the directives named in this section.
+Why is it necessary to read filenames from a file rather than have the filenames in the spec file? Here's a possible reason:
+The filenames' paths may contain a directory name that can only be determined at build-time, such as an architecture specification. The list of files, minus the variable part of the path, can be created, and sed can be used at build-time to update the path appropriately.
