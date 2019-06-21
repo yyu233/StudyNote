@@ -97,3 +97,43 @@ The value of buildroot in an rpmmacros file.
 The value following the --buildroot option on the command line.   
 
 it's not a good idea to define a build root of "/". The %clean section is why: If the build root was set to "/", the %clean section would blow away your root filesystem. 
+
+## Directive for the %files ##
+``` %doc ```: RPM keeps track of documentation files in its database, so that a user can easily find information about an installed package. In addition, RPM can create a package-specific documentation directory during installation and copy documentation into it. The default documentation directory is /usr/doc, and can be changed by setting the defaultdocdir rpmrc file entry.       
+``` %config ```: RPM performs additional processing for config files when packages are erased, and during installations and upgrades. This is due to the nature of config files: They are often changed by the system administrator, and those changes should not be lost.     
+``` %attr ```: The %attr directive permits finer control over three key file attributes:
+
+* The file's permissions, or "mode".
+
+* The file's user ID.
+
+* The file's group ID    
+``` %defattr ```: 
+* The default permissions, or "mode" for files.
+
+* The default user id.
+
+* The default group id.
+
+* The default permissions, or "mode" for directories.
+
+``` %verify ```: control which of these file attributes are to be checked when an RPM verification is done
+for instance, that a package installs device files. Since the owner of a device will change, it doesn't make sense to have RPM verify the device file's owner/group and give out a false alarm, so left out owner and group.     
+
+* Owner (owner)
+
+* Group (group)
+
+* Mode (mode)
+
+* MD5 Checksum (md5)
+
+* Size (size)
+
+* Major Number (maj)
+
+* Minor Number (min)
+
+* Symbolic Link String (symlink)
+
+* Modification Time (mtime)
