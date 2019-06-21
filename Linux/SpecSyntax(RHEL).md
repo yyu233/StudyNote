@@ -107,7 +107,8 @@ it's not a good idea to define a build root of "/". The %clean section is why: I
 
 * The file's user ID.
 
-* The file's group ID    
+* The file's group ID
+
 ``` %defattr ```: 
 * The default permissions, or "mode" for files.
 
