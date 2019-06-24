@@ -207,6 +207,7 @@ Find list of top processes ordered by RAM and CPU: **top -eo pid,ppid,cmd,%mem,%
 
 Display all setting configurable in the ```/proc/sys/```: **sysctl -a**         
 
+List all signals: **kill -l**     
 
 
 
