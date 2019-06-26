@@ -7,4 +7,4 @@ For complicated logic and large programs (web related programs), Python scriptin
 3. Variable Scope  
 Bash scripting is more limited than Python scripting. 
 4. Maintainablity   
-Python Scripting is more easy to maintain than Bash Scripting.   
+Python scripting is more easy to maintain than Bash scripting.   
