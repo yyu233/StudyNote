@@ -4,7 +4,7 @@ This is the traditional shell test command. It is available on all POSIX shells.
 
 ``` if [[ condition ]] ```
 
-This is a new upgraded variation on test from ksh that bash and zsh also support. This test command also sets an exit code and the if statement acts accordingly. Among its extended features, it can test whether a string matches a regular expression.
+This is a new upgraded variation on test from ksh that bash and zsh also support. This test command also sets an exit code and the if statement acts accordingly. Among its extended features, it can test whether a string matches a regular expression. It reduces errors as no pathname expansion or word splitting takes place between [[ and ]]
 
 ``` if ((condition)) ```
 
