@@ -24,3 +24,4 @@
 |\* (cursor at the search word)|To search an exact term| 
 |o|Insert a line after current line|
 |O|Insert a line before current line|
+|set textwidth=80| wrap at 80 characters per line|
