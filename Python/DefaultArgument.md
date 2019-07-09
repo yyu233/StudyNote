@@ -1,5 +1,8 @@
 ## Default Argument ##
 
+Python 3   
+Python 2 doesn't have a way to define keyword-only argument.    
+
 Ptyhon method variable will take the default value if no argument value is passed in during function call. 
 
 ```
