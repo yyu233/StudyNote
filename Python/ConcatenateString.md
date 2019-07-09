@@ -20,3 +20,9 @@ This feature is particularly useful when you want to break long strings:
 >>> text
 'Put several strings within parentheses to have them joined together.'
 ```
+If you want to concatenate variables or a variable and a literal, use +:
+```
+>>> prefix = 'Py'
+>>> prefix + 'thon'
+'Python'
+```
