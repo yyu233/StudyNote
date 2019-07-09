@@ -12,3 +12,11 @@ Two or more string literals (i.e. the ones enclosed between quotes) next to each
 >>> 'Py' 'thon'
 'Python'
 ```
+
+This feature is particularly useful when you want to break long strings:
+```
+>>> text = ('Put several strings within parentheses '
+...         'to have them joined together.')
+>>> text
+'Put several strings within parentheses to have them joined together.'
+```
