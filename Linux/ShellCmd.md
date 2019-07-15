@@ -211,6 +211,8 @@ List all signals: **kill -l**
 
 Count number of lines in file: **wc \<file>**   
 
+View and configure Linux kernel parameters: **sysctl**
+
 
 
 
