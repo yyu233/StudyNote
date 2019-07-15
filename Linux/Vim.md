@@ -26,3 +26,5 @@
 |O|Insert a line before current line|
 |set textwidth=80| wrap at 80 characters per line|
 |set colorcolumn=80| mark the column 80 character|
+|ma| mark the line cursor is at as a|
+|\`a| jump back to mark a|
