@@ -209,6 +209,8 @@ Display all setting configurable in the ```/proc/sys/```: **sysctl -a**
 
 List all signals: **kill -l**     
 
+Count number of lines in file: **wc \<file>**   
+
 
 
 
