@@ -28,3 +28,10 @@
 |set colorcolumn=80| mark the column 80 character|
 |ma (in normal mode)| mark the line cursor is at as a|
 |\`a (in normal mode)| jump back to mark a|
+|\`.(in normal mode)| jump to the last edit line and column|
+|\`"(in normal mode)| jump to the last position of cursor where you exited the previous session|
+|marks|show all mark set|
+|H| move cursor to the top of view port|
+|M| move cursor to the middle of view port|
+|L| mover cursor to the bottom of view port|
+
