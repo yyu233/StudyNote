@@ -7,3 +7,14 @@ Consider the following scenario where you have two projects: ProjectA and Projec
 This is a real problem for Python since it can’t differentiate between versions in the site-packages directory. So both v1.0.0 and v2.0.0 would reside in the same directory with the same name.
 
 Since projects are stored according to just their name, there is no differentiation between versions. Thus, both projects, ProjectA and ProjectB, would be required to use the same version, which is unacceptable in many cases.
+
+```
+pip install virtualenv
+
+# Python 2:
+$ virtualenv env
+
+# Python 3
+$ python3 -m venv env
+
+```
