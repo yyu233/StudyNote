@@ -1,3 +1,7 @@
+## Device Files ## 
+In Unix-like operating systems, a device file or special file is an interface to a device driver that appears in a file system as if it were an ordinary file. There are also special files in MS-DOS, OS/2, and Microsoft Windows. These special files allow an application program to interact with a device by using its device driver via standard input/output system calls. Using standard system calls simplifies many programming tasks, and leads to consistent user-space I/O mechanisms regardless of device features and functions.
+
+Device files usually provide simple interfaces to standard devices (such as printers and serial ports), but can also be used to access specific unique resources on those devices, such as disk partitions. Additionally, device files are useful for accessing system resources that have no connection with any actual device such as data sinks and random number generators.
 ## Type of Devices ## 
 
 Devices are divided into 2 types: character devices (only serial stream of input/output such as mouse, keyboard) and block devices (accessible randomly such as hard disk, floppy device). 
