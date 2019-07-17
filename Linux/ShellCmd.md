@@ -26,6 +26,8 @@ Chang password for current user: **passwd**
 
 Remount filesystem: **remount -rw -o remount /**
 
+Create a sharing mount point: **mount --make-shared \<mount_point> **, **mount --bind \<mount_pint> \<other_mount_point>** 
+
 Home directory: **~**
 
 Top root directory of filesystem **/**
