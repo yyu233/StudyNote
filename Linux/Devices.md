@@ -21,3 +21,12 @@ Registering a device means registering it with the kernel.
 ## Unregistering A Device ## 
 
 Check the number of processes that are using the kernel module by looking at the 3rd field of ``` /proc/modules ```. If this number is zero, rmmod will fail. 
+
+## Pseudo Devices ## 
+
+Device nodes on Unix-like systems do not necessarily have to correspond to physical devices. Nodes that lack this correspondence form the group of pseudo-devices. They provide various functions handled by the operating system. Some of the most commonly used (character-based) pseudo-devices include:
+
+/dev/null – accepts and discards all input written to it; provides an end-of-file indication when read from    
+/dev/zero – accepts and discards all input written to it; produces a continuous stream of Null characters (zero-value bytes) as output when read from    
+/dev/full – produces a continuous stream of Null characters (zero-value bytes) as output when read from, and generates a "disk full" error when attempting to write to it  
+/dev/random – when read, it produces as output a variable-length stream of numbers from the kernel's cryptographically secure pseudorandom number generator. Its exact behavior varies by implementation, and sometimes variants such as /dev/urandom or dev/arandom are also provided.    
