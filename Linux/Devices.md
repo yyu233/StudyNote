@@ -30,3 +30,14 @@ Device nodes on Unix-like systems do not necessarily have to correspond to physi
 /dev/zero – accepts and discards all input written to it; produces a continuous stream of Null characters (zero-value bytes) as output when read from    
 /dev/full – produces a continuous stream of Null characters (zero-value bytes) as output when read from, and generates a "disk full" error when attempting to write to it  
 /dev/random – when read, it produces as output a variable-length stream of numbers from the kernel's cryptographically secure pseudorandom number generator. Its exact behavior varies by implementation, and sometimes variants such as /dev/urandom or dev/arandom are also provided.    
+
+## Commone Name Convention ##
+
+1. lp:  line printer
+2. pt: pseudo terminal
+3. fb: frame buffer
+4. fd: floppy device
+5. hda: master device on the 1st ATA channel
+6. hdb: slave device on the 1st ATA channel
+7. hdc: master device on the 2nd ATA channel
+8. hdd: slave device on the 2nd ATA channel
