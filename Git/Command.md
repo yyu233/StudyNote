@@ -24,6 +24,8 @@ Sqush local commit into one commit: **git rebase -i \<hash>**
 
 Undo git checkout: **git checkout -**   
 
+Checkout remote branch: **git fetch \<repo> \<branch>**, **git checkout --track \<branch>**   
+
 Clean git untracked file and directory: **git clean -f -d**   
 
 Save uncommitted changes (both staged and unstaged): **git stash**   
