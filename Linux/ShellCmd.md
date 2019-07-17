@@ -189,7 +189,9 @@ List installed RPMS: **rpm -qa**
 
 Show history commands: **history**   
 
-Execute command from stdin: **xarg \<command>  -L \<maximum number of non-blank line passed from stdin per time>**    
+Execute command from stdin: **xarg \<command>  -L \<maximum number of non-blank line passed from stdin per time>** 
+
+Execute command for filename containing spaces: **xarg -d '\n' \<file>**   
 
 Print process in tree strucute: **pstree -p**   
 
