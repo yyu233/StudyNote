@@ -34,4 +34,10 @@
 |H| move cursor to the top of view port|
 |M| move cursor to the middle of view port|
 |L| mover cursor to the bottom of view port|
+|e| open file from buffer|
+|ls| display a list of currently opened files in buffer|
+|n| go to next file|
+|N| go to previous file|
+|bd| closes the buffer|
+
 
