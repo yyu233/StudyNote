@@ -217,9 +217,9 @@ List all signals: **kill -l**
 
 Count number of lines in file: **wc \<file>**   
 
-View and configure Linux kernel parameters: **sysctl**
+View and configure Linux kernel parameters: **sysctl**   
 
-
+Open files in tabs by Vim: **vim -p \<files>**    
 
 
 
