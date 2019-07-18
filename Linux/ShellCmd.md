@@ -189,6 +189,8 @@ Unintall RPM: **rpm -e \<rpm>**
 
 List installed RPMS: **rpm -qa**   
 
+List uninstalled RPM: **rpm -qlp \<rpm_name>**   
+
 Show history commands: **history**   
 
 Execute command from stdin: **xarg \<command>  -L \<maximum number of non-blank line passed from stdin per time>** 
