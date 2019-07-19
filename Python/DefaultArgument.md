@@ -3,6 +3,8 @@
 Python 3   
 Python 2 doesn't have a way to define keyword-only argument.    
 
+Python does not support overloaded methods/functions and default arguments are an easy way of “faking” the overloading behavior.     
+
 Ptyhon method variable will take the default value if no argument value is passed in during function call. 
 
 ```
