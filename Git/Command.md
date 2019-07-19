@@ -6,6 +6,8 @@ Untrack upstream: **git branch --unset-upstream**
 
 Check tracking info for all branches: **git branch -vv**
 
+List remote branch fetched on your machine: **git branch -r**    
+
 Delete branch: **git branch --delete \<branch>**   
 
 Rename local branch (on this branch: **git branch -m \<newname>**  
