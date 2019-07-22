@@ -223,7 +223,9 @@ Open files in tabs by Vim: **vim -p \<files>**
 
 Determine which process is using a file: **fuser**    
 
-Display mounted file system: **df**  
+Display mounted file system: **df**   
+
+Check ext2/ext3/ext4 file system: **e2fsck**    
 
 
 
