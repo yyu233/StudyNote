@@ -53,6 +53,10 @@ Create a branch from stash when the changes on branch diverge from the changes i
 Delete a stashed change: **git stash drop stash@{#}**    
 
 Delete all stashe changes: **git stash clear**    
+  
+Configure to push current branch: **git config --global push.defaults current**    
+
+Configure to push all branch: **git config --global push.defaults matching**   
 
 
 
