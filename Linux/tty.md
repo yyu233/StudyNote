@@ -1,3 +1,4 @@
 ## What is tty? ##
 
-In essence, tty is short for teletype, but it's more popularly known as terminal. It's basically a device (implemented in software nowadays) that allows you to interact with the system by passing on the data (you input) to the system, and displaying the output produced by the system.
+In essence, tty is short for teletype, but it's more popularly known as terminal. It's basically a device (implemented in software nowadays) that allows you to interact with the system by passing on the data (you input) to the system, and displaying the output produced by the system.    
+In Linux, there are three different kinds of tty devices. Serial devices are used with serial connections, such as over a modem or using a serial cable. Virtual terminals create the common console connection, such as the virtual consoles available when pressing Alt+<F-key> at the system console. Pseudo terminals create a two-way communication that is used by some higher level applications, such as XFree86. The drivers file is a list of the current tty devices in use, as in the following example:
