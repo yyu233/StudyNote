@@ -11,6 +11,6 @@ Any sufficiently generic functionality you can “tack on” to an existing clas
 * caching
 
 Order of decorators is applied from bottom to top.     
-     
+This also means that deep levels of decorator stacking will have an effect on performance eventually because they keep adding nested function calls. Usually this won’t be a problem in practice, but it’s something to keep in mind if you’re working on performance intensive code.     
 [Reference](https://www.journaldev.com/14893/python-property-decorator)    
 [Reference](https://dbader.org/blog/python-decorators)
