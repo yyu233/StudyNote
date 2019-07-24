@@ -10,4 +10,7 @@ Any sufficiently generic functionality you can “tack on” to an existing clas
 * rate-limiting
 * caching
 
-[Reference](https://www.journaldev.com/14893/python-property-decorator)
+Order of decorators is applied from bottom to top.     
+     
+[Reference](https://www.journaldev.com/14893/python-property-decorator)    
+[Reference](https://dbader.org/blog/python-decorators)
