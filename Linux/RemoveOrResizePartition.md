@@ -1,0 +1,5 @@
+If you want to remove or resize a partition, the device on which that partition resides must not be in use. Creating a new partition on a device which is in use—while possible—is not recommended.    
+For a device to not be in use, none of the partitions on the device can be mounted, and any swap space on the device must not be enabled.
+As well, the partition table should not be modified while it is in use because the kernel may not properly recognize the changes. If the partition table does not match the actual state of the mounted partitions, information could be written to the wrong partition, resulting in lost and overwritten data.   
+The easiest way to achieve this is to boot your system in rescue mode. When prompted to mount the file system, select Skip.
+Alternately, if the drive does not contain any partitions in use (system processes that use or lock the file system from being unmounted), you can unmount them with the umount command and turn off all the swap space on the hard drive with the swapoff command.    
