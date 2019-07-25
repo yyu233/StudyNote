@@ -227,6 +227,8 @@ Display mounted file system: **df**
 
 Check ext2/ext3/ext4 file system: **e2fsck**    
 
+Manage disk partition: **parted**   
+
 
 
 
