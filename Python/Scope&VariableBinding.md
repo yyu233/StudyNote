@@ -43,3 +43,5 @@ f: x in module
 x in module self.x in f
 {'self': <__main__.B instance at 0x00000000026FC9C8>}
 ```
+
+[GOOD EXAMPLES](https://stackoverflow.com/questions/20246523/how-references-to-variables-are-resolved-in-python)
