@@ -58,6 +58,8 @@ Configure to push current branch: **git config --global push.defaults current**
 
 Configure to push all branch: **git config --global push.defaults matching**   
 
+Show a commit: **git show \<commit hash>**     
+
 
 
 
