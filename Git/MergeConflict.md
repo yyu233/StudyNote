@@ -1,0 +1,3 @@
+**Dealing with "deleted by us" and "deleted by them" conflicts**    
+For some conflict notifications, Git will include a "Deleted by us" or "Deleted by them" message next to a file. That means that you modified a file in one branch and deleted it in another. Git has no way of knowing if you want to delete the file or modify it, so you need to make the choice yourself.
+Dealing with this type of conflict is straightforward: you have to decide if the deleted file is still required. You can do that by opening the file and looking at its contents. If you want to keep the file deleted, use the "rm” command (for the command line). Otherwise, use the "add” command to restore the file. This will resolve the conflict for that file.
