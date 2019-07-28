@@ -12,4 +12,6 @@
 13. IAM policy 
 12. Glacier encrypts data by AES-256
 13. Key Management
+14. Archive database snapshots, log files, old documents, game event data, audio and video
+
 
