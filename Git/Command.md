@@ -60,7 +60,9 @@ Configure to push all branch: **git config --global push.defaults matching**
 
 Show a commit: **git show \<commit hash>**     
 
-Use the head ref to print commit history in one line: **git log --pretty=oneline \<head ref>**  
+Use the head ref to print commit history in one line: **git log --pretty=oneline \<head ref>**   
+
+Tell the object type of object in Git: **git cat-file -t \<SHA-1>**    
 
 
 
