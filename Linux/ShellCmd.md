@@ -233,6 +233,8 @@ Logical Volume Management: **lvm**
 
 Re-execute previous command: **!!**    
 
+Execute command itself instead of alias: **\\ \<command>**    
+
 
 
 
