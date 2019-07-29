@@ -64,6 +64,9 @@ Use the head ref to print commit history in one line: **git log --pretty=oneline
 
 Tell the object type of object in Git: **git cat-file -t \<SHA-1>**    
 
+Manually write the staging area out to a tree object: **git write-tree**    
+
+
 
 
 
