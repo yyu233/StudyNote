@@ -60,6 +60,8 @@ Configure to push all branch: **git config --global push.defaults matching**
 
 Show a commit: **git show \<commit hash>**     
 
+Use the head ref to print commit history in one line: **git log --pretty=oneline \<head ref>**  
+
 
 
 
