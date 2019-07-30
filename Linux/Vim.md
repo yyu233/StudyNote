@@ -39,6 +39,6 @@
 |n| go to next file|
 |N| go to previous file|
 |bd| closes the buffer|
-|Ctrl + N (insert mode) | Get list of word suggestion |
+|Ctrl + n (insert mode) | Get list of word suggestion |
 
 
