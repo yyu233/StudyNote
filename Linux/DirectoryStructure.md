@@ -6,7 +6,11 @@
 **/etc/opt** configuration files for add-on packages taht are stored in /opt      
 **/etc/sgml** configuration files, such as catalogs, for software that processes SGML      
 **/etc/X11** configuration files for the X Window System, ver 11        
-**/etc/xml** configuration files, such as catalogs, for software that processes XML      
+**/etc/xml** configuration files, such as catalogs, for software that processes XML
+**/etc/hosts**  The main purpose of this file is to resolve host names that cannot be resolved any other way. It can also be used to resolve host names on small networks with no DNS server. Regardless of the type of network the computer is on, this file should contain a line specifying the IP address of the loopback device (127.0.0.1) as localhost.localdomain.   
+**/etc/resolv.conf** This file specifies the IP addresses of DNS servers and the search domain. Unless configured to do otherwise, the network intialization scripts populate this file. 
+**/etc/sysconfig/network** This file specifies routing and host information for all network interfaces.    
+**etc/sysconfig/network-scripts/ifcfg-\<interface-name>** For each network interface, there is a corresponding interface configuration script. Each of these files provide information specific to a particular network interface.   
 **/home** users' home directories, containing saved files, personal settings, etc.      
 **/lib** libraries essential for the binaries in /bin and /sbin      
 **/media** mount points for removable media such as CD-ROMS  
