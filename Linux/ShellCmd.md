@@ -235,6 +235,10 @@ Re-execute previous command: **!!**
 
 Execute command itself instead of alias: **\\ \<command>**    
 
+Set ACL: **setfacl**    
+
+Retrieve ACL: **getfacl**     
+
 
 
 
