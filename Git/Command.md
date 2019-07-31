@@ -72,6 +72,8 @@ Git database garbage collection: **git gc**
 
 Check Git database usage: **git count-objects -v**    
 
+Verify git pack file: **git verify-pack -v \<pack>**    
+
 
 
 
