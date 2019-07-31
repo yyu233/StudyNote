@@ -68,6 +68,10 @@ Pretty print the Git object content: **git cat-file -p \<object>**
 
 Manually write the staging area out to a tree object: **git write-tree**    
 
+Git database garbage collection: **git gc**   
+
+Check Git database usage: **git count-objects -v**    
+
 
 
 
