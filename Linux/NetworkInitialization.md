@@ -1,0 +1,1 @@
+Two files used to perform a variety of network initialization tasks during the process of bringing up a network interface are /etc/rc.d/init.d/functions and /etc/sysconfig/network-scripts/network-functions
