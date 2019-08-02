@@ -1,0 +1,3 @@
+In computing, protected mode, also called protected virtual address mode,[1] is an operational mode of x86-compatible central processing units (CPUs). It allows system software to use features such as virtual memory, paging and safe multi-tasking designed to increase an operating system's control over application software.
+
+In protected mode, there are four privilege levels or rings, numbered from 0 to 3, with ring 0 being the most privileged and 3 being the least. The use of rings allows for system software to restrict tasks from accessing data, call gates or executing privileged instructions.[23] In most environments, the operating system and some device drivers run in ring 0 and applications run in ring
