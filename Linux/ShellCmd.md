@@ -239,6 +239,8 @@ Set ACL: **setfacl**
 
 Retrieve ACL: **getfacl**     
 
+To view a list of configured devices and currently active network interfaces: **service net status**     
+
 
 
 
