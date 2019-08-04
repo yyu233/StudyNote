@@ -241,6 +241,9 @@ Retrieve ACL: **getfacl**
 
 To view a list of configured devices and currently active network interfaces: **service net status**     
 
+Configure symbolic link: **alternatives --config \<command>**    
+
+
 
 
 
