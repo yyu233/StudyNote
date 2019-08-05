@@ -243,6 +243,8 @@ To view a list of configured devices and currently active network interfaces: **
 
 Configure symbolic link: **alternatives --config \<command>**    
 
+Check all disk parition: **fdisk -l**   
+
 
 
 
