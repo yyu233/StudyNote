@@ -245,6 +245,7 @@ Configure symbolic link: **alternatives --config \<command>**
 
 Check all disk parition: **fdisk -l**   
 
+Format disk: **mkfs**    
 
 
 
