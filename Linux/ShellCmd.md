@@ -255,7 +255,9 @@ Looks through the currently running bash processes on Linux and lists the proces
  
 List open files: **lsof**    
 
-List logined user: **who**    (interesting note: If FILE is not specified, use /var/run/utmp. /var/log/wtmp as FILE is common. If ARG1 ARG2 given, -m presumed: 'am i' or 'mom likes' are usual.)    
+List logined user: **who**    (interesting note: If FILE is not specified, use /var/run/utmp. /var/log/wtmp as FILE is common. If ARG1 ARG2 given, -m presumed: 'am i' or 'mom likes' are usual.)      
+
+Check if shell command is built in or not:**type \<command>**     
 
 
 
