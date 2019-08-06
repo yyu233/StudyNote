@@ -247,6 +247,10 @@ Check all disk parition: **fdisk -l**
 
 Format disk: **mkfs**    
 
+Display alias command: **alias**  
+
+Temporarily disable alias command: **\\\<alias command>**
+
 
 
 
