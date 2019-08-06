@@ -252,6 +252,8 @@ Display alias command: **alias**
 Temporarily disable alias command: **\\\<alias command>**  
 
  Looks through the currently running bash processes on Linux and lists the process IDs (PID) on screen: **pgrep**     
+ 
+ List open files: **lsof**    
 
 
 
