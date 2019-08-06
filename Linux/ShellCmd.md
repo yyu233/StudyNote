@@ -251,11 +251,11 @@ Display alias command: **alias**
 
 Temporarily disable alias command: **\\\<alias command>**  
 
- Looks through the currently running bash processes on Linux and lists the process IDs (PID) on screen: **pgrep**     
+Looks through the currently running bash processes on Linux and lists the process IDs (PID) on screen: **pgrep**     
  
- List open files: **lsof**    
+List open files: **lsof**    
 
-
+List logined user: **who**    (interesting note: If FILE is not specified, use /var/run/utmp. /var/log/wtmp as FILE is common. If ARG1 ARG2 given, -m presumed: 'am i' or 'mom likes' are usual.)    
 
 
 
