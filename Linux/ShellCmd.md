@@ -259,6 +259,8 @@ List logined user: **who**    (interesting note: If FILE is not specified, use /
 
 Check if shell command is built in or not:**type \<command>**     
 
+Re-excute command from history: **！ \<history number>**    
+
 
 
 
