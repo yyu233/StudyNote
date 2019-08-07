@@ -263,6 +263,8 @@ Re-excute command from history: **！ \<history number>**
 
 Merge files line by line (default delimeter is tab): **paste \<file1> \<file2>**     
 
+Paginate or columnate files for printing: **pr**  
+
 
 
 
