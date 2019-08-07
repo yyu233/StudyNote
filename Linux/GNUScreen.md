@@ -16,3 +16,4 @@
 |Jump to next display|Ctrl -a tab|
 |Remove current region| Ctrl-a X|
 |Send a command to a names session|screen -S \<name> -X \<command>| 
+|Scroll up and down| Ctrl-a ESC, up arrow or down arrow|  
