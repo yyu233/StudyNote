@@ -40,5 +40,6 @@
 |N| go to previous file|
 |bd| closes the buffer|
 |Ctrl + n (insert mode) | Get list of word suggestion |
+|%s/pattern 1/pattern 2/g | Search pattern 1 throughout whole file and replace with pattern 2|
 
 
