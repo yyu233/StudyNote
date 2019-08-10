@@ -265,6 +265,8 @@ Merge files line by line (default delimeter is tab): **paste \<file1> \<file2>**
 
 Paginate or columnate files for printing: **pr**  
 
+Change user password expiration information: **chage**    
+
 
 
 
