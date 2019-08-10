@@ -271,6 +271,8 @@ Delete user group: **groupdel**
 
 Delete user: **userdel**    
 
+Clone file permission: **chown --reference=ref_file file**   
+
 
 
 
