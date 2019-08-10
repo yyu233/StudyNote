@@ -267,6 +267,10 @@ Paginate or columnate files for printing: **pr**
 
 Change user password expiration information: **chage**    
 
+Delete user group: **groupdel**    
+
+Delete user: **userdel**    
+
 
 
 
