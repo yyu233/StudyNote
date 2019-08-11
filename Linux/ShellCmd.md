@@ -273,6 +273,8 @@ Delete user: **userdel**
 
 Clone file permission: **chown --reference=ref_file file**   
 
+Print message buffer of kernel: **dmesg**    
+
 
 
 
