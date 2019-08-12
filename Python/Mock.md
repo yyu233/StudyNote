@@ -49,3 +49,9 @@ The difference is because the firs code block binds the real function to the loc
 ## Configure Mock ##
 You can configure an existing Mock using .configure_mock()
 
+## Common Problem
+1. Misspelling
+2. Changes to object interface
+3. Change to external dependency
+
+
