@@ -18,3 +18,6 @@ MagicMock is a subclass of Mock with all the magic methods pre-created and ready
 
 ## Patch ## 
 The patch() decorators makes it easy to temporarily replace classes in a particular module with a Mock object. By default patch() will create a MagicMock for you. You can specify an alternative class of Mock using the new_callable argument to patch().
+
+## Configure Mock ##
+You can configure an existing Mock using .configure_mock()
