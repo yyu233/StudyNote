@@ -17,7 +17,10 @@ The return value of dumps() is also a Mock. The capability of Mock to recursivel
 MagicMock is a subclass of Mock with all the magic methods pre-created and ready to use. There are also non-callable variants, useful when you are mocking out objects that aren’t callable: NonCallableMock and NonCallableMagicMock
 
 ## Patch ## 
-The patch() decorators makes it easy to temporarily replace classes in a particular module with a Mock object. By default patch() will create a MagicMock for you. You can specify an alternative class of Mock using the new_callable argument to patch().
+The patch() decorators makes it easy to temporarily replace classes in a particular module with a Mock object. By default patch() will create a MagicMock for you. You can specify an alternative class of Mock using the new_callable argument to patch().     
+Some reasons why you might prefer a context manager include the following:
+* You only want to mock an object for a part of the test scope.
+* You are already using too many decorators or parameters, which hurts your test’s readability.
 
 ## Configure Mock ##
 You can configure an existing Mock using .configure_mock()
