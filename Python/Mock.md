@@ -22,5 +22,30 @@ Some reasons why you might prefer a context manager include the following:
 * You only want to mock an object for a part of the test scope.
 * You are already using too many decorators or parameters, which hurts your test’s readability.
 
+## Patch Resolution ##
+
+```
+from a import func_b
+from unittest.mock import patch
+
+with patch('a.func_b'):
+    func_b()
+```
+
+```
+import a 
+from unittest.mock import patch
+
+with patch('a.func_b'):
+    a.func_b
+
+```
+
+The result of calling func_b in the first code block is equivalent of calling func_b from a.    
+The result of calling func_b in the second code block is a mock call.   
+
+The difference is because the firs code block binds the real function to the local scope.     
+
 ## Configure Mock ##
 You can configure an existing Mock using .configure_mock()
+
