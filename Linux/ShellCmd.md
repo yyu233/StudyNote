@@ -293,6 +293,8 @@ Disable runnig servie at boot time: **systemctl disable \<name>**
 
 Check if a service is enabled: **systemctl is-enabled \<name>**   
 
+Adjust running priority of process: **renice**     
+
 
 
 
