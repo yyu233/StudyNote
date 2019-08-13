@@ -273,7 +273,29 @@ Delete user: **userdel**
 
 Clone file permission: **chown --reference=ref_file file**   
 
-Print message buffer of kernel: **dmesg**    
+Print message buffer of kernel: **dmesg**       
+
+Start service: **systemctl start \<name>**    
+
+Stop service: **systemctl stop \<name>**    
+
+Restart a running service: **systemctl try-restart \<name>**    
+
+Restart a service: **systemctl restart \<name>**   
+
+Display all running service status: **systemctl**    
+
+Display current running service status: **systemctl status \<name>**    
+
+Enable running service at boot time: **systemctl enable \<name>**   
+
+Disable runnig servie at boot time: **systemctl disable \<name>**    
+
+Check if a service is enabled: **systemctl is-enabled \<name>**   
+
+
+
+
 
 
 
