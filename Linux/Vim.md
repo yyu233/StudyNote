@@ -42,5 +42,6 @@
 |Ctrl + n (insert mode) | Get list of word suggestion |
 |%s/pattern 1/pattern 2/g | Search pattern 1 throughout whole file and replace with pattern 2|
 |r! command (command mode)|Insert shell command output to file content|
+|set all| For a list of all current settings|
 
 
