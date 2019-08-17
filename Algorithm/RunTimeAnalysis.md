@@ -6,3 +6,6 @@ The leading coefficient depends on the compiler, JVM, machine...
 * Average Case: Expected cost for random input. provide a way to predict performance
 
 Develop algortim -> prove lower bound (proof that no algorithm can do better) -> upper bound (a specific algorithm) 
+
+Amortized Analysis: Average running time per operation over a worst case sequence of operations. 
+
