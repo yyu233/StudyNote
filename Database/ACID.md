@@ -1,0 +1,4 @@
+* Atomicity
+* Consistency
+* Isolation
+* Durability
