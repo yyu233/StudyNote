@@ -1,0 +1,1 @@
+Casts from non-generic types to generic types may work just fine at runtime, because the generic parameters are erased during compilation, so we are left with a legitimate cast. However, The code may fail later with an unexpected ClassCastException due to a wrong assumption regarding the type parameter.
