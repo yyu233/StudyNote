@@ -1,0 +1,1 @@
+Generics in the Java language are implemented almost entirely in the compiler, which performs type checking and type inference, and then generates ordinary, non-generic bytecodes. This implementation technique, called erasure (where the compiler uses the generic type information to ensure type safety, but then erases it before generating the bytecode)
