@@ -1,0 +1,2 @@
+PO(persistant object) Persistent object    
+Concepts that appear in the o/r map, if there is no o/r mapping, this concept does not exist. Usually corresponds to the data model (database), itself part of the business logic processing. Can be mapped to a table in the database Java object. The most simple PO database is corresponding to a record in a table, a plurality of recording can be used PO collection. PO should not contain any operation of the database. 
