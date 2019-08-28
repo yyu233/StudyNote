@@ -299,6 +299,12 @@ Find file name path: **${FILE%./*}**
 
 Flush memory to disk: **sync**   
 
+Create physical volume: **pvcreate \<partition>**   
+
+Create volume group: **vgcreate \<name> \<partition>**   
+
+Create logical volume: **lvcreate**   
+
 
 
 
