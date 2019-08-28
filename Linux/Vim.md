@@ -44,5 +44,7 @@
 |r! command (command mode)|Insert shell command output to file content|
 |set all| For a list of all current settings|
 |h \<option> (command mode)| Help manual|
+|CTRL G|Show the column current cursor is at|    
+|set ruler | Set the ruler |
 
 
