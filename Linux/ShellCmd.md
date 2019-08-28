@@ -305,6 +305,13 @@ Create volume group: **vgcreate \<name> \<partition>**
 
 Create logical volume: **lvcreate**   
 
+Remove physical volume: **pvremove**  
+
+Remove volume group: **vgremove**   
+
+Remove logical volume: **lvremove**   
+
+
 
 
 
