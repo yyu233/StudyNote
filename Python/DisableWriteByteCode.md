@@ -1,0 +1,1 @@
+Python can now be prevented from writing .pyc or .pyo files by supplying the -B switch to the Python interpreter, or by setting the PYTHONDONTWRITEBYTECODE environment variable before running the interpreter. This setting is available to Python programs as the sys.dont_write_bytecode variable, and Python code can change the value to modify the interpreter’s behaviour.
