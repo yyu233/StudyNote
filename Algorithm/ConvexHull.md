@@ -14,3 +14,34 @@
 2. Sort points by polar angle with p
 3. Consider points in order unless it creats a ccw turn. 
 
+## Determine CCW ##
+
+```
+    class 2DPoint {
+        float x;
+        float y;
+        
+        2DPoint(float x, float y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+    
+    int isCCW(2DPoint a, 2DPoint b, 2DPoint c) {
+        float area = (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
+        
+        if (area > 0) {
+            return 1;  //ccw
+        } else if (area < 0) {
+            return -1; //cw
+        } else {
+            return 0; // collinear
+        }
+    }
+
+```
+
+
+
+
+
