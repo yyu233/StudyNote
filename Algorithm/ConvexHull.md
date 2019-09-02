@@ -41,6 +41,27 @@
 
 ```
 
+## Graham Implementation ##
+
+```
+    2DPoint[] p = new 2DPoint[n];
+    Stack<2DPoint> hull = new Stack<>();
+    
+    Arrays.sort(p, BY_Y_ORDER);
+    Arrays.sort(p, p[0], BY_POLAR_ANGLE);
+    
+    hull.push(p[0]);
+    hull.push(p[1]);
+    
+    for (int i = 2; i < n; i++) {
+        2DPoint top = hull.pop();
+        while (isCCW(top, hull.peek(), p[i]) <= 0) {
+            top = hull.pop();
+        }
+        hull.push(top);
+        hull.push(p[i]);
+    }
+```
 
 
 
