@@ -311,7 +311,9 @@ Remove volume group: **vgremove**
 
 Remove logical volume: **lvremove**   
 
-List configured repositories: **yum repolist \<filter>**    
+List configured repositories: **yum repolist \<filter>**      
+
+Print resolved symbolic link: **readlink**    
 
 
 
