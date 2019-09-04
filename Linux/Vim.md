@@ -46,5 +46,7 @@
 |h \<option> (command mode)| Help manual|
 |CTRL G|Show the column current cursor is at|    
 |set ruler | Set the ruler |
+|in visual mode, type u | turn to lowercase for the visual part|
+|int visual mode, type U| turn to uppercase for the visual part|
 
 
