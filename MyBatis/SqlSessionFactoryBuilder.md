@@ -1,1 +1,1 @@
-1. SqlSessionFactoryBuilder -> SqlSessionFactory -> SqlSession -> Executor
+1. Configuration -> SqlSessionFactoryBuilder -> SqlSessionFactory -> SqlSession -> Executor -> MappedStatement
