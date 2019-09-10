@@ -13,5 +13,5 @@ It doesn't matter which order the classes are listed in the HTML element.
 
 However, the order of the class declarations in the <style> section are what is important. The second declaration will always take precedence over the first.
  
-id atttribute always take precedence. 
+order << id atttribute << inline style takes precedence 
  
