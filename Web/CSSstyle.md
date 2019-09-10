@@ -7,4 +7,9 @@ An id is not reusable and should only be applied to one element. An id also has 
 ``` .class ``` class selector  
 ``` #id ``` id selector    
 ``` [attribute= value] ``` attribute selector
+
+## Override style ##
+It doesn't matter which order the classes are listed in the HTML element.   
+
+However, the order of the class declarations in the <style> section are what is important. The second declaration will always take precedence over the first.
  
