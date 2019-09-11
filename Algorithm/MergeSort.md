@@ -65,8 +65,8 @@ Use insertion for small subarrays since merge sort has too much overhead for sma
 ```
     public void mergesort(int[] nums) {
         int len = nums.length;
-        for (int size = 1; i < len; size += size) {
-            for (int low = 0; i < len - size; low += size) {
+        for (int size = 1; size < len; size += size) {
+            for (int low = 0; low < len - size; low += size) {
                 merge(nums, low, low + size - 1, Math.min(low + size + size - 1, len - 1);
             }
         }
