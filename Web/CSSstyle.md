@@ -19,4 +19,4 @@ order << id atttribute << inline style << ```!important```
 
 CSS Variables are a powerful way to change many CSS style properties at once by changing only one value. 
 
-``` ---<class name> = <value> ``` 
+``` ---<class name>: <value>; ``` 
