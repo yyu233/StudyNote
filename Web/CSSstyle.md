@@ -14,4 +14,9 @@ It doesn't matter which order the classes are listed in the HTML element.
 However, the order of the class declarations in the <style> section are what is important. The second declaration will always take precedence over the first.
  
 order << id atttribute << inline style << ```!important```   
- 
+
+## Variable ##
+
+CSS Variables are a powerful way to change many CSS style properties at once by changing only one value. 
+
+``` ---<class name> = <value> ``` 
