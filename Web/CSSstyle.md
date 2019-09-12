@@ -22,3 +22,7 @@ CSS Variables are a powerful way to change many CSS style properties at once by 
 ``` ---<class name>: <value>; ``` 
 
 Assign value of  CSS variable to other class attribute: ``` <field> : var(--<class name>); ```  
+
+## Pseduo Class ##
+
+A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
