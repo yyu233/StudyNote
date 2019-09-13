@@ -1,0 +1,1 @@
+An ```article``` is for standalone content, and a ```section``` is for grouping thematically related content. They can be used within each other, as needed. For example, if a book is the article, then each chapter is a section. When there's no relationship between groups of content, then use a ```div```.
