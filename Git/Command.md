@@ -72,7 +72,11 @@ Git database garbage collection: **git gc**
 
 Check Git database usage: **git count-objects -v**    
 
-Verify git pack file: **git verify-pack -v \<pack>**    
+Verify git pack file: **git verify-pack -v \<pack>**  
+
+Pick another branch commit: **git cherry-pick \<other branch commit id>**   
+
+Checkout other branch file : **git checkout \<branch> \<file>**   
 
 
 
