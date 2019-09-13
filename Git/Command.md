@@ -76,8 +76,9 @@ Verify git pack file: **git verify-pack -v \<pack>**
 
 Pick another branch commit: **git cherry-pick \<other branch commit id>**   
 
-Checkout other branch file : **git checkout \<branch> \<file>**   
+Checkout other branch file : **git checkout \<branch> \<file>**  
 
+Check hash code of HEAD: **git rev-parse HEAD**   
 
 
 
