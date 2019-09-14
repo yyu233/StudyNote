@@ -5,3 +5,8 @@ Proof:
 2. Worst case is dictated by the height h of decision tree.
 3. Binary tree of height h has at most ``` 2^h ``` leaves.
 4. N! orderings: at least N! leaves. 
+
+Lower bound may not hold if the algorithm has: 
+* The initial order of the input
+* The ditribution of key values
+* The representation of keys
