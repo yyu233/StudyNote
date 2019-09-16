@@ -48,5 +48,6 @@
 |set ruler | Set the ruler |
 |in visual mode, type u | turn to lowercase for the visual part|
 |int visual mode, type U| turn to uppercase for the visual part|
+|a|append to the end of line|   
 
 
