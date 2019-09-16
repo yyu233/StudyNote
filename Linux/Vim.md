@@ -47,14 +47,16 @@
 |CTRL G|Show the column current cursor is at|    
 |set ruler | Set the ruler |
 |in visual mode, type u | turn to lowercase for the visual part|
-|int visual mode, type U| turn to uppercase for the visual part|
-|a|append to the end of line|   
+|in visual mode, type U| turn to uppercase for the visual part|
+|A|append to the end of line|
+|a|append to the end of word|
 |dw| move cursor to the beginning of the word to delete the whole word|
 |d$|delete to the end of line| 
 |0| move to the start of line|
 |\<#>w| move cursor\<#> number of word forward|
 |\<#>e| move cursor to the end of \<#> number of word forward|
 |U| undo changes on the whole line|
+|R| replace more than one character|   
 |r| replace the character cursor at by a charater you type| 
 |ce|change unitl the end of a word|
 |CTRL + O| go back to where your search starts|
@@ -64,6 +66,9 @@
 |!\<shell cmd>| execute external shell command|
 |v, :w \<filename>| to save part of the file|
 |:r \<filename> | to retrieve file content| 
+|CTRL W| to jump from one window to another|
+
+
 
 
 
