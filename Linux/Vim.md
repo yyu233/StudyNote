@@ -50,5 +50,16 @@
 |int visual mode, type U| turn to uppercase for the visual part|
 |a|append to the end of line|   
 |dw| move cursor to the beginning of the word to delete the whole word|
+|d$|delete to the end of line| 
+|0| move to the start of line|
+|\<#>w| move cursor\<#> number of word forward|
+|\<#>e| move cursor to the end of \<#> number of word forward|
+|U| undo changes on the whole line|
+|r| replace the character cursor at by a charater you type| 
+|ce|change unitl the end of a word|
+
+
+
+
 
 
