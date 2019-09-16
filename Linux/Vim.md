@@ -57,6 +57,14 @@
 |U| undo changes on the whole line|
 |r| replace the character cursor at by a charater you type| 
 |ce|change unitl the end of a word|
+|CTRL + O| go back to where your search starts|
+|%| find matching ), ], } |
+|%s/old/new/gc| find every occurrence in the whole file with a prompt whether to subsitute or not|
+|#,#s/old/new/g| #, # are the line number of the range of line to subsitute|
+|!\<shell cmd>| execute external shell command|
+|v, :w \<filename>| to save part of the file|
+|:r \<filename> | to retrieve file content| 
+
 
 
 
