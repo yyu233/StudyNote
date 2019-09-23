@@ -1,0 +1,1 @@
+A convex set is a set of points such that, given any two points A, B in that set, the line AB joining them lies entirely within that set. Intuitively, this means that the set is connected (so that you can pass between any two points without leaving the set) and has no dents in its perimeter.
