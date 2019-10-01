@@ -1,0 +1,4 @@
+```
+  let regex = [any char];
+  
+``` 
