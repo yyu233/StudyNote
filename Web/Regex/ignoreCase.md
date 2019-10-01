@@ -1,0 +1,1 @@
+``` let regex = /pattern/i ```
