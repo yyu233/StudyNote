@@ -1,4 +1,4 @@
 ```
-  let regex = [any char];
+  let regex = /[any char]/;
   
 ``` 
