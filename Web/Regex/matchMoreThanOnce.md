@@ -1,1 +1,1 @@
-``` regex = /pattern/g;
+``` regex = /pattern/g; ```
