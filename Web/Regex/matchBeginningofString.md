@@ -1,1 +1,1 @@
-``` let regex = /^pattern/ ``` 
+``` let regex = /^pattern/; ``` 
