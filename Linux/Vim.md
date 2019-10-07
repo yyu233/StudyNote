@@ -66,7 +66,8 @@
 |!\<shell cmd>| execute external shell command|
 |v, :w \<filename>| to save part of the file|
 |:r \<filename> | to retrieve file content| 
-|CTRL W| to jump from one window to another|
+|CTRL W| to jump from one window to another| 
+|browse oldfiles| get a history of recent open files|   
 
 
 
