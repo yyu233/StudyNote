@@ -1,0 +1,1 @@
+Compare concatto the pushmethod. Pushadds an item to the end of the same array it is called on, which mutates that array. Concatoffers a way to add new items to the end of an array without any mutating side effects.
