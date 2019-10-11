@@ -189,7 +189,7 @@ Unintall RPM: **rpm -e \<rpm>**
 
 List installed RPMS: **rpm -qa**   
 
-List uninstalled RPM: **rpm -qlp \<rpm_name>**   
+List uninstalled RPM contents: **rpm -qlp \<rpm_name>**   
 
 Show history commands: **history**   
 
