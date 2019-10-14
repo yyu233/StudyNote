@@ -315,6 +315,8 @@ List configured repositories: **yum repolist \<filter>**
 
 Print resolved symbolic link: **readlink**    
 
+Strip directory and suffix from filename: **basename**   
+
 
 
 
