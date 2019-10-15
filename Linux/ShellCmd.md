@@ -317,6 +317,8 @@ Print resolved symbolic link: **readlink**
 
 Strip directory and suffix from filename: **basename**   
 
+List file size under directory: **du**   
+
 
 
 
