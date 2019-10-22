@@ -319,7 +319,9 @@ Strip directory and suffix from filename: **basename**
 
 List file size under directory: **du**        
 
-Print array element line by line: **printf '%s\n' "${my_array[@]}"**   
+Print array element line by line: **printf '%s\n' "${my_array[@]}"**    
+
+Print array element line by line: **( IFS=$'\n'; echo "${my_array[\*]}"**  
 
 
 
