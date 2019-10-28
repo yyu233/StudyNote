@@ -19,3 +19,5 @@ public class Singleton {
 }
 
 ```
+
+[History](https://blog.csdn.net/chenchaofuck1/article/details/51702129)
