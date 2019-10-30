@@ -240,6 +240,7 @@ Leading whitespaces are discarded but trailing whitespaces are not.
 
 ```  $(lastword names...) ```    
 
+``` $(foreach var, list, text) ```    
 
 
 
