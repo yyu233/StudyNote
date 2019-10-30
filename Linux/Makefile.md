@@ -242,6 +242,8 @@ Leading whitespaces are discarded but trailing whitespaces are not.
 
 ``` $(foreach var, list, text) ```    
 
+``` $(file op filename[, text]) ```   
+
 
 
 
