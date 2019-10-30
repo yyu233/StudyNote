@@ -212,4 +212,37 @@ The actual value of the simply expanded variable is the result of expanding the 
 
 Leading whitespaces are discarded but trailing whitespaces are not. 
 
-(Conditional assigned variable: ``` a ? = b ``` It only has an effect if b is undefined. A empty variable is still defined.)     
+(Conditional assigned variable: ``` a ? = b ``` It only has an effect if b is undefined. A empty variable is still defined.)   
+
+### String Substitution ### 
+
+```  $(subst from, to, text) ```    
+
+```  $(patsubst pattern, replacement, text）  // equivalent to ${var=pattern:replacement} ```     
+
+```  $(strip string) ```    
+
+```  $(findstring find in) ```     
+
+```  $(filter pattern..., text) ```    
+
+```  $(filter out pattern ..., text) ```    
+
+```  $(sort list) ```    
+
+```  $(word n, text) ``` 
+
+```  $(wordlist, s, e, text) ```     
+
+```  $(words text)  ```     
+
+```  $(firstword names...) ```    
+
+```  $(lastword names...) ```    
+
+
+
+
+
+
+
