@@ -259,11 +259,15 @@ Parameter Expansion
 ```
 var=foo
 echo ${var/f/F}  # FOO
+echo ${var//o/O} #fOO replace all o
 echo ${var:0:2} # fo
 echo ${var::2}  # fo
 echo ${var::-1} # fo
 echo ${var:(-1)} # o
 echo ${var:(-2):1} # o
+echo ${var%oo} # f  remove suffix
+echo ${var#f} # remove prefix
+
 ```
 Source command
 ----------------
