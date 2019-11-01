@@ -267,6 +267,8 @@ echo ${var:(-1)} # o
 echo ${var:(-2):1} # o
 echo ${var%oo} # f  remove suffix
 echo ${var#f} # remove prefix
+echo ${var/%oo/ar} # replace suffix
+echo ${var/#f/b} # replace prefix
 
 ```
 Source command
