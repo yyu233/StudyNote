@@ -256,6 +256,15 @@ Parameter Expansion
 |${parameter:+word}|substitute word|substitute null|substitute null|
 |${parameter+word}|substitute word| substitute word| substitute null| 
 
+```
+var=foo
+echo ${var/f/F}  # FOO
+echo ${var:0:2} # fo
+echo ${var::2}  # fo
+echo ${var::-1} # fo
+echo ${var:(-1)} # o
+echo ${var:(-2):1} # o
+```
 Source command
 ----------------
 The source command can be used to load any functions file into the current shell script or a command prompt.
@@ -267,3 +276,5 @@ source functions.sh
 source /path/to/functions.sh arg1 arg2
 source functions.sh WWWROOT=/apache.jail PHPROOT=/fastcgi.php_jail
 ```
+
+
