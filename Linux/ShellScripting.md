@@ -270,6 +270,10 @@ echo ${var#f} # remove prefix
 echo ${var/%oo/ar} # replace suffix
 echo ${var/#f/b} # replace prefix
 
+path=/path/foo/bar/foobar.sh
+echo ${path#*/} # path/foo/bar/foobar.sh
+echo ${path##*/} # foobar.sh
+
 ```
 Source command
 ----------------
