@@ -15,3 +15,5 @@ public final int getAndIncrement() {
         }
 
 ```
+
+[Why CAS](https://yq.aliyun.com/articles/694255)
