@@ -1,0 +1,2 @@
+*  A Master Boot Record (MBR) is the first sector of a data storage device that has been partitioned. The MBR sector may contain code to locate the active partition and invoke its Volume Boot Record.
+*  A Volume Boot Record (VBR) is the first sector of a data storage device that has not been partitioned, or the first sector of an individual partition on a data storage device that has been partitioned. It may contain code to load an operating system (or other standalone program) installed on that device or within that partition.
