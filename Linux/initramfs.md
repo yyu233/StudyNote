@@ -1,1 +1,3 @@
 [initramfs](http://www.linuxfromscratch.org/blfs/view/svn/postlfs/initramfs.html)
+
+In a nutshell, when your bootloader (GRUB?) loads your Linux kernel, it is of course the kernel’s job to finish the boot process. But to do so, it might require particular drivers to be able to work with, say, hardware RAID controllers, or a network, and so on. And depending on where those critically important drivers are, the kernel might not have the ability to load them; hence, the creation of a preliminary root file system that would contain just enough in the way of loadable modules to give the kernel access to the rest of the hardware.
