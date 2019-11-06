@@ -321,7 +321,9 @@ List file size under directory: **du**
 
 Print array element line by line: **printf '%s\n' "${my_array[@]}"**    
 
-Print array element line by line: **( IFS=$'\n'; echo "${my_array[\*]}" )**  
+Print array element line by line: **( IFS=$'\n'; echo "${my_array[\*]}" )**   
+
+List contents of archive: **cpio -it < \<archive>**    
 
 
 
