@@ -1,3 +1,4 @@
+``` man hier ```     
 **/** Primary hierarchy root and root directory of the entire file system hierarchy     
 **/bin** Essential command binaries that need to be available in a single user mode      
 **/boot** boot loader files     
