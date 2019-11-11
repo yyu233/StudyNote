@@ -1,0 +1,1 @@
+There are only four primary reasons to have an initramfs in the LFS environment: loading the rootfs from a network, loading it from an LVM logical volume, having an encrypted rootfs where a password is required, or for the convenience of specifying the rootfs as a LABEL or UUID.
