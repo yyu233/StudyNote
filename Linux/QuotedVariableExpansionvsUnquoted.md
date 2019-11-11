@@ -1,0 +1,1 @@
+An unquoted variable expansion $foo is colloquially known as the “split+glob operator”, in contrast with "$foo" which just takes the value of the variable foo. The same goes for command substitution: "$(foo)" is a command substitution, $(foo) is a command substitution followed by split+glob.
