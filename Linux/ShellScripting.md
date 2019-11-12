@@ -138,7 +138,7 @@ array[@]
 array[*]
 
 #Print Elements of Array in Range 
-echo ${array[@] starting_index: count}  
+echo ${array[@]:starting_index: count}  
 
 #Print Length of Array 
 echo ${#array}   
