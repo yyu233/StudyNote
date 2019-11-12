@@ -287,4 +287,10 @@ source /path/to/functions.sh arg1 arg2
 source functions.sh WWWROOT=/apache.jail PHPROOT=/fastcgi.php_jail
 ```
 
-
+Regex Match
+----------------------------
+The ~ is actually part of the operator =~ which performs a regular expression match of the string to its left to the extended regular expression on its right.
+```
+[[ "string" =~ pattern ]]
+```
+Note that the string should be quoted, and that the regular expression shouldn't be quoted.
