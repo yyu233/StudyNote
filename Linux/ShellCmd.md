@@ -325,7 +325,11 @@ Print array element line by line: **( IFS=$'\n'; echo "${my_array[\*]}" )**
 
 List contents of archive: **cpio -it < \<archive>**    
 
-Add and remove modules from the Linux kernel: **modprobe**   
+Add and remove modules from the Linux kernel: **modprobe**    
+
+View default Linux target: **systemctl get-default**   
+
+View current Linux target : **systemctl list-units --type target**     
 
 
 
