@@ -331,6 +331,8 @@ View default Linux target: **systemctl get-default**
 
 View current Linux target : **systemctl list-units --type target**     
 
+Switch terminal: **CTRL+ALT+F1~12**   
+
 
 
 
