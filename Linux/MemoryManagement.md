@@ -1,0 +1,3 @@
+Memory management services in Linux are built on a programming foundation that includes a peripheral device called Memory Management Unit (MMU). MMU translates physical memory addresses to linear addresses used by the operating system, and requests a page fault interrupt, when the CPU tries to access memory that it is not entitled to.
+
+Not all processors have MMUs. Therefore, the uClinux distribution (Linux for microcontrollers) supports a single address space of operation. This architecture lacks the protection provided by MMU but makes it possible for Linux to run on another class of processors.
