@@ -8,3 +8,5 @@ Not all processors have MMUs. Therefore, the uClinux distribution (Linux for mic
 * DMA — This zone consists of memory accessible for direct memory operations of the legacy devices
 * NORMAL — This zone includes memory addresses used by the kernel for internal data structures as well as other system and user space allocations.
 * HIGHMEM — This zone includes all memory used exclusively for system allocations (file system buffers, user space allocations, etc).
+
+[Reference](https://www.codeproject.com/Articles/131862/Special-Features-of-Linux-Memory-Management-Mechan)
