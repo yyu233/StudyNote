@@ -1,0 +1,1 @@
+Every process has a special shared memory space (heap) for every thread spawned by this process. Every thread in this process can access this memory space. That is a potential threat for data corruption and inconsistency. 
