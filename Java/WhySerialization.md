@@ -1,0 +1,1 @@
+Java objects are living in JVM heap memory. When JVM stops running, these Java objects are dead and lost. Sometimes we want to store Java objects even after JVM stops running. Serialization can help us acheive this.  
