@@ -1,0 +1,1 @@
+Using the clearpart --all command in a Kickstart file to remove all existing partitions during the installation will cause Anaconda to pause and prompt you for a confirmation. If you need to perform the installation automatically with no interaction, add the zerombr command to your Kickstart file.
