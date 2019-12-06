@@ -225,6 +225,8 @@ Configure shell options and positional parameters
  set -e #Exit immediately if a command exits with a non-zero status
  
  set -u #Treat unset variables as an errror when subsituting.
+ 
+ set -o pipefail #pipe only return the exist status of last command. We can use this set command to make pipe break if any command failed.
 ```
 
 Subshell
