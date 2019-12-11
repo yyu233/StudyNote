@@ -1,0 +1,1 @@
+Createrepo is a tool used to create the necessary XML Metadata files that Yum uses to know what packages are available. Every time a repository is updated with new or removed packages these XML Metadata files will need to be updated with createrepo.
