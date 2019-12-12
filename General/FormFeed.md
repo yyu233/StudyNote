@@ -1,0 +1,1 @@
+A page break is a marker in an electronic document that tells the document interpreter that the content which follows is part of a new page. A page break causes a form feed to be sent to the printer during spooling of the document to the printer. Thus it is one of the elements that contributes to pagination.
