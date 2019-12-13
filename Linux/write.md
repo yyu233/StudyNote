@@ -1,0 +1,1 @@
+write copies the supplied buffer to kernelspace and returns the number of bytes actually written. Depending on the kind of the descriptor, the kernel may write the data to disk or send it through the network. This is generally a costly operation because it involves transferring this buffer to the kernel.
