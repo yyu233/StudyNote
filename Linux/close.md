@@ -1,0 +1,1 @@
+close closes the supplied descriptor and any associated resources with it in the kernel are freed. Note that each process has a limit on the number of simultaneously open descriptors, so it's sometimes necessary to close descriptors to not reach this limit.
