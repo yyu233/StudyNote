@@ -80,6 +80,8 @@ Checkout other branch file : **git checkout \<branch> \<file>**
 
 Check hash code of HEAD: **git rev-parse HEAD**   
 
+Remove file from index: **git rm --cached \<file>**    
+
 
 
 
