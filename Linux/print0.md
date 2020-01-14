@@ -1,0 +1,1 @@
+The find command prints results to standard output by default, so the -print option is normally not needed, but -print0 separates the filenames with a 0 (NULL) byte so that names containing spaces or newlines can be interpreted correctly.
