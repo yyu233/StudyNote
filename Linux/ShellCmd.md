@@ -341,7 +341,9 @@ Bring interface up: **ip link set \<dev> up**
 
 Check port: **netstat -tupln | grep \<port>**    
 
-Check services and listening port: **less /etc/services**    
+Check services and listening port: **less /etc/services**         
+
+Check which kernel to boot into: **cat /boot/grub2/grubenv |grep saved** 
 
 
 
