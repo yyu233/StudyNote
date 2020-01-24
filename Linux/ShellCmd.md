@@ -335,7 +335,13 @@ View current Linux target : **systemctl list-units --type target**
 
 Switch terminal: **CTRL+ALT+F1~12**      
 
-TTY setting: **stty -a**  
+TTY setting: **stty -a**    
+
+Bring interface up: **ip link set \<dev> up**    
+
+Check port: **netstat -tupln | grep \<port>**    
+
+Check services and listening port: **less /etc/services**    
 
 
 
