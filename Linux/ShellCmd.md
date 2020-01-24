@@ -187,7 +187,9 @@ Install RPM: **rpm -igh \<rpm>**
 
 Unintall RPM: **rpm -e \<rpm>**  
 
-List installed RPMS: **rpm -qa**   
+List installed RPMS: **rpm -qa**
+
+Check if rpm is installed: **rpm -qi**     
 
 List uninstalled RPM contents: **rpm -qlp \<rpm_name>**   
 
