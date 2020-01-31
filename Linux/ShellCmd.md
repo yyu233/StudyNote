@@ -343,7 +343,11 @@ Check port: **netstat -tupln | grep \<port>**
 
 Check services and listening port: **less /etc/services**         
 
-Check which kernel to boot into: **cat /boot/grub2/grubenv |grep saved** 
+Check which kernel to boot into: **cat /boot/grub2/grubenv |grep saved**    
+
+Controlling NetworkManager: **nmcli**   
+
+NetworkManager text user interface : **nmtui**    
 
 
 
