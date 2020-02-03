@@ -299,7 +299,7 @@ Adjust running priority of process: **renice**
 
 Find file name path: **${FILE%./*}**   
 
-Flush memory to disk: **sync**   
+Flush memory to disk (useful if umount does not work): **sync**   
 
 Create physical volume: **pvcreate \<partition>**   
 
