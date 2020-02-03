@@ -1,0 +1,1 @@
+SSSD is a system daemon. Its primary function is to provide access to identity and authentication remote resource through a common framework that can provide caching and offline support to the system. It provides PAM and NSS modules as well as a D-Bus interface interface for extended user information
