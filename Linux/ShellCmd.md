@@ -349,6 +349,7 @@ Controlling NetworkManager: **nmcli**
 
 NetworkManager text user interface : **nmtui**    
 
+View problem data: **abrt-cli**   
 
 
 
