@@ -351,6 +351,7 @@ NetworkManager text user interface : **nmtui**
 
 View problem data: **abrt-cli**   
 
+Check if ISO is bootable: **isoinfo -d -i is_it_bootable.iso**     
 
 
 
