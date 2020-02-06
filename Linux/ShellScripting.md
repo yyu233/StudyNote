@@ -296,3 +296,9 @@ The ~ is actually part of the operator =~ which performs a regular expression ma
 [[ "string" =~ pattern ]]
 ```
 Note that the string should be quoted, and that the regular expression shouldn't be quoted.
+
+Print Sequence
+-----------------------------
+```
+ echo {0..10}
+```
