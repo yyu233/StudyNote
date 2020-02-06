@@ -353,6 +353,8 @@ View problem data: **abrt-cli**
 
 Check if ISO is bootable: **isoinfo -d -i is_it_bootable.iso**     
 
+Display files in hex, oct, decimal or ascii: **hexdump**   
+
 
 
 
