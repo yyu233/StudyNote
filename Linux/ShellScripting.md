@@ -304,3 +304,10 @@ Print Sequence
  
  echo {0..10}{a..z}
 ```
+
+Outgoing Grouping
+--------------------
+
+```
+{ echo "a" ; ls } > output.log  # print all output from commands into file
+```
