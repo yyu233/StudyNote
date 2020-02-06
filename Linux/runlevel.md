@@ -1,5 +1,7 @@
 ## Run Level ## 
 
+At any given time, a certain base set of processes are running. This state of the machine is called its runlevel, and it is denoted with a number from 0 through 6. 
+
 Linux kernel has booted -> init program reads the /etc/inittab file -> if no specified value, the system will enter the default runlevel.    
 Init spawns all other processes, runs as a daemon and typically has PID 1.   
 The applications that are started by init are located in the /etc/rc.d folder.      
