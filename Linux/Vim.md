@@ -69,6 +69,7 @@
 |:r \<filename> | to retrieve file content| 
 |CTRL W| to jump from one window to another| 
 |browse oldfiles| get a history of recent open files|   
+|:goto \<character index>| move cursor to the character position|
 
 
 
