@@ -1,0 +1,1 @@
+In CSS, an em unit is equal to the computed font-size for the element to which the em is applied. When em units are declared on child elements that don’t have a font-size defined, they will inherit their font-size from their parent, or from another ancestor element, possibly going all the way back to the root element on the document
