@@ -357,7 +357,9 @@ Display files in hex, oct, decimal or ascii: **hexdump**
 
 Extract squashfs image: **unsquashfs**  
 
-Bring virtual terminal to foreground: **chvt**   
+Bring virtual terminal to foreground: **chvt**      
+
+List Firewall Zone Rules: **ls -l /usr/lib/firewalld/zones/**    
 
 
 
