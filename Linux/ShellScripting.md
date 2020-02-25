@@ -325,3 +325,13 @@ Redirection
   # Appending a minus sign to the redirection operator <<-, will cause all leading tab characters to be ignored. This allows you to use   # indentation when writing here-documents in shell scripts. Leading whitespace characters are not allowed, only tab.
 
 ```
+
+Containing String
+----------------------------
+
+```
+[ "$STR1" == *"$STR2"* ]
+
+[[ "$STR1" ~= .*"$STR2".* ]]
+
+```
