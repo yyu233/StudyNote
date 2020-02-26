@@ -1,0 +1,1 @@
+When the installation begins, the installation program detects all available storage connected to the system. If it finds a storage device labeled OEMDRV, it will treat it as a driver update disc and attempt to load driver updates from this device.
