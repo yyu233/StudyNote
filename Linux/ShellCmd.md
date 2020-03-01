@@ -361,5 +361,8 @@ Bring virtual terminal to foreground: **chvt**
 
 List Firewall Zone Rules: **ls -l /usr/lib/firewalld/zones/**    
 
+List groups: **groups**    
+
+Print information about a user: **id**   
 
 
