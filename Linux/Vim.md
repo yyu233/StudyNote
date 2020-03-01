@@ -4,10 +4,12 @@
 |0 (normal mode) | Move to the start of line|
 |$| Move to the end of file (cursor at the first char of line)|
 |$ (normal mode)| Move cursor to the end of line  | 
-|tabnew| Open file in new tab|
-|tabn| Go to next tab|
-|tabp| Go to previous tab|
-|tabc| Close current tab|
+|:tabnew| Open file in new tab|
+|:tabn| Go to next tab|
+|gt| Go to next tab|
+|:tabp| Go to previous tab|
+|gT| Go to previous tab|
+|:tabc| Close current tab|
 |Ctrl + r| Redo|
 |u| Undo|
 |%d| delete all lines|
