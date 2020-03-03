@@ -18,3 +18,4 @@ $ virtualenv env
 $ python3 -m venv env
 
 ```
+As detailed above virtual environments usually just borrow things from the system Python, they don’t actually contain all the data from the system Python. The version of the python executable is hardcoded within the python exe itself. Therefore if you upgrade your system Python, your virtual environment will still report the version before the upgrade, even though now other than the executable all additional content (standard library, binary libs, etc) are of the new version
