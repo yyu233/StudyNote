@@ -191,7 +191,9 @@ List installed RPMS: **rpm -qa**
 
 Check if rpm is installed: **rpm -qi**     
 
-List uninstalled RPM contents: **rpm -qlp \<rpm_name>**   
+List uninstalled RPM contents: **rpm -qlp \<rpm_name>**      
+
+List scripts associated with the rpm: **rpm -ql \<rpm_name> --scripts** 
 
 Show history commands: **history**   
 
