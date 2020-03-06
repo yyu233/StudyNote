@@ -34,6 +34,8 @@ Top root directory of filesystem **/**
 
 awk:  **awk 'pattern {action}' input-file > output-file**    
 
+awk deduplicate: **awk '!seen[$0]++' \<file>**
+
 Control systemd system and service manager: **systemctl COMMAND**
 
 Switch user: **su user**  current working directory change, may require **cd** to go to user home directory     
