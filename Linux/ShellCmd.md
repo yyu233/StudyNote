@@ -85,6 +85,8 @@ Sort uniquely: **sort -u \<filename>**
 
 Switch string 1 with string 2: **sed "s/\<string 1>/\<string 2>" \<filename>**   
 
+Print from line a to line b and quit scanning at line c: **sed -n 'a,bp;cq' \<filename> > \<newfile>**
+
 Append: **\>\>**  
 
 Find location of command: **which \<cmd>**     
