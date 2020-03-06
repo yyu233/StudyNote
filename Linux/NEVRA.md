@@ -1,0 +1,4 @@
+RPM package names are made up of five parts; the package name, epoch, version, release, and architecture. This format is commonly referred to as the acronym NEVRA. The epoch is not always included; it is assumed to be zero (0) on any packages that lack it explicitly. The format for the whole string is n-e:v-r.a. For my purposes, I was only really concerned with comparing the EVR portion; Puppet knows about package names and the bug herein was with what Puppet calls the “version” (EVR in yum/rpm parlance). Parsing is pretty simple:
+
+If there is a : in the string, everything before it is the epoch. If not, the epoch is zero.
+If there is a - in the remaining string, everything before the first - is the version, and everything after it is the release. If there isn’t one, the release is considered null/nill/None/whatever.
