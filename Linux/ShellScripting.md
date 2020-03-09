@@ -123,6 +123,11 @@ Test Operators
 
 Array
 ---------------------------------
+Bash supports one-dimensional numerically indexed and associative arrays types. Numerical arrays are referenced using integers, and associative are referenced using strings.
+
+Numerically indexed arrays can be accessed from the end using negative indices, the index of -1 references the last element. The indices do not have to be contiguous.
+
+Unlike most of the programming languages, Bash array elements don’t have to be of the same data type. You can create an array that contains both strings and numbers.
 ```
 # Indirect Declaration
 array[index]=value 
