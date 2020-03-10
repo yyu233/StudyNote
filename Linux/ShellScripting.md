@@ -146,7 +146,7 @@ array[*]
 echo ${array[@]:starting_index: count}  
 
 #Print Length of Array 
-echo ${#array}   
+echo ${#array[@]}   
 
 #Search 
 array[@]/regex/ 
