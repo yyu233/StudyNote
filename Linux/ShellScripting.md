@@ -340,3 +340,10 @@ Containing String
 [[ "$STR1" ~= .*"$STR2".* ]]
 
 ```
+
+Unset Multiple Variables
+----------------------------
+```
+unset($var1, $var2 ...)
+
+```
