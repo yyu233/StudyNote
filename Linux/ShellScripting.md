@@ -135,6 +135,9 @@ array[index]=value
 #Explicit Declaration
 declare -a array 
 
+#Declare Associative Array
+declare -A array
+
 #Compound Assignment 
 array=(value1, value2, value3 ... valuen)
 
