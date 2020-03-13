@@ -73,6 +73,9 @@
 |browse oldfiles| get a history of recent open files|   
 |:goto \<character index>| move cursor to the character position|
 |g CTRL-G| show line status|
+|:qa| close all files|
+|:n| move to next file|
+|:prev| move to previous file|
 
 
 
