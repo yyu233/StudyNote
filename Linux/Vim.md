@@ -77,6 +77,13 @@
 |:qa| close all files|
 |:n| move to next file|
 |:prev| move to previous file|
+|:nmap| Display normal mode maps
+|:imap| Display insert mode maps
+|:vmap| Display visual and select mode maps
+|:smap| Display select mode maps
+|:xmap| Display visual mode maps
+|:cmap| Display command-line mode maps
+|:omap | Display operator pending mode maps
 
 
 
