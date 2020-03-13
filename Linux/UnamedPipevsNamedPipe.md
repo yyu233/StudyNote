@@ -1,0 +1,1 @@
+Like un-named/anonymous pipes, named pipes provide a form of IPC (Inter-Process Communication). With anonymous pipes, there's one reader and one writer, but that's not required with named pipes—any number of readers and writers may use the pipe.
