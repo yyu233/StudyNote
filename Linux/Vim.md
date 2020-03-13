@@ -6,6 +6,7 @@
 |$ (normal mode)| Move cursor to the end of line  | 
 |:tabnew| Open file in new tab|
 |:tabn| Go to next tab|
+|:tabdo %s/foo/bar/g| Replace with changes for all open tabs|
 |gt| Go to next tab|
 |:tabp| Go to previous tab|
 |gT| Go to previous tab|
