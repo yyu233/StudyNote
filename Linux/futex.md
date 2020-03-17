@@ -1,0 +1,1 @@
+The futex system call is used for implementing synchronization primitives like mutex, semaphores, reader-writer locks, etc. There is nothing wrong with the output you posted above; it indicates that you are likely tracing the main thread of the program which is waiting for a lock to be released.
