@@ -84,6 +84,12 @@
 |:xmap| Display visual mode maps
 |:cmap| Display command-line mode maps
 |:omap | Display operator pending mode maps
+|dj| Delete previous line|
+|dk| Delete next line|
+|:1,10d| Delete from line 1 to 10|
+|:1,10 co 20| Copy line 1 to 10 to after line 20|
+|:1, 10 m 20| Cut line 1 to 10 to after line 20|
+
 
 
 
