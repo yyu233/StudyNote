@@ -1,3 +1,4 @@
+Note: Avoid to use Vim or Vi to open large journals as the editor will fetch them into memory buffer and may crash your machine!!!
 |command| description|
 |----|----|
 |0 (command mode)| Move to the top of file|
