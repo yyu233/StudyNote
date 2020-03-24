@@ -84,6 +84,7 @@ Check hash code of HEAD: **git rev-parse HEAD**
 
 Remove file from index: **git rm --cached \<file>**    
 
+Delete remote branch: **git push --delete \<branch>**   
 
 
 
