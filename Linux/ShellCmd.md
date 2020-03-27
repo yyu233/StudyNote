@@ -129,7 +129,9 @@ Match one space, tab, linefeed, formfeed, or vertical tab: **[:space:]**
 
 Match one space, or tab **[:blank:]**    
 
-Configure shell options: **set +o/-o**    
+Configure shell options: **set +o/-o**   
+
+List current settings of shell: **shopt**     
 
 Configure bash options: **shopt -s/-u**   
 
