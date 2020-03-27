@@ -71,6 +71,8 @@ Copy from clipboard: **Ctrl Shift C**
 
 Paste to command line: **Ctrl Shift V**    
 
+Move between start of command line to the current cursor: **Ctrl X**   
+
 Switch to previous folder: **cd -**   
 
 Search word case insensitive: **grep -i \<pattern> \<file>**   
