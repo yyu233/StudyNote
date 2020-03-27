@@ -73,6 +73,8 @@ Paste to command line: **Ctrl Shift V**
 
 Move between start of command line to the current cursor: **Ctrl X**   
 
+Retrieve last itme you deleted or cut: **Ctrl Y**   
+
 Switch to previous folder: **cd -**   
 
 Search word case insensitive: **grep -i \<pattern> \<file>**   
