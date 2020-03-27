@@ -374,3 +374,5 @@ Print information about a user: **id**
 Show thread: **top -H -p \<PID>**     
 
 Bind key stroke to function: **bind**    
+
+Select nth argument of previous command: **ALT + number + .**    
