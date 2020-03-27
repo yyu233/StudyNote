@@ -384,3 +384,5 @@ Bind key stroke to function: **bind**
 Select nth argument of previous command: **ALT + number + .**    
 
 List bash built-in commands: **help**     
+
+Construct command by concatenating arguments: **eval**   
