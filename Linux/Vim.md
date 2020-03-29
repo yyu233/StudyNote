@@ -90,6 +90,9 @@ Note: Avoid to use Vim or Vi to open large journals as the editor will fetch the
 |:1,10d| Delete from line 1 to 10|
 |:1,10 co 20| Copy line 1 to 10 to after line 20|
 |:1, 10 m 20| Cut line 1 to 10 to after line 20|
+|{count}Ctrl+G| Show current file status|
+
+
 
 
 
