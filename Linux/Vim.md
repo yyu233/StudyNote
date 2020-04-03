@@ -91,6 +91,8 @@ Note: Avoid to use Vim or Vi to open large journals as the editor will fetch the
 |:1,10 co 20| Copy line 1 to 10 to after line 20|
 |:1, 10 m 20| Cut line 1 to 10 to after line 20|
 |{count}Ctrl+G| Show current file status|
+|:%s/pattern//gn|Number of times pattern match text|
+|:%s/pattern//n | Number of lines pattern match| 
 
 
 
