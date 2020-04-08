@@ -386,3 +386,5 @@ Select nth argument of previous command: **ALT + number + .**
 List bash built-in commands: **help**     
 
 Construct command by concatenating arguments: **eval**   
+
+Check ssh ciphers: **ssh -Q ciphers** 
