@@ -391,4 +391,6 @@ Construct command by concatenating arguments: **eval**
 
 Check ssh ciphers: **ssh -Q ciphers**    
 
-Keep running process after shell is closed: **nohup**    
+Keep running process after shell is closed: **nohup**      
+
+Replace character with other character: **tr**    
