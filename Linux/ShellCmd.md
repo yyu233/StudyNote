@@ -24,7 +24,9 @@ Pipe output to file : [Reference](https://askubuntu.com/questions/420981/how-do-
 
 Chang password for current user: **passwd**
 
-Remount filesystem: **remount -rw -o remount /**
+Remount filesystem: **remount -rw -o remount /**   
+
+Print output in table: **column -t -s \<field separater>**      
 
 Create a sharing mount point: **mount --make-shared \<mount_point> **, **mount --bind \<mount_pint> \<other_mount_point>** 
 
