@@ -389,4 +389,6 @@ List bash built-in commands: **help**
 
 Construct command by concatenating arguments: **eval**   
 
-Check ssh ciphers: **ssh -Q ciphers** 
+Check ssh ciphers: **ssh -Q ciphers**    
+
+Keep running process after shell is closed: **nohup**    
