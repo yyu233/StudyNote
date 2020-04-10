@@ -360,3 +360,9 @@ errtrace Same as -E.
 
 When errtrace is enabled, the ERR trap is also triggered when the error (a command returning a nonzero code) occurs inside a function or a subshell. Another way to put it is that the context of a function or a subshell does not inherit the ERR trap unless errtrace is enabled.
 ```
+
+Interpolate control character
+-----------------------------
+```
+ printf %q <args>  # if args contain control characters like '\t', 'n', %q will not make shell interpret them but rather insert the literal value into the line on console.
+````
