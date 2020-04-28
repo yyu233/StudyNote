@@ -1,0 +1,7 @@
+Each host connected to a network can send packets of a specific maximum size ("MTU"). This size depends on the network technology used, and for Ethernet, a typical size is 1500 bytes. But it can be as large as 9,000 for Ethernet. Some of this space is used for headers. With a standard 20 byte IP header, and a 20 byte TCP header, TCP packets usually can hold up to 1,460 bytes of data (the "Maximum Segment Size"). TCP will break down a data stream into segments that are small enough not to exceed this size, and hosts will communicate their respective maximum segment size to each other to reduce the chance of fragmentation.
+
+To order packets in a TCP connection, each byte transmitted is assigned a sequence number, and the TCP header will list the sequence number of the first byte contained in the packet. A receiver will acknowledge which sequence number it received by communicating the next sequence number it expects.
+
+Only acknowledging complete segments leads to a bit of inefficiency. A receiver can not communicate to a sender that it already received some out of order data. Instead, it will continue to acknowledge the last complete set of segments it has received.
+
+To avoid this inefficiency, SACK was introduced. It allows receivers to notify the sender that it has received an out of order segment. "I received everything up to sequence number 10, and expect 11 next, but I also received 20-30". This way, the sender knows to resend only 11-19 and to continue with 31 next.
