@@ -77,6 +77,7 @@ Move between start of command line to the current cursor: **Ctrl X**
 
 Retrieve last itme you deleted or cut: **Ctrl Y**   
 
+Cut word after cursor: **Alt + d**   
 Switch to previous folder: **cd -**   
 
 Search word case insensitive: **grep -i \<pattern> \<file>**   
