@@ -399,3 +399,5 @@ Keep running process after shell is closed: **nohup**
 Replace character with other character: **tr**    
 
 Create compressed image of remote drive using SSH: **ssh username@54.98.132.10 "dd if=/dev/sda | gzip -1 -" | dd of=backup.gz**  
+
+Check block device filesystem type：**lsblk -lno FSTYPE </dev/>**
