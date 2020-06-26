@@ -93,6 +93,7 @@ Note: Avoid to use Vim or Vi to open large journals as the editor will fetch the
 |{count}Ctrl+G| Show current file status|
 |:%s/pattern//gn|Number of times pattern match text|
 |:%s/pattern//n | Number of lines pattern match| 
+|=G| align to the end of file|
 
 
 
