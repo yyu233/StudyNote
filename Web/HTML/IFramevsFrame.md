@@ -1,0 +1,1 @@
+The difference is an iframe is able to "float" within content in a page, that is you can create an html page and position an iframe within it. This allows you to have a page and place another document directly in it. A frameset allows you to split the screen into different pages (horizontally and vertically) and display different documents in each part.
