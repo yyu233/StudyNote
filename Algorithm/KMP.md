@@ -40,14 +40,14 @@ proper suffix of "aba": **"a"**, "ba"
 |lps|0|0|1||||||
 
 proper prefix of "abab": "a", **"ab"**, "aba"    
-proper suffix of "abab": "a", **"ab"**, "bab"
+proper suffix of "abab": "b", **"ab"**, "bab"
 
 |String|a|b|a|b|a|b|c|a|
 |-|-|-|-|-|-|-|-|-|
 |lps|0|0|1|2|||||
 
 proper prefix of "ababa": "a", "ab", **"aba"**, "abab"    
-proper suffix of "ababa": "a", "ba", **"aba"**, "baba"
+proper suffix of "ababa": "", "ba", **"aba"**, "baba"
 
 |String|a|b|a|b|a|b|c|a|
 |-|-|-|-|-|-|-|-|-|
