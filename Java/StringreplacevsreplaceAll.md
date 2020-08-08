@@ -1,0 +1,1 @@
+The difference between replace() and replaceAll() method is that the replace() method replaces all the occurrences of old char with new char while replaceAll() method replaces all the occurrences of old string with the new string.
