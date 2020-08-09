@@ -1,0 +1,4 @@
+```
+Character.toUpperCase
+Character.toLowerCase
+```
