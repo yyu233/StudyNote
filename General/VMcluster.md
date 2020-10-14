@@ -1,0 +1,3 @@
+A cluster is a group of hosts connected to each other with special software that makes them elements of a single system. At least two hosts (also called nodes) must be connected to create a cluster. When hosts are added to the cluster, their resources become the cluster’s resources and are managed by the cluster.
+
+The most common types of VMware vSphere clusters are High Availability (HA) and Distributed Resource Scheduler (DRS) clusters. HA clusters are designed to provide high availability of virtual machines and services running on them; if a host fails, they immediately restart the virtual machines on another ESXi host. DRS clusters provide the load balancing among ESXi hosts, and in today’s blog post, we are going to explore the DRS cluster system in depth.
