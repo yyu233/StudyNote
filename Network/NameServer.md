@@ -1,0 +1,1 @@
+ The name server is usually what people call the local DNS server that a workstation/PC can use as its entry point into the DNS. It will resolve local names, but delegates to other names servers for those it can't answer.
