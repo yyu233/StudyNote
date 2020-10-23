@@ -1,0 +1,1 @@
+The baseboard management controller (BMC) provides the intelligence in the IPMI architecture. It is a specialized microcontroller embedded on the motherboard of a computer – generally a server. The BMC manages the interface between system-management software and platform hardware.
