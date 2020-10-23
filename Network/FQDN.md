@@ -1,0 +1,3 @@
+A fully qualified domain name (FQDN) is the complete domain name for a specific computer, or host, on the internet. The FQDN consists of two parts: the hostname and the domain name. For example, an FQDN for a hypothetical mail server might be mymail.somecollege.edu. The hostname is mymail, and the host is located within the domain somecollege.edu.
+
+In this example, .edu is the top-level domain (TLD). This is similar to the root directory on a typical workstation, where all other directories (or folders) originate. (Within the .edu TLD, Indiana University Bloomington has been assigned the indiana.edu domain, and has authority to create subdomains within it.)
