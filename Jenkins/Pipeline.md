@@ -13,6 +13,8 @@ Pipeline can pause to wait for human input or approval.
 
 **Step** a step which is a single task telling Jenkins what to do at a particular time.   
 
+A "pipeline" in modern continuous integration tools is a process that typically allows you to break your automated workflow into "stages". Typically, a pipeline is triggered by changes to version control, such as a push in git, and proceeds to run stages like building the software, running a linter, static analysis, and a series of tests. With continuous deployment, such a pipeline might be extended to also deploy the software automatically to some sort of environment.
+
 Pipeline can be created by one of 3 ways:  
 
 * Blue Ocean 
