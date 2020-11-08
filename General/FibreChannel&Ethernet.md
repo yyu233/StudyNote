@@ -1,0 +1,1 @@
+Fibre Channel is considered a lossless protocol. Fibre Channel switches are lossless, while Ethernet switches may be at the risk of dropping a frame. For Fibre Channel switches, they can operate smoothly without dropping a single frame, and all the data frames are transmitted in order.
