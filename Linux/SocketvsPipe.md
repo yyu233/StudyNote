@@ -1,0 +1,3 @@
+In Domain sockets, actual communication (the data exchange) does not use the file system, but buffers in kernel memory. By default, it is full-duplex mode.
+
+Named pipes are identified by their access point, a file kept on the file system for handling the data. A named pipe by default supports blocked read and write operations. However, it is possible to make named pipes support non-blocking operations by specifying the O_NONBLOCK flag while opening them. A named pipe must be opened either read-only or write-only. It must not be opened for read-write because it is half-duplex,a one-way channel.
