@@ -403,3 +403,5 @@ Create compressed image of remote drive using SSH: **ssh username@54.98.132.10 "
 Check block device filesystem type：**lsblk -lno FSTYPE </dev/>**
 
 Query Internet Servers: **nslookup**  
+
+Get Content from Webpage: **wget -m -p -E -K -k \<link>**   
