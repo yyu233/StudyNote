@@ -12,6 +12,8 @@ Unlike the real dumps(), this mocked method requires no arguments. In fact, it w
 
 The return value of dumps() is also a Mock. The capability of Mock to recursively define other mocks allows for you to use mocks in complex situations
 
+Since Mock can create arbitrary attributes on the fly, it is suitable to replace any object.
+
 
 ## Magic Mock ##
 MagicMock is a subclass of Mock with all the magic methods pre-created and ready to use. There are also non-callable variants, useful when you are mocking out objects that aren’t callable: NonCallableMock and NonCallableMagicMock
