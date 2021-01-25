@@ -1,0 +1,1 @@
+Types aren't used the same way in Python as statically types languages. A hashable object is simply one with a valid hash method. The interpreter simply calls that method, no type checking or anything. From there on out, standard hash map principles apply: for an object to fulfill the contract, it must implement both hash and equals methods. 
