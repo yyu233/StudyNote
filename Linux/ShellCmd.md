@@ -409,3 +409,5 @@ Get Content from Webpage: **wget -m -p -E -K -k \<link>**
 Specify file size limit of shell and its subprocess: **ulimit** 
 
 Check space of Volume Group: **vgdisplay**   
+
+Exporting content of rpmdb: **rpm -qa --xml** 
