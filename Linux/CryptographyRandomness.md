@@ -1,0 +1,3 @@
+Random numbers are important in computing. TCP/IP sequence numbers, TLS nonces, ASLR offsets, password salts, and DNS source port numbers all rely on random numbers. In cryptography randomness is found everywhere, from the generation of keys to encryption systems, even the way in which cryptosystems are attacked. Without randomness, all crypto operations would be predictable and hence insecure.
+
+When computer algorithms are fed with the same input they should always give the same output; they are predictable and therefore not a good source of random numbers. A good random numbers generator consists of two parts: a source of entropy and a cryptographic algorithm
