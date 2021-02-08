@@ -1,0 +1,5 @@
+The kernel provides two character devices /dev/random and /dev/urandom. The /dev/random device is suitable for use when very high-quality randomness is desired (for example, for key generation or one-time pads), as it will only return a maximum of the number of bits of randomness (as estimated by the random number generator) contained in the entropy pool.
+
+The /dev/urandom device does not have this limit and will return as many bytes as are  requested. As more and more random bytes are requested without giving time for the entropy pool to recharge, this will result in random numbers that are "merely" cryptographically strong. For many applications, however, this is acceptable.
+
+The biggest problem with /dev/random is that it is blocking. Once the kernel's entropy pool is exhausted, reads from /dev/random will pause until sufficient entropy is replenished. Such pauses are typically unacceptable and can constitute a denial-of-service attack against the application or even the system as a whole.
