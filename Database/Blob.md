@@ -1,0 +1,1 @@
+A blob is a data type that can store binary data. This is different than most other data types used in databases, such as integers, floating point numbers, characters, and strings, which store letters and numbers. Since blobs can store binary data, they can be used to store images or other multimedia files. For example, a photo album could be stored in a data
