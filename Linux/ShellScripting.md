@@ -366,3 +366,9 @@ Interpolate control character
 ```
  printf %q <args>  # if args contain control characters like '\t', 'n', %q will not make shell interpret them but rather insert the literal value into the line on console.
 ````
+\*
+--------------------
+```
+The shell is expanding * to all files in the current directory that do not start with a dot. This is the same rule that ls uses by default (by convention, files whose names start with a dot are considered "hidden" in Unix).
+```
+
