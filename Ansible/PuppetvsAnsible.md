@@ -1,0 +1,5 @@
+A common argument I hear against Puppet is the infrastructure needed to support your automation processes. If you want to fully utilise Puppet… it needs infrastructure. If you want an access to the node’s facts, reports, etc you need puppet master(s), puppet db(s). In many cases people link this argument with an overhead which Puppet brings in. I cannot answer which is better, as in my opinion Puppet and Ansible serve slightly different purposes but are very similar to each other.
+
+Another argument against Puppet is that to run it you need X puppet. In fact, to run ansible-playbook, you need Ansible. The difference is that ansible-playbook can be run from centralised places, whereas Puppet needs an agent to run on each node. Unless you run masterless configuration and you execute your puppet manifests locally on the box, then it also requires puppet to be installed on that server + source code of your all modules and manifests.
+
+In short, Puppet will always require an extra component/package to be installed on the destination server to make it all work, regardless if you go masterless or not.
