@@ -1,0 +1,7 @@
+For a daemon, what you want is a process that has no tie to anything. At the very least, you want it to be in its own session, not be attached to a terminal, not have any file descriptor inherited from the parent open to anything, not have a parent caring for you (other than init) have the current directory in / so as not to prevent a umount...
+
+To detach from a terminal, you create a new session, however, to create a session, you must not be a group (or session) leader, so best is to fork a new process. Assuming the parent exits, that also means that process will not have a parent anymore and will be adopted by init. Then, close all possible file descriptors, you chdir("/") (one can't close the current working directory to release that resource like for file descriptors, making / the current working directories at least doesn't prevent unmounting directories).
+
+Because that process is a session leader, there's a risk that if it ever opens a terminal device, it becomes the controlling process of that terminal. Forking a second time ensures it doesn't happen.
+
+On the other end, &, in interactive shells, forks and creates a new process group (so as not to be in the terminal's foreground process group), and in non-interactive shells, forks a process and ignores SIGINT in it. It doesn't detach from the terminal, doesn't close file descriptors (though some shells will reopen stdin to /dev/null)...
