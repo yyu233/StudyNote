@@ -415,3 +415,5 @@ Exporting content of rpmdb: **rpm -qa --xml**
 Check current SElinux Mode: **getenforce** 
 
 Get verbose SElinux status: **sestatus** 
+
+Create a new running session: **setsid** 
