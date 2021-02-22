@@ -419,3 +419,5 @@ Get verbose SElinux status: **sestatus**
 Create a new running session: **setsid** 
 
 Make process ignore the hangup signal: **nohup** 
+
+Check open ports: **lsof -i -P -n | grep LISTEN** 
