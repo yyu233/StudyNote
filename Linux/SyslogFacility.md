@@ -1,0 +1,3 @@
+The facility represents the machine process that created the syslog event. For example, is the event created by the kernel, by the mail system, by security/authorization processes, etc.? In the context of this field, the facility represents a kind of filter, instructing SMS to forward to the remote Syslog Server only those events whose facility matches the one defined in this field. So by changing the facility number and/or the severity level you change the amount of alerts (messages) that are sent to the remote syslog server
+
+The Facility value is a way of determining which process of the machine created the message. Since the Syslog protocol was originally written on BSD Unix, the Facilities reflect the names of UNIX processes and Daemons
