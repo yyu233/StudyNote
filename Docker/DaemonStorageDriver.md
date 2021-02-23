@@ -11,3 +11,7 @@ The zfs driver is probably not as fast as btrfs but has a longer track record on
 The overlay is a very fast union filesystem. It is now merged in the main Linux kernel as of 3.18.0. overlay also supports page cache sharing, this means multiple containers accessing the same file can share a single page cache entry (or entries), it makes overlay as efficient with memory as aufs driver. Call dockerd -s overlay to use it.
 
 The overlay2 uses the same fast union filesystem but takes advantage of additional features added in Linux kernel 4.0 to avoid excessive inode consumption. Call dockerd -s overlay2 to use it.
+
+The fuse-overlayfs driver is similar to overlay2 but works in userspace. The fuse-overlayfs driver is expected to be used for Rootless mode.
+
+On Windows, the Docker daemon supports a single image layer storage driver depending on the image platform: windowsfilter for Windows images, and lcow for Linux containers on Windows.
