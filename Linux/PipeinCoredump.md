@@ -1,0 +1,1 @@
+If the first character of this file is a. pipe symbol (|), then the remainder of the line is interpreted as a program to. be executed. Instead of being written to a disk file, the core dump is given. as standard input to the program
