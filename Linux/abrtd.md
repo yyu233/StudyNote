@@ -1,0 +1,5 @@
+abrtd is a daemon that watches for application crashes. When a crash occurs, it collects the problem data (core file, application’s command line, …) and takes action according to the configuration and the type of application that crashed.
+
+By default it uses inotify interface [3] to monitor the dump location (/var/spool/abrt/) for new directories created by C/C++ hook and a Socket API (/var/run/abrt/abrt.socket) used by other hooks like Python hook.
+
+The reason for using socket instead of direct filesystem access is security. When a Python script throws unhandled exception, Python hook catches it, running as a part of the broken Python application. The application is running with certain SELinux privileges, for example it can not execute other programs, or to create files in /var/spool/abrt or anything else required to properly fill a problem directory. Adding these privileges to every application would weaken the security. The most suitable solution for the Python application is to open a socket where abrtd is listening, write all relevant data to that socket, and close it. abrtd handles the rest of the processes.
