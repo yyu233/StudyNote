@@ -1,0 +1,1 @@
+The kernel parses parameters from the kernel command line up to “–”; if it doesn’t recognize a parameter and it doesn’t contain a ‘.’, the parameter gets passed to init: parameters with ‘=’ go into init’s environment, others are passed as command line arguments to init. Everything after “–” is passed as an argument to init.
