@@ -423,3 +423,5 @@ Make process ignore the hangup signal: **nohup**
 Check open ports: **lsof -i -P -n | grep LISTEN**   
 
 Make btrfs storage pool: **mkfs.btrfs**  
+
+Query loop device status: **losetup** 
