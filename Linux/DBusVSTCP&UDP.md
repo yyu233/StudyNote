@@ -1,0 +1,1 @@
+Message exchange on protocols like TCP or UDP is symmetric; in those examples, data is always transferred from one "port" to another. D-Bus presents a more sophisticated model where the sending and the receiving side of a message are never quite of the same type.
