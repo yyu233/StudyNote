@@ -1,0 +1,1 @@
+In addition to providing salt (or seed), the md5 is a complex hashing algorithm which uses mathematical rules to produce a result that is specifically not reversable because of the mathematical changes and dataloss in throughput.
