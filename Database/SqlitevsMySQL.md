@@ -14,3 +14,7 @@ On the other hand, MySQL requires a server to run. MySQL will require a client a
 
 * SQLite is suitable for smaller databases. As the database grows the memory requirement also gets larger while using SQLite. Performance optimization is harder when using SQLite. This has a few write constraints.
   On the contrary, MySQL is easily scalable and can handle a bigger database with less effort.
+  
+* SQLite does not have an inbuilt authentication mechanism. The database files can be accessed by anyone.  However, MySQL comes with a lot of inbuilt security features. This includes authentication with a username, password, and SSH.
+
+* SQLite does not require too many configurations and is easy to set up. MySQL requires more configurations as compared to SQLite. MySQL also has more setup guides available.
