@@ -1,0 +1,1 @@
+Common network monitoring tools, such as Wireshark are able to capture, detect and reconstruct various unencrypted protocols, but do not see into the protected tunnels of encrypted SSH, RDP, or HTTPS protocols.
