@@ -426,4 +426,8 @@ Make btrfs storage pool: **mkfs.btrfs**
 
 Query loop device status: **losetup**   
 
-Connect mysql remotely: **mysql**  
+Connect mysql remotely: **mysql**   
+
+Local SSH port forwarding: **ssh -L \<port>:\<destination>:\<port> \<user>@\<server address>**  
+
+Remote SSH port forwarding: **ssh -R \<port>:\<destination>:\<port> \<user>@\<visitor address>** 
