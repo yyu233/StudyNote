@@ -435,3 +435,7 @@ Remote SSH port forwarding: **ssh -R \<port>:\<destination>:\<port> \<user>@\<vi
 Wipe signature from disk: **wipefs**  
 
 Check space of Volume Group: **vgdisplay**   
+
+Back up a partition: **dd if=/dev/sda of=~/partition.img**  
+
+Back up a disk: **dd if=/dev/sda of=~/disk.img**  
