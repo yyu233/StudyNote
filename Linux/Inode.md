@@ -1,0 +1,5 @@
+A file system relies on data structures about the files, as opposed to the contents of that file. The former are called metadata—data that describes data. Each file is associated with an inode, which is identified by an integer, often referred to as an i-number or inode number.
+
+Inodes store information about files and directories (folders), such as file ownership, access mode (read, write, execute permissions), and file type. On many older file system implementations, the maximum number of inodes is fixed at file system creation, limiting the maximum number of files the file system can hold. A typical allocation heuristic for inodes in a file system is one inode for every 2K bytes contained in the filesystem.[8]
+
+The inode number indexes a table of inodes in a known location on the device. From the inode number, the kernel's file system driver can access the inode contents, including the location of the file, thereby allowing access to the file. A file's inode number can be found using the ls -i command. The ls -i command prints the i-node number in the first column of the report.
