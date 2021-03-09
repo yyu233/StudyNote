@@ -1,0 +1,5 @@
+Most of the c-family languages and their based languages implement socket as Berkeley sockets which are implemented as file descriptors. From Wikipedia:
+
+In the traditional implementation of Unix, file descriptors index into a per-process file descriptor table maintained by the kernel, that in turn indexes into a system-wide table of files opened by all processes, called the file table. This table records the mode with which the file (or other resource) has been opened: for reading, writing, appending, and possibly other modes. It also indexes into a third table called the inode table that describes the actual underlying files.[3] To perform input or output, the process passes the file descriptor to the kernel through a system call, and the kernel will access the file on behalf of the process. The process does not have direct access to the file or inode tables.
+
+So on a high-level, sockets are implemented as files whose file-descriptors or handles are referenced as identifier to the socket.
