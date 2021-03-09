@@ -430,4 +430,8 @@ Connect mysql remotely: **mysql**
 
 Local SSH port forwarding: **ssh -L \<port>:\<destination>:\<port> \<user>@\<server address>**  
 
-Remote SSH port forwarding: **ssh -R \<port>:\<destination>:\<port> \<user>@\<visitor address>** 
+Remote SSH port forwarding: **ssh -R \<port>:\<destination>:\<port> \<user>@\<visitor address>**  
+
+Wipe signature from disk: **wipefs**  
+
+Check space of Volume Group: **vgdisplay**   
