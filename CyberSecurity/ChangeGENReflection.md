@@ -1,0 +1,2 @@
+CharGEN is, by internet standards, an ancient protocol created in 1983 for the purposes of debugging or testing. Unfortunately, many internet-connected printers or copy machines still actively use this protocol, allowing hackers to exploit CharGEN’s many age-induced loopholes. The hacker will send many tiny packets of data under the guise of a victim’s IP address to whatever is running on CharGEN. The device then floods the victim’s system with UDP (User Datagram Protocol) reponses, overwhelming the target server and causing it to reboot or cut out altogether.
+
