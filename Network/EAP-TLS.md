@@ -1,0 +1,1 @@
+Unlike most TLS implementations of HTTPS, such as on the World Wide Web, the majority of implementations of EAP-TLS require mutual authentication using client-side X.509 certificates without giving the option to disable the requirement, even though the standard does not mandate their use
