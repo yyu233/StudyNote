@@ -1,0 +1,5 @@
+A hacker chooses a public place that has many hotspots, such as your local Starbucks or an airport. Such places usually have multiple Wi-Fi access points with the same name. It’s good if you are walking around the building and don’t want to lose your connection, but it also makes the hacker's job much easier when it comes to creating a fake hotspot with the same Wi-Fi name.
+
+Now the bad actor can use anything from a network card, tablet, or laptop to a portable router or a Wi-Fi Pineapple (if they need more range) to create a hotspot. It’s pretty easy! Just think about the last time you used your phone as a hotspot to share a connection with your other devices or your friends. That’s exactly what a hacker does; however, they use the same Service Set Identifier (SSID) name, also known as simply the Wi-Fi name, as the legitimate one does.
+
+Why does this matter? Because most devices aren’t clever enough to distinguish between a legitimate and a fake access point if they have the same SSID. (Some hackers can go as far as cloning the MAC address of the trusted network.) That’s why it’s called an evil twin!
