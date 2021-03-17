@@ -1,0 +1,1 @@
+Apache Kudu comes optimized for SSD and it is designed to take advantage of the next persistent memory. It is able to scale to 10s of cores per server and even benefit of SIMD operations for data-parallel computation.
