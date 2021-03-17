@@ -24,6 +24,7 @@ OpenMP is an API which is all about making it (presumably) easier to write share
 |There are overheads associated with transferring message from one process to another|No such overheads, as thread can share variables|
 |Process in MPI  has private variable only, no shared variable|In OpenMP , threads have both private as well shared variable|
 |Data racing is not there if not using any thread in process| Data racing is inherent in OpenMP model|
-|Compilation of MPI program require. 1. Adding header file : #include "mpi.h" 2. compiler as:(in linux ) mpic++  mpi.cxx -o mpiExe.  (User need to set environment variable PATH and LD_LIBRARY_PATH to MPI as OpenMPI installed folder or binaries) (For Linux)| Need to add  omp.h and then can directly compile code with -fopenmp in Linux environment   g++ -fopenmp openmp.cxx -o openmpExe|
+|Compilation of MPI program require. 1. Adding header file : #include "mpi.h" 2. compiler as:(in linux ) mpic++  mpi.cxx -o mpiExe.  (User need to set environment variable PATH and LD_LIBRARY_PATH to MPI as OpenMPI installed folder or binaries) (For Linux)| Need to add  omp.h and then can directly compile code with -fopenmp in Linux environment   g++ -fopenmp openmp.cxx -o openmpExe| 
+|Running MPI program   1. User need to make sure that bin and library folder from MPI installation are included in environmental variable PATH and LD_LIBRARY_PATH. 2. For running executable from command line ,user need to supply following command and specify number of processor as in example below it is four .    mpirun -np 4 mpiExe| User can launch executable openmpExe in normal way.  ./openmpExe|
 
 
