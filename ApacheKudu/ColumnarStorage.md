@@ -1,0 +1,3 @@
+Like most modern analytic data stores, Kudu internally organizes its data by column rather than row. Columnar storage allows efficient encoding and compression. For example, a string field with only a few unique values can use only a few bits per row of storage. With techniques such as run-length encoding, differential encoding, and vectorized bit-packing, Kudu is as fast at reading the data as it is space-efficient at storing it.
+
+Columnar storage also dramatically reduces the amount of data IO required to service analytic queries. Using techniques such as lazy data materialization and predicate pushdown, Kudu can perform drill-down and needle-in-a-haystack queries over billions of rows and terabytes of data in seconds.
