@@ -443,3 +443,5 @@ Back up a disk: **dd if=/dev/sda of=~/disk.img**
 Interact with systemd running on remote machine over ssh: **systemctl --host user_name@host_name command**  
 
 View Control Group Hierarchy: **systemctl-cgls**  
+
+Find the running process ID from the stdout criteria: **pgrep**  
