@@ -1,0 +1,3 @@
+Only the OS has any say on physical memory, and userspace applications can't even see where things are in physical memory underneath. Remember that the virtual-memory to physical-memory mappings have a very small granularity (4KB is quite typical), meaning that it wouldn't matter if the 2 physical 1GB-blocks weren't contiguous, the OS can still map them into a contiguous 2GB block of virtual memory. In the extreme case, the OS could map 512x1024 (524288) completely different, non-contiguous 4KB blocks of physical memory into a contiguous 2GB block of virtual memory.
+
+So in summary, malloc will always allocate contiguous blocks of virtual memory, but it has no say on and no knowledge of if they're physically contiguous.
