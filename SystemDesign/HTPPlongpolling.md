@@ -1,0 +1,1 @@
+HTTP Long Polling: One request goes to server and client is waiting for the response to come. The server holds the request open until new data is available (it’s unresolved and resources are blocked). You are notified with no delay when the server event happens. More complex and more server resources used.
