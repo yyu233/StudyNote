@@ -1,0 +1,1 @@
+HTTP Short Polling: Simpler approach. A lot of requests are processed as they come to the server, creating a lot of traffic (uses resources, but frees them as soon as the response is sent back). Since each connection is only open for a short period of time, many connections can be time-multiplexed.
