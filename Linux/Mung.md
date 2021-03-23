@@ -1,0 +1,1 @@
+Mung is computer jargon for a series of potentially destructive or irrevocable changes to a piece of data or a file.[1] It is sometimes used for vague data transformation steps that are not yet clear to the speaker.[2] Common munging operations include removing punctuation or HTML tags, data parsing, filtering, and transformation
