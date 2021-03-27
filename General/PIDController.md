@@ -10,6 +10,6 @@ Term D is a best estimate of the future trend of the SP − PV error, based 
 
 | Parameter |	Rise time	|Overshoot|	Settling time|	Steady-state error	|Stability|
 | --- | --- | ---| ---| ---| ---|
-| Kp	Decrease|	Increase|	Small change	|Decrease|	Degrade|
+| Kp|	Decrease|	Increase|	Small change	|Decrease|	Degrade|
 | Ki	|Decrease	|Increase	|Increase	|Eliminate|	Degrade|
 |Kd	|Minor change|	Decrease	|Decrease|	No effect in theory|	Improve if Kd small|
