@@ -1,0 +1,2 @@
+In computer programming, a shim is a small library that transparently intercepts an API, changing the parameters passed, handling the operation itself, or redirecting the operation elsewhere. Shims typically come about when the behaviour of an API changes, thereby causing compatibility issues for older applications that still rely on the older functionality. In these cases, the older API can still be supported by a thin compatibility layer on top of the newer code. Shims can also be used to run programs on different software platforms than they were developed for.
+
