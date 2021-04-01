@@ -1,0 +1,3 @@
+By default, read() waits until at least one byte is available to return to the application; this default is called "blocking" mode. Alternatively, individual file descriptors can be switched to "non-blocking" mode, which means that a read() on a slow file will return immediately, even if no bytes are available.
+
+The last thing we need to mention for read() is how it behaves on empty pipes. If nobody has the pipe open for writing, read() will always return 0 bytes and not block. If someone does have the pipe open for writing, though, blocking file descriptors will block onread(), and non-blocking ones will return immediately with EAGAIN.
