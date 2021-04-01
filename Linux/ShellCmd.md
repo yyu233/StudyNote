@@ -447,3 +447,10 @@ View Control Group Hierarchy: **systemctl-cgls**
 Find the running process ID from the stdout criteria: **pgrep**  
 
 Get process summary: **strace -c -p \<PID>**  
+
+Get process instruction: **strace -i -p \<PID>**
+
+Get process instruction time difference: **strace -T -p \<PID>**  
+
+Trace process by only specific system call: **strace -e trace=\<value> -p \<PID>**  
+
