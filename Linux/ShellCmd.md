@@ -445,3 +445,5 @@ Interact with systemd running on remote machine over ssh: **systemctl --host use
 View Control Group Hierarchy: **systemctl-cgls**  
 
 Find the running process ID from the stdout criteria: **pgrep**  
+
+Get process summary: **strace -c -p \<PID>**  
