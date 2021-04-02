@@ -1,0 +1,1 @@
+These are the set of O_flags that describe the types of access permitted to the file; its typical values are O_RDWR (read/write) or (O_WRONLY(write only) | O_APPEND). The O_NONBLOCK flag is set if the file is to be treated as non-blocking, and is not present if the file is blocking.
