@@ -1,0 +1,1 @@
+mmap always creates a single contiguous mapping of virtual addresses so you can use it as an array. The underlying physical pages don't have to be contiguous or in any particular order, as usual with virtual memory
