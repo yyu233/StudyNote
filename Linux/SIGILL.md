@@ -1,0 +1,2 @@
+It means the CPU attempted to execute an instruction it didn't understand. This could be caused by corruption I guess, or maybe it's been compiled for the wrong architecture (in which case I would have thought the O/S would refuse to run the executable). Not entirely sure what the root issue is.
+Another cause of execing an invalid instruction is jumping to an address that isn't in the program area. 
