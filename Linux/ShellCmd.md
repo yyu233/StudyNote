@@ -454,3 +454,4 @@ Get process instruction time difference: **strace -T -p \<PID>**
 
 Trace process by only specific system call: **strace -e trace=\<value> -p \<PID>**  
 
+Find the pid of running program: **ps -C \<program> -o pid h**    
