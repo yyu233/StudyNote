@@ -1,0 +1,9 @@
+
+
+With controlling terminal, process is able to tell kernel which process group is foreground process group (in same session). If there is a foreground process group for a terminal, we can control the foreground process group via the terminal, e.g., Ctrl-C/Ctrl-\ to terminate the foreground process group. (A terminal may have only one foreground process group, or may not have any. To put it precisely, a terminal can only be associated with one process session.)
+
+With controlling terminal, even if you already redirect stdin to other places/files, you still be able to read/write from/to controlling terminal, the /dev/tty. This special file is a synonym within the kernel for the controlling terminal of current process. If your process has no controlling terminal associated, then open this file will fail. What can you do regarding this file? E.g., some programs need user to input password before doing something, such as programs for login or encryption. These programs may prohibit user from inputting password from stdin, which means even if you redirect their stdin to a random file, they'll still wait for your type. The reason is they all open /dev/tty to read.
+
+To sum up, with controlling terminal, kernel is aware of where to deliver terminal-generated signal and terminal input if they are expected by someone. That's all.
+
+So it is unnecessary for a process to associate with a controlling terminal, if it doesn't want to be controlled by any terminal, and doesn't want to read/write from/to "/dev/tty" (like most daemon programs). However, a common process launched from within a shell always have controlling terminal associated, because it is member of shell session, which has already established a controlling terminal when shell starts up. (Actually, a random process cannot attach a terminal as controlling terminal, only session leader process can.)
