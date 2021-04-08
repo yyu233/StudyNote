@@ -1,0 +1,1 @@
+Those layers (or intermediate images or whatever you call them) have some benefits. Once we build them, Docker will reuse them for new builds. This makes the builds much faster. This is great for contentious integration, where we want to build an image at the end of each successful build (e.g. in Jenkins).
