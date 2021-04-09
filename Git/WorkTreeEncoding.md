@@ -1,0 +1,3 @@
+Alternative Git implementations (e.g. JGit or libgit2) and older Git versions (as of March 2018) do not support the working-tree-encoding attribute. If you decide to use the working-tree-encoding attribute in your repository, then it is strongly recommended to ensure that all clients working with the repository support it.
+
+For example, Microsoft Visual Studio resources files (*.rc) or PowerShell script files (*.ps1) are sometimes encoded in UTF-16. If you declare *.ps1 as files as UTF-16 and you add foo.ps1 with a working-tree-encoding enabled Git client, then foo.ps1 will be stored as UTF-8 internally. A client without working-tree-encoding support will checkout foo.ps1 as UTF-8 encoded file. This will typically cause trouble for the users of this file
