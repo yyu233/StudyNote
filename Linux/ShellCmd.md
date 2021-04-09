@@ -457,3 +457,5 @@ Trace process by only specific system call: **strace -e trace=\<value> -p \<PID>
 Find the pid of running program: **ps -C \<program> -o pid h**    
 
 Print all current settings in human readable form: **stty --all**   
+
+Get all available encoding on the platform: **iconv --list**  
