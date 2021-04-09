@@ -26,3 +26,12 @@ config.h filter=updateSecretToken
 git config --global filter.updateSecretToken.smudge 'sed "s/{your-secret-token}/super-secret-value!/"'
 
 Next time you checkout the config.h file, its content will be automatically updated and your secret will be included in the file.
+
+# Cleaning your commit
+
+As much as you need to update the config.h file content upon checkout to include your secret, it’s important as well to update the content before including the file in the stage area, and put back {your-secret-token} instead of super-secret-value!. Otherwise, your secret would be exposed.
+
+For doing it, you can define the clean filter updateSecretToken. Similar to the smudge filter, this can be done in the git global config:
+
+git config --global filter.updateSecretToken.clean 'sed "s/super-secret-value!/{your-secret-token}/"'
+
