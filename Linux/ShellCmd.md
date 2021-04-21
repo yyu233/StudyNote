@@ -463,3 +463,5 @@ Get all available encoding on the platform: **iconv --list**
 List the content of initramfs: **lsinitrd**   
 
 Check RAID status: **/proc/mdstat**   
+
+Searching a given binary image for embedded files and executable code: **binwalk**   
