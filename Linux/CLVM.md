@@ -1,0 +1,1 @@
+LVM volumes that use the Clustered Logical Volume (CLVM) extensions in an active/active configurations in which more than one node of the cluster requires access to the storage at the same time. CLVM is part of the Resilient Storage Add-On. 
