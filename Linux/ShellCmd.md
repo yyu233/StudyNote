@@ -467,3 +467,5 @@ Check RAID status: **/proc/mdstat**
 Searching a given binary image for embedded files and executable code: **binwalk**   
 
 Print the stack trace of running process: **gstack**  
+
+Restore volume group state: **vgcfgrestore**  
