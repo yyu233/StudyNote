@@ -471,3 +471,5 @@ Print the stack trace of running process: **gstack**
 Restore volume group state: **vgcfgrestore**  
 
 List all blocked state process: **echo w > /proc/sysrq-trigger** 
+
+Print stack of each tread in the process: **eu-stack**  
