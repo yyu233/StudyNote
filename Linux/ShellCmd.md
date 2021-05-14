@@ -469,3 +469,5 @@ Searching a given binary image for embedded files and executable code: **binwalk
 Print the stack trace of running process: **gstack**  
 
 Restore volume group state: **vgcfgrestore**  
+
+List all blocked state process: **echo w > /proc/sysrq-trigger** 
