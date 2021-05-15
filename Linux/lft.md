@@ -1,0 +1,1 @@
+lft stands for lifetime. If you get this address through dhcp, then you'll have a valid lifetime for your lease on the IP address. And just to make handoffs a little bit easier, a (probably) shorter preferred lifetime.
