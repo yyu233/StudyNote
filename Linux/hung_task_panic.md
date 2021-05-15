@@ -1,0 +1,1 @@
+The hung_task_panic parameter controls whether to panic or not upon detection of a task that is blocked in D state for more than hung_task_timeout_secs seconds. When hung_task_panic is enabled, the system will deliberately crash via a panic upon blocked task detection. A vmcore will then be captured if kdump is correctly configured on the system.
