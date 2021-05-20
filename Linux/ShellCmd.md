@@ -479,3 +479,5 @@ Find out which entries manual contains for a command: **man -f \<command>**
 Search with keywords in manual: **man -k \<keyword>**  
 
 Provides information for inter-process communication facilities: **ipcs**  
+
+Merge snapshot into original logical volume: **lvmconvert --mergesnapshot \<snapshot volume>**  
