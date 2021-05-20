@@ -1,0 +1,3 @@
+The logical unit may be a part of a storage drive, an entire storage drive or all parts of several storage drives such as a hard disk drive, solid-state drive or tapes, in one or more storage systems. A LUN can reference an entire RAID set, a single drive or partition, or multiple storage drives or partitions. In any case, the logical unit is treated as if it is a single device and is identified by the logical unit number. The capacity limit of a LUN varies by system.
+
+A LUN is central to the management of a block storage array in a storage-area network (SAN). Using a LUN can simplify the management of storage resources because access and control privileges can be assigned through the logical identifiers.
