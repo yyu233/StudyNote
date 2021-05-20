@@ -477,3 +477,5 @@ Print stack of each tread in the process: **eu-stack**
 Find out which entries manual contains for a command: **man -f \<command>**  
 
 Search with keywords in manual: **man -k \<keyword>**  
+
+Provides information for inter-process communication facilities: **ipcs**  
