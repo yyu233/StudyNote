@@ -481,3 +481,5 @@ Search with keywords in manual: **man -k \<keyword>**
 Provides information for inter-process communication facilities: **ipcs**  
 
 Merge snapshot into original logical volume: **lvmconvert --mergesnapshot \<snapshot volume>**  
+
+Translate memory address into symbol: **klogd**   
