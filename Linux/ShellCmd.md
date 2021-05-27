@@ -485,3 +485,5 @@ Merge snapshot into original logical volume: **lvmconvert --mergesnapshot \<snap
 Translate memory address into symbol: **klogd**   
 
 Get attributes info starts with the device specified by the devpath and then chain of parent devices: **udevadm info -a -n**  
+
+Monitor udev events: **udevadm monitor** 
