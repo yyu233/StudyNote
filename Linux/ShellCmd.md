@@ -486,4 +486,6 @@ Translate memory address into symbol: **klogd**
 
 Get attributes info starts with the device specified by the devpath and then chain of parent devices: **udevadm info -a -n**  
 
-Monitor udev events: **udevadm monitor** 
+Monitor udev events: **udevadm monitor**  
+
+Verfiy signature of rpm: **rpm -K**   
