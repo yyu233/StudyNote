@@ -1,3 +1,11 @@
 A KVM Switch is a hardware device, used in data centers, that allows the control of multiple computers from a single keyboard, monitor and mouse (KVM).[5] This switch then allows data center personnel to connect to any server in the rack. A common example of home use is to enable the use of the full-size keyboard, mouse and monitor of the home PC with a portable device such as a laptop, tablet PC or PDA, or a computer using a different operating system.
 
 KVM switches offer different methods of connecting the computers. Depending on the product, the switch may present native connectors on the device where standard keyboard, monitor and mouse cables can be attached. Another method to have a single DB25 or similar connector that aggregated connections at the switch with three independent keyboard, monitor and mouse cables to the computers. Subsequently, these were replaced by a special KVM cable which combined the keyboard, video and mouse cables in a single wrapped extension cable. The advantage of the last approach is in the reduction of the number of cables between the KVM switch and connected computers. The disadvantage is the cost of these cables. 
+
+KVM stands for "keyboard, video, mouse," and allows you to control multiple computers from a single keyboard, mouse, and monitor. These switches are often used to manage racked servers where a number of servers are placed in a single rack. By pushing a single button on the KVM switch, the administrator can change control from one server to another, easily accessing each one.
+
+Some KVM switches are for local use and can control nearby servers and computers from within the room, in another room, or on another floor. IP KVM switches offer IP-based remote access, which means that you can control multiple servers and computers from potentially anywhere in the world that has an internet connection.
+
+Local KVMs allow you to eliminate the cost of a dedicated keyboard, mouse, and monitor for each computer. This also eliminates the clutter of excess devices and cords in your server room, allowing for a safer and cleaner space.
+
+These switches allow you to perform functions such as rebooting the computers. A KVM switch provides a direct hardware connection that allows you to display the BIOS of a computer on reboot to make adjustments as needed.
