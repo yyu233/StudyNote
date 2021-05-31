@@ -372,3 +372,15 @@ Interpolate control character
 The shell is expanding * to all files in the current directory that do not start with a dot. This is the same rule that ls uses by default (by convention, files whose names start with a dot are considered "hidden" in Unix).
 ```
 
+Case Modification
+---------
+```
+${PARAM^}
+${PARAM^^}
+${PARAM,}
+${PARAM,,}
+${PARAM~}
+${PARAM~~}
+The ^ changes the first character to uppercase. The , to lower case. When use the double form, all chars are changed.
+```
+
