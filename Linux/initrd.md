@@ -15,3 +15,5 @@ When using initrd, the system typically boots as follows:
 9. the initrd file system is removed
 
 Note that changing the root directory does not involve unmounting it. It is therefore possible to leave processes running on initrd during that procedure. Also note that file systems mounted under initrd continue to be accessible.
+
+[Ref](https://man7.org/linux/man-pages/man4/initrd.4.html)
