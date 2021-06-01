@@ -1,2 +1,3 @@
 Booting is the process of starting a computer, specifically with regard to starting its software. The process involves a chain of stages, in which at each stage a smaller, simpler program loads and then executes the larger, more complicated program of the next stage. It is in this sense that the computer "pulls itself up by its bootstraps", i.e. it improves itself by its own efforts. Booting is a chain of events that starts with execution of hardware-based procedures and may then hand-off to firmware and software which is loaded into main memory. Booting often involves processes such as performing self-tests, loading configuration settings, loading a BIOS, resident monitors, a hypervisor, an operating system, or utility software.
-[Reference](https://www.crybit.com/linux-boot-process/)   
+[Reference](https://www.crybit.com/linux-boot-process/) 
+[Ref](https://cromwell-intl.com/open-source/linux-boot.html)
