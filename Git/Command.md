@@ -86,6 +86,8 @@ Remove file from index: **git rm --cached \<file>**
 
 Delete remote branch: **git push --delete \<branch>**   
 
+Store private token: **git config --global credential.helper store**  
+
 
 
 
