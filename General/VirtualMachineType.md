@@ -1,0 +1,5 @@
+Process Virtual Machine
+Also known as an application virtual machine, a process virtual machine supports a single process or application to run on a host OS. It is used to mask the underlying hardware or OS and execute the application just like other native applications. It is often used to provide a platform-independent programming environment. For example, Java applications are implemented using Java virtual machine (JVM). Another example is Wine software, which helps Windows applications run on Linux  
+
+System Virtual Machine
+A system virtual machine, or hardware virtual machine, virtualizes a complete operating system and can be used as a substitute for a physical machine. A system virtual machine shares the physical resources of the host machine but has its own OS. The virtualization process runs on a hypervisor or a virtual machine monitor running on bare hardware (native virtual machine), or on top of an OS (hosted virtual machine). VirtualBox and VMware ESXi are both examples of a system virtual machine. 
