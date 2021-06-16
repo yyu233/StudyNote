@@ -505,3 +505,5 @@ Check log for systemd unit: **journalctl -u \<unit\>**
 Check log with level: **journalctl -p \<level> ** 
 
 Set lifecycle for the log: **journalctl --vacuum-time=\<time>**  
+
+Remove jobs from background and block HUP: **disown -h**  
