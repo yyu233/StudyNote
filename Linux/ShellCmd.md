@@ -489,3 +489,7 @@ Get attributes info starts with the device specified by the devpath and then cha
 Monitor udev events: **udevadm monitor**  
 
 Verfiy signature of rpm: **rpm -K**   
+
+Only check kernel log: **journalctl -k**   
+
+Check last boot log: **journalctl -b**  
