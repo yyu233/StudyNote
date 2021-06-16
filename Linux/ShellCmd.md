@@ -492,4 +492,4 @@ Verfiy signature of rpm: **rpm -K**
 
 Only check kernel log: **journalctl -k**   
 
-Check last boot log: **journalctl -b**  
+Check last boot log: **journalctl -b -1**  
