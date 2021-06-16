@@ -493,3 +493,15 @@ Verfiy signature of rpm: **rpm -K**
 Only check kernel log: **journalctl -k**   
 
 Check last boot log: **journalctl -b -1**  
+
+Check PID log: **journalctl _PID=\<a\>**  
+
+Check log for script: **journalctl \<script>**  
+
+Check log for user ID: **journalctl _UID=\<a\>**  
+
+Check log for systemd unit: **journalctl -u \<unit\>**  
+
+Check log with level: **journalctl -p \<level> ** 
+
+Set lifecycle for the log: **journalctl --vacuum-time=\<time>**  
