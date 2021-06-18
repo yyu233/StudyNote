@@ -94,6 +94,8 @@ Note: Avoid to use Vim or Vi to open large journals as the editor will fetch the
 |:%s/pattern//gn|Number of times pattern match text|
 |:%s/pattern//n | Number of lines pattern match| 
 |=G| align to the end of file|
+|:%!xdd|convert to hex|
+|:%!xdd -r|convert from hex back|
 
 
 
