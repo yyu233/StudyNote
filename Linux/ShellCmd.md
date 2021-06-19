@@ -507,3 +507,5 @@ Check log with level: **journalctl -p \<level> **
 Set lifecycle for the log: **journalctl --vacuum-time=\<time>**  
 
 Remove jobs from background and block HUP: **disown -h**  
+
+Speed up SSH channel: **ssh -X -C -c**   
