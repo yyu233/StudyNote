@@ -1,0 +1,1 @@
+SFTP can also be seen as an improvement over the FTPS, which is just an FTP protocol run over Transport Layer Security (TLS), or Secure Sockets Layer (SSL). FTPS does, in fact, require complex firewall configurations as ports 989 and 990 need to be open, depends on a centralized public certificate authority, and is prone to file corruption since it defaults to ASCII mode.
