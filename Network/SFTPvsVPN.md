@@ -1,0 +1,3 @@
+SFTP is one of several options for shielding that data in transfer, to make sure that hackers don't obtain it, and that the company does not unwittingly perform a HIPAA violation if that law applies. SFTP can also satisfy other standards for data protection.
+
+Some users who are relatively new to SFTP as a protocol ask whether it is preferable to use SFTP or a virtual private network (VPN). Both systems will protect data, but they're not the same. SFTP is a protocol, whereas VPN is a secure encrypted tunnel for data. With that in mind, information can also be sent using SFTP protocol through a VPN, making the transfer even more secure.
