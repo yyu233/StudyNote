@@ -509,3 +509,5 @@ Set lifecycle for the log: **journalctl --vacuum-time=\<time>**
 Remove jobs from background and block HUP: **disown -h**  
 
 Speed up SSH channel: **ssh -X -C -c**   
+
+Change a process IO priority: **ionice**  
