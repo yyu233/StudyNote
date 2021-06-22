@@ -384,3 +384,18 @@ ${PARAM~~}
 The ^ changes the first character to uppercase. The , to lower case. When use the double form, all chars are changed.
 ```
 
+{}
+---------
+You can also use { ... } to group the output from several commands into one big blob. The command:
+
+
+echo "I found all these PNGs:"; find . -iname "*.png"; echo "Within this bunch of files:"; ls > PNGs.txt
+will execute all the commands but will only copy into the PNGs.txt file the output from the last ls command in the list. However, doing
+
+
+{ echo "I found all these PNGs:"; find . -iname "*.png"; echo "Within this bunch of files:"; ls; } > PNGs.txt
+creates the file PNGs.txt with everything, starting with the line “I found all these PNGs:“, then the list of PNG files returned by find, then the line “Within this bunch of files:” and finishing up with the complete list of files and directories within the current directory.
+
+Notice that there is space between the braces and the commands enclosed within them. That’s because { and } are reserved words here, commands built into the shell. They would roughly translate to “group the outputs of all these commands together” in plain English.
+
+Also notice that the list of commands has to end with a semicolon (;) or the whole thing will bork.
