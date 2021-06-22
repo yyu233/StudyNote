@@ -511,3 +511,5 @@ Remove jobs from background and block HUP: **disown -h**
 Speed up SSH channel: **ssh -X -C -c**   
 
 Change a process IO priority: **ionice**  
+
+To create an MD5 file for a file: **md5sum \<file> > \<file>.md5**
