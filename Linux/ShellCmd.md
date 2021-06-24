@@ -512,4 +512,6 @@ Speed up SSH channel: **ssh -X -C -c**
 
 Change a process IO priority: **ionice**  
 
-To create an MD5 file for a file: **md5sum \<file> > \<file>.md5**
+To create an MD5 file for a file: **md5sum \<file> > \<file>.md5** 
+
+Kill group of process: **kill -TERM -\<PGID>**  
