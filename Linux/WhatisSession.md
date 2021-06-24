@@ -1,0 +1,1 @@
+What is a “session”? A session is a collection of process groups, and usually refers to a shell session. The “setsid” command allows us to create commands that will keep running even after you logout. 
