@@ -517,3 +517,5 @@ To create an MD5 file for a file: **md5sum \<file> > \<file>.md5**
 Kill group of process: **kill -TERM -\<PGID>**  
 
 Set CPU affinity: **taskset** 
+
+List all currently held locks: **lslocks**  
