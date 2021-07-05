@@ -1,0 +1,1 @@
+jobs -p is giving PIDs of subprocesses that are in execution state. It will skip a process if the process finishes before jobs -p is called. So if any of subprocess ends before jobs -p, that process's exit status will be lost
