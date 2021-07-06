@@ -521,3 +521,5 @@ Set CPU affinity: **taskset**
 List all currently held locks: **lslocks**  
 
 Adjust tunabled filesystem paramets on ext2/ext3/ext4 filesystem: **tune2fs**  
+
+Control the default file permission for new files: **umask**  
