@@ -1,1 +1,3 @@
 This information is used to make access control decisions. On DAC systems, access is controlled based on Linux user and group IDs. SELinux policy rules are checked after DAC rules. SELinux policy rules are not used if DAC rules deny access first.
+
+MAC systems usually extend their control beyond the file system. This allows network interfaces, ports and other logical and physical devices to be monitored. This approach can even extend to services such as a system's firewall. An application can be limited to the ports and interfaces they are allowed to use as well as the files, directories and other resources such as applications they have access to.
