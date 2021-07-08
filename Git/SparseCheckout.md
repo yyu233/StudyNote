@@ -1,0 +1,1 @@
+"Sparse checkout" allows populating the working directory sparsely. It uses the skip-worktree bit (see git-update-index) to tell Git whether a file in the working directory is worth looking at. If the skip-worktree bit is set, then the file is ignored in the working directory.
