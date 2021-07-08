@@ -1,0 +1,1 @@
+Since a VM is running within a Host Server/OS, that host already may have an I/O scheduler in use. In this scenario, each disk operation is passing through two I/O schedulers: one for the VM and one for the VM Host.
