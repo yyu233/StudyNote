@@ -32,6 +32,7 @@ Create a sharing mount point: **mount --make-shared \<mount_point> **, **mount -
 
 Home directory: **~**
 
+
 Top root directory of filesystem **/**
 
 awk:  **awk 'pattern {action}' input-file > output-file**    
@@ -527,3 +528,9 @@ Control the default file permission for new files: **umask**
 Check current active IO scheduler: **cat /sys/block/sda/queue/scheduler**  
 
 Check all cpu core usage: **mpstat -p ALL 1**  
+
+Clear Page Cache: **sync;echo 1 > /proc/sys/vm/drop_caches**  
+
+Clear Dentris and Inode: **sync;echo 2 > /proc/sys/vm/drop_caches** 
+
+Clear Page Cache, Dentries and Inode:  **sync;echo 3 > /proc/sys/vm/drop_caches** 
