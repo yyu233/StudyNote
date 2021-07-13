@@ -1,0 +1,1 @@
+ Most filesystems will end up being exponentially slower the more files you put in a single directory (that is, every time the rsync adds a new file on the receiving side, the receiving side slows down for the remaining part of the transfer). Many older filesystems cannot even contain more than 32K files in a single directory. 
