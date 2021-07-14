@@ -533,4 +533,6 @@ Clear Page Cache: **sync;echo 1 > /proc/sys/vm/drop_caches**
 
 Clear Dentris and Inode: **sync;echo 2 > /proc/sys/vm/drop_caches** 
 
-Clear Page Cache, Dentries and Inode:  **sync;echo 3 > /proc/sys/vm/drop_caches** 
+Clear Page Cache, Dentries and Inode:  **sync;echo 3 > /proc/sys/vm/drop_caches**  
+
+Ensure drop cache for the whole file: **dd of=ofile oflag=nocache conv=notrunc,fdatasync count=0**  
