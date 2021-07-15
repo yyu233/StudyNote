@@ -540,3 +540,5 @@ Ensure drop cache for the whole file: **dd of=ofile oflag=nocache conv=notrunc,f
 List X Input Devices: **xinput --list** 
 
 Return terminal tty to sanity: **stty sane**  
+
+Query terminal info: **infocmp \<terminal type>**   
