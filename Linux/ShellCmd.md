@@ -542,3 +542,5 @@ List X Input Devices: **xinput --list**
 Return terminal tty to sanity: **stty sane**  
 
 Query terminal info: **infocmp \<terminal type>**   
+
+Change the NICE value of running process: **renice**
