@@ -1,0 +1,3 @@
+Which means, Solaris takes all the processors as a whole, the total usage of cpu is always from 0% to 100%, regardless how many processors the server has. That is, if a Solaris server with N processors, a single process can only consume the overall cpu usage up to (100/N)%.
+
+The feature of Solaris Mode has been adopted on Linux, the opposite concept is called Irix Mode, which is the default mode on Linux, and can be switched on and off. When Irix Mode is on, the maximum total cpu usage are the summation of total number of cpu, no more fixed at 1 (100%) as Solaris mode. Hence, a single process can be up to 100% when Irix Mode is on.
