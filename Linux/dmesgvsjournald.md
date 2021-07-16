@@ -1,0 +1,3 @@
+On most systems that I'm aware of that has dmesg, it is sometimes a command and sometimes a log file in /var/log, and may be both. The log contains messages produced by the kernel. This will usually include the various device probe messages during the boot sequence as well as any further messages outputted by the kernel during the running of the system.
+
+Depending on what "journal" refers to, I suppose it way be different things. The journal that first springs to my mind is the journal of a journaled filsystem. This journal contains the various transactions made to a particular partition (part of a disk) and allows the system to replay disk operations consistently in the case of a system crash. This journal is not generally accessible to users.
