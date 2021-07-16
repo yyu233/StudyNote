@@ -543,4 +543,6 @@ Return terminal tty to sanity: **stty sane**
 
 Query terminal info: **infocmp \<terminal type>**   
 
-Change the NICE value of running process: **renice**
+Change the NICE value of running process: **renice**  
+
+Get a list of input devices: **cat /proc/bus/input/devices** 
