@@ -1,0 +1,1 @@
+Common Internet File System (CIFS) is a network filesystem protocol used for providing shared access to files and printers between machines on the network. A CIFS client application can read, write, edit and even remove files on the remote server. ... Then known as Server Message Block (SMB).
