@@ -1,0 +1,1 @@
+The Common Name (CN), also known as the Fully Qualified Domain Name (FQDN), is the characteristic value within a Distinguished Name (DN). Typically, it is composed of Host Domain Name and looks like, "www.digicert.com" or "digicert.com".
