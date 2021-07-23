@@ -551,3 +551,5 @@ Add Keyfile pem to ssh: **ssh-add keyfile.pem**
 
 Create NSS database: **certutil -d /etc/dirsrv/slapd-instance_name/ -N**  
 
+Create Certificate Signing Request: **certutil -d instance_directory -R -g key_size -a -o output_file -8 FQDN -s /<subject>**  
+
