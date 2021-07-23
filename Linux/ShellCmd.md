@@ -561,3 +561,5 @@ Remove the private key: **certutil -d instance_directory -F -n "cert name"**
 
 View the content of P12 file: **openssl pkcs12 -info -in filename.p12**   
 
+Run localscript over SSH to remote machine: **ssh root@MachineB ARG1="arg1" ARG2="arg2" 'bash -s' < local_script.sh**   
+
