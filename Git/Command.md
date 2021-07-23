@@ -88,6 +88,8 @@ Delete remote branch: **git push --delete \<branch>**
 
 Store private token: **git config --global credential.helper store**  
 
+Enable Color: **git config --global color.ui auto**
+
 
 
 
