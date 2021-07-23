@@ -549,3 +549,5 @@ Get a list of input devices: **cat /proc/bus/input/devices**
 
 Add Keyfile pem to ssh: **ssh-add keyfile.pem**   
 
+Create NSS database: **certutil -d /etc/dirsrv/slapd-instance_name/ -N**  
+
