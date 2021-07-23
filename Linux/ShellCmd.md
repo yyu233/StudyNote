@@ -553,9 +553,11 @@ Create NSS database: **certutil -d /etc/dirsrv/slapd-instance_name/ -N**
 
 Create Certificate Signing Request: **certutil -d instance_directory -R -g key_size -a -o output_file -8 FQDN -s \<subject>**  
 
-Remove certificate: **certutil -d instance_directory -D -n "cert name"**  
+Remove certificate: **certutil -d instance_directory -D -n "cert name"**    
 
-Display keys in database: **certutil -d instance_directory -K** 
+Display keys in database: **certutil -d instance_directory -K**   
 
-Remove the private key: **certutil -d instance_directory -F -n "cert name"**  
+Remove the private key: **certutil -d instance_directory -F -n "cert name"**    
+
+View the content of P12 file: **openssl pkcs12 -info -in filename.p12**   
 
