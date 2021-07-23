@@ -555,3 +555,7 @@ Create Certificate Signing Request: **certutil -d instance_directory -R -g key_s
 
 Remove certificate: **certutil -d instance_directory -D -n "cert name"**  
 
+Display keys in database: **certutil -d instance_directory -K** 
+
+Remove the private key: **certutil -d instance_directory -F -n "cert name"**  
+
