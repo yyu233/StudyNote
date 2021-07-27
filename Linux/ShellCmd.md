@@ -563,7 +563,11 @@ View the content of P12 file: **openssl pkcs12 -info -in filename.p12**
 
 Run localscript over SSH to remote machine: **ssh root@MachineB ARG1="arg1" ARG2="arg2" 'bash -s' < local_script.sh**   
                                                                                                                      
-Start and configure a new PKI instance: **pkispawn**                                                                                                                         
+Start and configure a new PKI instance: **pkispawn**       
+
+Remove PKI instance: **pkidestroy**   
+                                                                                                                     
+                                                                                                                     
                                                                                              
                                                                                                                      
                                                                                                                      
