@@ -567,7 +567,9 @@ Start and configure a new PKI instance: **pkispawn**
 
 Remove PKI instance: **pkidestroy**   
                                                                                                                      
-Create a new private key and CSR: **openssl req -out \<CSR.csr\> -new -newkey \<rsa:2048\> -nodes -keyout \<privateKey.key\>**                                                                                                                        
+Create a new private key and CSR: **openssl req -out \<CSR.csr\> -new -newkey \<rsa:2048\> -nodes -keyout \<privateKey.key\>**       
+
+Generate self-signed certificate: **openssl req -x509 -sha256 -nodes -days \<365\> -newkey \<rsa:2048\> -keyout \<privateKey.key\> -out \<certificate.crt\>**   
                                                                                                                      
                                                                                              
                                                                                                                      
