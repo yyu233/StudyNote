@@ -584,6 +584,10 @@ Check a private key: **openssl rsa -in privateKey.key -check**
 Check a PKCS#12 file (.pfx or .p12): **openssl pkcs12 -info -in keyStore.p12**    
   
 Check an SSL connection. All the certificates (including Intermediates) should be displayed: **openssl s_client -connect \<website\>**   
+  
+Modify the stdout buffering to line: **stdbuf -oL command > output**    
+ 
+Disable all stdout buffering:**stdbuf -o0 command > output**    
  
  
 
