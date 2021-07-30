@@ -572,6 +572,22 @@ Create a new private key and CSR: **openssl req -out \<CSR.csr\> -new -newkey \<
 Generate self-signed certificate: **openssl req -x509 -sha256 -nodes -days \<365\> -newkey \<rsa:2048\> -keyout \<privateKey.key\> -out \<certificate.crt\>** 
 
 Verify certificate:**openssl verify -CAfile \<chain.pem\> \<mycert.pem\>**    
+
+Generate a certificate signing request based on an existing certificate: **openssl x509 -x509toreq -in certificate.crt -out CSR.csr -signkey privateKey.key**   
+
+Remove a passphrase from a private key: **openssl rsa -in privateKey.pem -out newPrivateKey.pem**   
+  
+Check a Certificate Signing Request (CSR): **openssl req -text -noout -verify -in CSR.csr**   
+  
+Check a private key: **openssl rsa -in privateKey.key -check**    
+  
+Check a PKCS#12 file (.pfx or .p12): **openssl pkcs12 -info -in keyStore.p12**    
+  
+Check an SSL connection. All the certificates (including Intermediates) should be displayed: **openssl s_client -connect \<website\>**   
+ 
+ 
+
+
                                                                                                                      
                                                                                              
                                                                                                                      
