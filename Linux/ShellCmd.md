@@ -592,6 +592,8 @@ Print all certificate content from a chained pem:**openssl crl2pkcs7 -nocrl -cer
 Modify the stdout buffering to line: **stdbuf -oL command > output**    
  
 Disable all stdout buffering:**stdbuf -o0 command > output**   
+  
+Password history:**/etc/security/opasswd**  
  
  
  
