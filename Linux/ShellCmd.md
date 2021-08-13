@@ -594,6 +594,8 @@ Modify the stdout buffering to line: **stdbuf -oL command > output**
 Disable all stdout buffering:**stdbuf -o0 command > output**   
   
 Password history:**/etc/security/opasswd**  
+  
+Update man internal database: **mandb**   
  
  
  
