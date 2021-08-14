@@ -596,6 +596,10 @@ Disable all stdout buffering:**stdbuf -o0 command > output**
 Password history:**/etc/security/opasswd**  
   
 Update man internal database: **mandb**   
+  
+Clear all command history: **history -c**
+ 
+Clear specific line command history **history  -d \<line number>**
  
  
  
