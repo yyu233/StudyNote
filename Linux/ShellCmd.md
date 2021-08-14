@@ -599,7 +599,9 @@ Update man internal database: **mandb**
   
 Clear all command history: **history -c**
  
-Clear specific line command history **history  -d \<line number>**
+Clear specific line command history **history  -d \<line number>**    
+  
+Check previous and current run level: **runlevel**    
  
  
  
