@@ -602,6 +602,8 @@ Clear all command history: **history -c**
 Clear specific line command history **history  -d \<line number>**    
   
 Check previous and current run level: **runlevel**    
+  
+Enable extended shell pattern:  **shopt -s extglob**    
  
  
  
