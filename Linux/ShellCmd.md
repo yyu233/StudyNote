@@ -604,6 +604,10 @@ Clear specific line command history **history  -d \<line number>**
 Check previous and current run level: **runlevel**    
   
 Enable extended shell pattern:  **shopt -s extglob**    
+  
+Split large file: **split -b**  
+  
+Join files: **cat**   
  
  
  
