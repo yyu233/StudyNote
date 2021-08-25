@@ -611,6 +611,8 @@ Join files: **cat**
   
 Get current ip rules: **iptable -S**    
   
+Scan port table: **nmap**   
+  
  
  
  
