@@ -613,6 +613,8 @@ Get current ip rules: **iptable -S**
   
 Scan port table: **nmap**   
   
+Encode a value: **base64**    
+  
  
  
  
