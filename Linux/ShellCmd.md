@@ -615,7 +615,7 @@ Scan port table: **nmap**
   
 Encode a value: **base64**    
   
-Enable ipv4 forwarding: **cat 0 > /proc/sys/net/ipv4/ip_forward**     
+Enable ipv4 forwarding: **echo 1 > /proc/sys/net/ipv4/ip_forward**     
   
  
  
