@@ -617,6 +617,8 @@ Encode a value: **base64**
   
 Enable ipv4 forwarding: **echo 1 > /proc/sys/net/ipv4/ip_forward**     
   
+Create IP network namespace: **ip netns add**   
+  
  
  
  
