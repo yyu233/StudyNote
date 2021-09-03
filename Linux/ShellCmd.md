@@ -621,6 +621,8 @@ Create IP network namespace: **ip netns add**
   
 Browse C source code: **cscope**    
   
+Create cscope index: **make cscope**    
+  
  
  
  
