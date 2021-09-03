@@ -623,6 +623,8 @@ Browse C source code: **cscope**
   
 Create cscope index: **make cscope**    
   
+Disasemble object: **objdump**      
+  
  
  
  
