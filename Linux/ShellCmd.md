@@ -625,6 +625,8 @@ Create cscope index: **make cscope**
   
 Disasemble object: **objdump**      
   
+Get RPC info: **rpcinfo**   
+  
  
  
  
