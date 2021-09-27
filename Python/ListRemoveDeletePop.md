@@ -1,0 +1,1 @@
+remove() delete the matching element/object whereas del and pop removes the element at a specific index. del and pop deals with the index. The only difference between the two is that- pop return deleted the value from the list and del does not return anything. Pop is the only way that returns the object.
