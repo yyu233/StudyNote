@@ -7,6 +7,7 @@ Producer Thread:
 
 mutex_lock(&count_mutex);
 
+# Busy waiting
 while (count == MAX_SIZE):
   mutex_unlock(&count_mutex);
   Thread.sleep(3000);
@@ -25,6 +26,7 @@ Consumer Thread:
 
 mutex_lock(&count_mutex);
 
+# Busy waiting
 while (count == 0):
   mutex_unlock(&count_mutex);
   Thread.sleep(3000);
