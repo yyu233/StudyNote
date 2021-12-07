@@ -1,0 +1,2 @@
+A macro is a name given to a block of C statements as a pre-processor directive. Being a pre-processor, the block of code is communicated to the compiler before entering into the actual coding (main () function). A macro is defined with the pre-processor directive. Macros are pre-processed which means that all the macros would be processed before your program compiles. However, functions are not preprocessed but compiled.
+
