@@ -1,0 +1,1 @@
+When we use restrict with a pointer ptr, it tells the compiler that ptr is the only way to access the object pointed by it, in other words, there’s no other pointer pointing to the same object i.e. restrict keyword specifies that a particular pointer argument does not alias any other and the compiler doesn’t need to add any additional checks.
