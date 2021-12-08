@@ -1,0 +1,1 @@
+ The main difference between copy and view is that the copy is the new array whereas the view is the view of the original array. In other words, it can be said that the copy is physically stored at another location and view has the same memory location as the original array.
