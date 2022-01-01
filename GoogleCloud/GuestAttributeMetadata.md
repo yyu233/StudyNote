@@ -1,0 +1,1 @@
+Guest attributes are a specific type of custom metadata that your applications can write to while running on your virtual machine (VM) instance. Any application or user on your VM instance can both read and write data to these guest attribute metadata values.
