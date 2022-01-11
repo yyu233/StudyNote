@@ -1,0 +1,1 @@
+ []byte is not immutable. You can change the bytes within a slice. You can grow the slice by appending bytes to the end. But a string is immutable. You cannot change it and you cannot grow it without creating a whole new string. If a string and a []byte were backed by the same memory, then the string would change when the []byte was changed, and that might not be what you expect.
