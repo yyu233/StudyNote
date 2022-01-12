@@ -12,3 +12,6 @@
 3. Stop
 4. Tidying
 5. Terminated
+
+![image](https://user-images.githubusercontent.com/30572980/149084743-9078114a-77de-4959-8ecb-b3f3cfb13a12.png)
+
