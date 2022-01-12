@@ -1,9 +1,9 @@
 ## Construction ##
-
-1. newFixedThreadPool
-2. newCachedThreadPool
-3. newSingleThreadExecutor
-4. newScheduledThreadPool
+|Method|Description|
+|----|-----|
+| newFixedThreadPool(int)       |    Creates a fixed size thread pool. |
+| newCachedThreadPool()          |   Creates a thread pool that creates new threads as needed, but will reuse previously constructed threads when they are available|    
+|newSingleThreadExecutor() |       Creates a single thread. |     
 
 ## State ##
 
