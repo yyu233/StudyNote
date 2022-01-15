@@ -1,0 +1,1 @@
+What Port Does Ping Use? Remember that a ping test uses ICMP, so there are no real ports being used. ICMP basically roofs, or sits on top of, the IP address. Therefore it is not a layer four protocol.
