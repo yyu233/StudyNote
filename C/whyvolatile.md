@@ -1,0 +1,1 @@
+volatile plays an important role in C programming as the compiler can’t guess about the value. The main reason behind using volatile is that it can change value any time a user wants it to be changed or when another thread is running but using the same variable.
