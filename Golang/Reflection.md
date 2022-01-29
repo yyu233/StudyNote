@@ -1,0 +1,3 @@
+But sometimes you want to work with variables at runtime using information that didn’t exist when the program was written. Maybe you’re trying to map data from a file or network request into a variable. Maybe you want to build a tool that works with different types. In those situations, you need to use reflection. Reflection gives you the ability to examine types at runtime. It also allows you to examine, modify, and create variables, functions, and structs at runtime.
+
+Reflection in Go is built around three concepts: Types, Kinds, and Values. The reflect package in the standard library is the home for the types and functions that implement reflection in Go.
