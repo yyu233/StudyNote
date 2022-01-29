@@ -1,0 +1,1 @@
+Go language provides inbuilt support implementation of run-time reflection and allowing a program to manipulate objects with arbitrary types with the help of reflect package. The reflect.DeepEqual() Function in Golang is used to check whether x and y are “deeply equal” or not. To access this function, one needs to imports the reflect package in the program.
