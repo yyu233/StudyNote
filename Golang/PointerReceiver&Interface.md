@@ -1,3 +1,4 @@
+[Ref](https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)        
 Another subtlety of interfaces is that an interface definition does not prescribe whether an implementor should implement the interface using a pointer receiver or a value receiver. When you are given an interface value, there’s no guarantee whether the underlying type is or isn’t a pointer. In our previous example, we defined all of our methods on value receivers, and we put the associated values into the Animal slice. Let’s change this and make the Cat’s Speak() method take a pointer receiver:
 ```
 func (c *Cat) Speak() string {
