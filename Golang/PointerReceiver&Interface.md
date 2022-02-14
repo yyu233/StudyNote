@@ -20,3 +20,11 @@ Let’s go in the opposite direction: let’s pass in a *Dog pointer instead of 
 animals := []Animal{new(Dog), new(Cat), Llama{}, JavaProgrammer{}}
 ````
 This also works (http://play.golang.org/p/UZ618qbPkj), but recognize a subtle difference:  we didn’t need to change the type of the receiver of the Speak method. This works because a pointer type can access the methods of its associated value type, but not vice versa. That is, a *Dog value can utilize the Speak method defined on Dog, but as we saw earlier, a Cat value cannot access the Speak method defined on *Cat.
+
+That may sound cryptic, but it makes sense when you remember the following: everything in Go is passed by value. Every time you call a function, the data you’re passing into it is copied. In the case of a method with a value receiver, the value is copied when calling the method. This is slightly more obvious when you understand that a method of the following signature:
+```
+func (t T)MyMethod(s string) {
+    // ...
+}
+```
+is a function of type func(T, string); method receivers are passed into the function by value just like any other parameter.
