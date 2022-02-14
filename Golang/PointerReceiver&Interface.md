@@ -28,3 +28,5 @@ func (t T)MyMethod(s string) {
 }
 ```
 is a function of type func(T, string); method receivers are passed into the function by value just like any other parameter.
+
+Any changes to the receiver made inside of a method defined on a value type (e.g., func (d Dog) Speak() { ... }) will not be seen by the caller because the caller is scoping a completely separate Dog value. Since everything is passed by value, it should be obvious why a *Cat method is not usable by a Cat value; any one Cat value may have any number of *Cat pointers that point to it. If we try to call a *Cat method by using a Cat value, we never had a *Cat pointer to begin with.
