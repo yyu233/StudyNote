@@ -1,3 +1,4 @@
+[Ref](https://math.stackexchange.com/questions/21100/importance-of-matrix-rank)   
 A rank of the matrix is probably the most important concept you learn in Matrix Algebra. There are two ways to look at the rank of a matrix. One from a theoretical setting and the other from a applied setting.
 
 From a theoretical setting, if we say that a linear operator has a rank 𝑝, it means that the range of the linear operator is a 𝑝 dimensional space. From a matrix algebra point of view, column rank denotes the number of independent columns of a matrix while row rank denotes the number of independent rows of a matrix. An interesting, and I think a non-obvious (though the proof is not hard) fact is the row rank is same as column rank. When we say a matrix 𝐴∈ℝ𝑛×𝑛 has rank 𝑝, what it means is that if we take all vectors 𝑥∈ℝ𝑛×1, then 𝐴𝑥 spans a 𝑝 dimensional sub-space. Let us see this in a 2D setting. For instance, if
