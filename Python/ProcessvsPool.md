@@ -1,0 +1,1 @@
+It allows you to run multiple jobs per process (due to its ability to queue the jobs). The memory is allocated only to the executing processes, unlike the Process class, which allocates memory to all the processes. The Pool class takes the number of worker processes to be present in the pool and spawns the processes
