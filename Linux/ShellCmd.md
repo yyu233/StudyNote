@@ -627,6 +627,8 @@ Disasemble object: **objdump**
   
 Get RPC info: **rpcinfo**   
   
+Check dropped packet: **netstat -suna**   
+  
  
  
  
