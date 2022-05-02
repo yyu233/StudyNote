@@ -6,3 +6,9 @@ Pointers can iterate over an array, we can use increment/decrement operators to 
 A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
 A pointer to a class/struct uses ‘->’ (arrow operator) to access its members whereas a reference uses a ‘.’ (dot operator)
 A pointer needs to be dereferenced with * to access the memory location it points to, whereas a reference can be used directly.
+
+* Use references 
+In function parameters and return types.
+* Use pointers: 
+Use pointers if pointer arithmetic or passing NULL-pointer is needed. For example for arrays (Note that array access is implemented using pointer arithmetic).
+To implement data structures like linked list, tree, etc and their algorithms because to point different cell, we have to use the concept of pointers.
