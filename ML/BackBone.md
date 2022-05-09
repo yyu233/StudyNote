@@ -1,0 +1,1 @@
+Backbone is a term used in DeepLab models/papers to refer to the feature extractor network. These feature extractor networks compute features from the input image and then these features are upsampled by a simple decoder module of DeepLab models to generate segmented masks.
