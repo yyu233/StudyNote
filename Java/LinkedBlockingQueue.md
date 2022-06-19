@@ -1,0 +1,1 @@
+The LinkedBlockingQueue is an optionally-bounded blocking queue based on linked nodes. It means that the LinkedBlockingQueue can be bounded, if its capacity is given, else the LinkedBlockingQueue will be unbounded. The capacity can be given as a parameter to the constructor of LinkedBlockingQueue.Oct
