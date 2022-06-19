@@ -1,0 +1,3 @@
+Predicates in Java are implemented with interfaces. Predicate<T> is a generic functional interface representing a single argument function that returns a boolean value. It is located in the java.util.function package. It contains a test(T t) method that evaluates the predicate on the given argument.
+
+In Java we do not have standalone functions. Furthermore, methods are not first-class citizens. (They cannot be added to collections or passed to methods as parameters.) Therefore, we define interfaces and create objects from these interfaces. Such objects can be then passed to methods such as Iterables.filter. With Java lambdas it is much easier to work with predicates.
