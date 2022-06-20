@@ -1,0 +1,1 @@
+The role of Collections.nCopies() is to return an immutable list which contains n copies of given object. This function helps if we want to create a list with n copies of given object. The newly allocated data object is tiny i.e, it contains a single reference to the data object.
