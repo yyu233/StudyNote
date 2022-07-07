@@ -1,0 +1,5 @@
+The reason is certainly the nature of having a discriminator model. It provides you with a loss value, which attributes not only to the output-target difference on the pixel level, but which emerges from a more deep understanding of the images. So, having the discriminator learn about the actual distribution of the data, it will produce a signal that encourages a more "authentic" image generation. Of course, having a simple Encoder-Decoder model is much simpler to train and tune than a hella unstable GAN, but if a difficult task lies ahead, GAN would probably deliver better results.
+
+What I also like to do with Pix2Pix-alike architectures is giving up the reconstruction-loss on the pixel level in favor of a style-loss (the difference in Gram matrices of the first D-layers) in combination with a features-loss (the difference in feature-maps of the last D-layers.
+
+I have used both approaches based on the complexity of tasks and even though GANs deliver better results in general, the dreadfulness of making the training stable in a complex setting will have me try Encoder-Decoder first in the future (although it may simply be attributed to my unknowingness).
