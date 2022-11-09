@@ -1,0 +1,5 @@
+C++ does not have garbage collection.
+
+If you set a pointer to NULL, this does not cause the memory to return to the pool of available memory. If no other pointers point to this block of memory, you now simply have an "orphaned" block of memory that remains allocated but is now unreachable -- a leak. Leaks only cause a program to crash if they build up to a point where no memory is left to allocate.
+
+There's also the converse situation, where you delete a block of memory using a pointer, and later try to access that memory as though it was still allocated. This is possible because calling delete on a pointer does not set the pointer to NULL -- it still points to the address of memory that previously was allocated. A pointer to memory that is no longer allocated is called a dangling pointer and accessing it will usually cause strange program behaviour and crashes, since its contents are probably not what you expect -- that piece of memory may have since been reallocated for some other purpose.
