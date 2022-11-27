@@ -1,0 +1,2 @@
+Posterior probability is the probability an event will happen after all evidence or background information has been taken into account. It is closely related to prior probability, which is the probability an event will happen before you taken any new evidence into account. You can think of posterior probability as an adjustment on prior probability:
+Posterior probability = prior probability + new evidence (called likelihood).
