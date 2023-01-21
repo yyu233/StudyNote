@@ -14,3 +14,6 @@ Cons :-
 3. When used in a header, it makes your header file larger with information which users don’t care.
 4. As mentioned above it increases the executable size, which may cause thrashing in memory. More number of page fault bringing down your program performance.
 5. Sometimes not useful for example in embedded system where large executable size is not preferred at all due to memory constraints.
+
+
+Always try to define large functions outside the class, since functions defined inside a class are automatically defined as inline and this will affect the program negatively. You can use scope resolution (::) for this purpose.
