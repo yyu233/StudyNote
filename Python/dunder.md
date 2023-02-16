@@ -1,0 +1,1 @@
+Python special methods begin and end with a double underscore and are informally known as dunder methods. Dunder methods are the underlying methods for Python’s built-in operators and functions. You should avoid calling dunder methods directly, and instead implement the dunder methods in your class and then use the built-in functions that call them, such as str() and repr().
