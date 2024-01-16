@@ -1,0 +1,2 @@
+HATEOAS is a constraint of the REST application architecture. It distinguishes REST from other network application architectures. 
+With HATEOAS, a client interacts with a network application whose application servers provide information dynamically through hypermedia. HATEOAS is implemented using hypermedia link formats such as HTML, Atom, or HAL. These formats provide the client with a list of resources along with their corresponding URI links
